@@ -4,26 +4,32 @@
             <a href="index.php">home</a>
         </li>
         <li>
-            <a href="artigos.php">artigos</a>
+            <div class="dropdown">
+                <a href="artigos.php" class="mainmenua">artigos <svg xmlns="http://www.w3.org/2000/svg" width="20"
+                        height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg></a>
+                <div class="dropdown-child">
+                    <a style="border-top-left-radius: 0px;" href="oque-é-iot.php">O que é IoT?</a>
+                    <a href="objetos-conectados.php">Objetos Conectados</a>
+                    <a href="arduino.php" class="dropdown-toggle">Arduino</a>
+                    <div class="submenu">
+                        <a href="submenu1.php">Submenu 1</a>
+                        <a href="submenu2.php">Submenu 2</a>
+                        <a href="submenu3.php">Submenu 3</a>
+                    </div>
+                    <a href="conectores.php">Conectores</a>
+                    <a href="topologia.php">Topologia</a>
+                    <a href="artigos-referenciados.php">Artigos Referenciados</a>
+                </div>
+            </div>
         </li>
         <li>
             <a href="sobre.php">sobre</a>
         </li>
         <li>
             <a href="contato.php">contato</a>
-        </li>
-        <li>
-            <div class="dropdown">
-                <a href="##.php" class="mainmenua">menu 2 <svg xmlns="http://www.w3.org/2000/svg" width="20"
-                        height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg></a>
-                <div class="dropdown-child">
-                    <a style="border-top-left-radius: 0px;" href="##.php">Opção 1</a>
-                    <a href="##.php">Opção 2</a>
-                </div>
-            </div>
         </li>
     </ul>
 </div>

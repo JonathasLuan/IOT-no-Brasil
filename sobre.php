@@ -25,7 +25,7 @@ session_start();
     include('barra-pesquisa.php');
     ?>
     <?php
-      include('menu-padrao.php');
+    include('menu-padrao.php');
     ?>
   </header>
   <div id="conteudo">
@@ -33,18 +33,17 @@ session_start();
       <p><b>
           <ul>
             <li>JONATHAS LUAN (github_JonathasLuan)</li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>PAMELA MARTINS</li>
+            <li>FERNANDO BATISTA</li>
+            <li>CRISTIANA FARIAS</li>
           </ul>
         </b>
         <br>
-      </p>
-      <p>
       <h1>IoTudo</h1>
+      O site visa divulgar o setor e tecnologia de internet das coisas no Brasil e abordar temas relevantes para o
+      entendimento popular do assunto.
       </p>
     </div>
-
   </div>
 
   <?php

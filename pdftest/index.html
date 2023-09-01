@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 100%;
+            padding: 0px 0px;
+            height: 100%;
+            margin: 0px 0px;
+        }
+
+        #pdfdisplay {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        embed {
+            border: 1px solid;
+        }
+
+        #title {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="title">
+        <h1>PDF Exemple: Title Exemple</h1>
+        <input type="radio" id="open" name="open" value="open">
+        <label for="open">open</label>
+        <input type="radio" id="close" name="close" value="close">
+        <label for="close">close</label>
+    </div>
+    <hr><br>
+    <div id="pdfdisplay"><embed src="files/estado_atual_falcao.pdf" type="application/pdf" width="50%" height="600px" />
+    </div>
+</body>
+
+</html>

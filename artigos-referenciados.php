@@ -118,9 +118,9 @@ session_start();
               <a href="">Plataformas para a internet das coisas,</a>
             </li>
             <li>
-              <a href="https://dialnet.unirioja.es/servlet/articulo?codigo=7653186">Segurança da Informação para
+              <span><a href="https://dialnet.unirioja.es/servlet/articulo?codigo=7653186">Segurança da Informação para
                 Internet das Coisas (IoT): uma Abordagem sobre a Lei Geral de Proteção de Dados
-                (LGPD), O desafio da privacidade na internet das coisas</a>
+                (LGPD), O desafio da privacidade na internet das coisas</a><button type="radio"></button></span>
             </li>
           </ul>
         </div>

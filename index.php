@@ -71,66 +71,7 @@
     </section>
     <section id="section-three">
       <div class="article-list" id="catalogo">
-        <article>
-          <div>
-            <img src="img/svg/hairdresser-washing-the-hair-of-a-client-with-bubbles-shampoo-svgrepo-com.svg" alt="">
-            <h2>Texto</h2>
-            <p>
-              Oferecemos cortes de cabelo para homens e mulheres, coloração, tratamentos capilares, penteados e muito
-              mais.
-              Nossos cabeleireiros experientes irão ajudá-lo a encontrar o visual perfeito para o seu estilo de vida.
-            </p>
-          </div>
-        </article>
-        <article>
-          <div>
-            <img src="img/svg/makeup-woman-svgrepo-com.svg" alt="">
-            <h2>Texto</h2>
-            <p>
-              Nossa equipe de maquiadores profissionais irá te ajudar a obter a aparência perfeita para qualquer
-              ocasião. De
-              maquiagem natural a maquiagem para casamentos e eventos especiais, nossos maquiadores irão trabalhar com
-              você
-              para obter o visual que você deseja.</p>
-          </div>
-        </article>
-        <article>
-          <div>
-            <img src="img/svg/razors-svgrepo-com.svg" alt="">
-            <h2>Texto</h2>
-            <p>
-              Nossos barbeiros são especialistas em cortes de cabelo masculinos e barba. Oferecemos cortes de cabelo
-              clássicos
-              e modernos, barbas bem cuidadas e muito mais.</p>
-          </div>
-        </article>
-        <article>
-          <div>
-            <img src="img/svg/nail-polish-svgrepo-com.svg" alt="">
-            <h2>Texto</h2>
-            <p>
-              Nossos profissionais de manicure e pedicure são especialistas em fazer suas mãos e pés ficarem lindos.
-              Oferecemos serviços de manicure e pedicure, aplicação de unhas postiças, esmaltação e muito mais.
-            </p>
-          </div>
-        </article>
-        <div class="separator"></div>
       </div>
-      <div id="consulta-article">
-        <article>
-          <div>
-            <img src="img/icons8-calendar-96.png" alt="">
-            <h2>Texto</h2>
-            <p>
-              Estamos sempre prontos para atendê-lo! Marque uma consulta hoje mesmo e deixe nossa equipe de
-              profissionais de
-              beleza cuidar de você.
-            </p>
-          </div>
-        </article>
-      </div>
-      <br><br>
-      <br><br>
     </section>
     <img src="img/icons8-slide-up-64.png" id="scrollBtn" onclick="topFunction()" alt="Voltar ao topo">
   </div>

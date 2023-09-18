@@ -28,12 +28,6 @@ session_start();
     include('menu-padrao.php');
     ?>
   </header>
-  <nav id="nav-servicos">
-    <a href="##.php">Um</a>
-    <a href="##.php">Dois</a>
-    <a href="##.php">Três</a>
-    <a href="##.php">Quatro</a>
-  </nav>
   <section>
     <main>
       <article>

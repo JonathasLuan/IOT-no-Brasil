@@ -32,7 +32,7 @@ session_start();
   <main>
     <div class="artigo">
 <h1>Internet das Coisas (IoT): Conectando o Mundo com Inteligência</h1> 
-
+<br><br><br>
 <p>A Internet das Coisas (IoT) emergiu como uma das tecnologias mais promissoras e transformadoras deste século. Ela está mudando fundamentalmente a maneira como interagimos com o mundo ao nosso redor, tornando objetos comuns em dispositivos inteligentes e interconectados. Neste artigo, exploraremos a IoT em profundidade, desde suas raízes até suas aplicações práticas e os desafios que enfrenta. </p> 
 
 <br> 

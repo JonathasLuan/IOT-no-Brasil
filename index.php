@@ -60,7 +60,6 @@
             </div>
           </article>
           <article>
-              <img src="img/svg/client-svgrepo-com.svg" alt="">
 <h2>O que você encontrará nesta página?</h2> 
 
 <p>Nesta jornada pela IoT, exploraremos seus princípios fundamentais, suas aplicações em diversos setores, os desafios e questões éticas que surgem com a coleta massiva de dados e a segurança cibernética, bem como as tendências futuras que podem moldar ainda mais esse campo emocionante.</p>

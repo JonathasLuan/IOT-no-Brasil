@@ -54,39 +54,17 @@
         <div id="div-article">
           <article>
             <div>
-              <h3>Texto</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.</p>
-            </div>
-          </article>
-          <article>
-            <div>
 <h2>Por que a IoT é tão importante?</h2> 
 
 <p>A IoT está transformando nossa vida cotidiana, melhorando a eficiência, economizando recursos e criando novas oportunidades de negócios. Imagine um mundo onde a sua casa saiba quando você está prestes a chegar e ajusta automaticamente a temperatura e a iluminação para o seu conforto, ou onde os agricultores monitoram suas colheitas remotamente para garantir um cultivo saudável. Isso é apenas a ponta do iceberg da revolução que a IoT está desencadeando. </p> 
             </div>
           </article>
-        </div>
-      </div>
-      <div class="article-list" id="apresentacao">
-        <div id="div-article">
           <article>
-            <div>
               <img src="img/svg/client-svgrepo-com.svg" alt="">
 <h2>O que você encontrará nesta página?</h2> 
 
 <p>Nesta jornada pela IoT, exploraremos seus princípios fundamentais, suas aplicações em diversos setores, os desafios e questões éticas que surgem com a coleta massiva de dados e a segurança cibernética, bem como as tendências futuras que podem moldar ainda mais esse campo emocionante.</p>
               <p>Prepare-se para mergulhar no emocionante mundo da Internet das Coisas e descobrir como essa tecnologia está transformando nosso mundo de maneiras que nunca sonhamos serem possíveis. Junte-se a nós enquanto exploramos os limites da conectividade e da inovação. </p> 
-            </div>
-          </article>
-          <article>
-            <div>
-              <img src="img/svg/hairdresser-svgrepo-com.svg" alt="">
-              <h3>Texto</h3>
-              <p>.</p>
             </div>
           </article>
         </div>

@@ -10,6 +10,11 @@ body {
   min-height: 100vh;
 }
 
+.artigo {
+  width: 70%;
+  margin: auto;
+}
+
 header {
   width: 100%;
   height: 70px;

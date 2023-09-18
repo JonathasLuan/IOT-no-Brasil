@@ -30,7 +30,7 @@ session_start();
     ?>
   </header>
   <main>
-    <div>
+    <div class="artigo">
 <h1>Topologia de Rede para Internet das Coisas (IoT): Conectando o Universo dos Dispositivos Inteligentes</h1> 
 
 <p>A Internet das Coisas (IoT) está redefinindo o cenário da tecnologia, conectando bilhões de dispositivos em todo o mundo e capacitando soluções inovadoras em várias indústrias. Para alcançar a eficiência e a confiabilidade necessárias nesse ecossistema diversificado de dispositivos, a escolha da topologia de rede desempenha um papel fundamental. Neste artigo, exploraremos as principais topologias de rede utilizadas na IoT e como elas moldam o funcionamento e o desempenho dessa revolucionária tecnologia.</p> 

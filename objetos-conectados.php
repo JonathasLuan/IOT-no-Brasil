@@ -32,7 +32,7 @@ session_start();
   <main>
     <div class="artigo">
 <h1>Objetos Conectados: Transformando o Cotidiano com a Internet das Coisas (IoT) </h1> 
-
+<br><br><br>
 <p>No mundo cada vez mais digitalizado em que vivemos, a Internet das Coisas (IoT) está revolucionando a forma como interagimos com os objetos e dispositivos que nos cercam. Os objetos conectados estão se tornando uma parte essencial de nossas vidas, trazendo inovações que abrangem desde o monitoramento de saúde até a automação residencial e a otimização de processos industriais. Neste artigo, exploraremos o conceito de objetos conectados, seus benefícios e exemplos inspiradores que demonstram como a IoT está transformando nosso cotidiano.</p> 
 
 <br> 

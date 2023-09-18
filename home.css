@@ -215,7 +215,7 @@ header {
 }
 
 article {
-  width: 25%;
+  width: 40%;
   margin: 30px;
   justify-content: center;
 }
@@ -243,7 +243,7 @@ article {
 }
 
 #bemvindo {
-  width: 50%;
+  width: 70%;
   font-size: 16px;
 }
 

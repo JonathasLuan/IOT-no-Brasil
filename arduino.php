@@ -32,7 +32,7 @@ session_start();
   <main>
     <div class="artigo">
 <h1>Arduino: Desvendando o Mundo da Eletrônica e Automação</h1> 
-
+<br><br><br>
 <p>Bem-vindo ao excitante universo do Arduino, uma plataforma de eletrônica open-source que tem revolucionado a maneira como as pessoas interagem com dispositivos eletrônicos e criam projetos de automação. Neste artigo, iremos explorar profundamente o mundo do Arduino, desde suas origens até suas aplicações práticas e como você pode entrar nessa empolgante jornada de criação e inovação. </p> 
 
 <br> 

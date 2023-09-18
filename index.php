@@ -36,23 +36,17 @@
           </svg>
           <br><br>
           <div>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.</p>
+<h1>Bem-vindo à Era da Conectividade: Explorando a Internet das Coisas (IoT) </h1> 
+<p>Na época em que vivemos, a tecnologia está moldando o mundo de maneiras que nunca imaginamos serem possíveis. Uma das revoluções mais emocionantes e transformadoras que está ocorrendo bem diante dos nossos olhos é a Internet das Coisas, ou IoT. Nesta página, embarcaremos em uma jornada fascinante pelo universo da IoT, onde dispositivos inteligentes, conectividade sem precedentes e dados interligados estão redefinindo a maneira como vivemos, trabalhamos e interagimos com o mundo ao nosso redor.</p> 
           </div>
         </article>
       </div>
       <div id="cabeca">
         <article id="explore-article">
           <div>
-            <h2>Texto</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.</p>
+<h2>O que é a Internet das Coisas?</h2> 
+
+<p>A Internet das Coisas é uma revolução tecnológica que se baseia na ideia de que qualquer objeto pode ser transformado em um dispositivo de comunicação, coleta de dados e automação. Isso significa que desde os dispositivos em nossas casas, como geladeiras e termostatos, até máquinas industriais em fábricas e até mesmo os veículos que dirigimos, todos podem ser equipados com sensores, software inteligente e conectividade à internet. Esses elementos trabalham juntos para coletar informações, tomar decisões e interagir com o ambiente e com outros dispositivos, criando um ecossistema verdadeiramente interconectado. </p> 
           </div>
         </article>
       </div>
@@ -70,12 +64,9 @@
           </article>
           <article>
             <div>
-              <h3>Texto</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.</p>
+<h2>Por que a IoT é tão importante?</h2> 
+
+<p>A IoT está transformando nossa vida cotidiana, melhorando a eficiência, economizando recursos e criando novas oportunidades de negócios. Imagine um mundo onde a sua casa saiba quando você está prestes a chegar e ajusta automaticamente a temperatura e a iluminação para o seu conforto, ou onde os agricultores monitoram suas colheitas remotamente para garantir um cultivo saudável. Isso é apenas a ponta do iceberg da revolução que a IoT está desencadeando. </p> 
             </div>
           </article>
         </div>
@@ -85,8 +76,10 @@
           <article>
             <div>
               <img src="img/svg/client-svgrepo-com.svg" alt="">
-              <h3>Texto</h3>
-              <p>.</p>
+<h2>O que você encontrará nesta página?</h2> 
+
+<p>Nesta jornada pela IoT, exploraremos seus princípios fundamentais, suas aplicações em diversos setores, os desafios e questões éticas que surgem com a coleta massiva de dados e a segurança cibernética, bem como as tendências futuras que podem moldar ainda mais esse campo emocionante.</p>
+              <p>Prepare-se para mergulhar no emocionante mundo da Internet das Coisas e descobrir como essa tecnologia está transformando nosso mundo de maneiras que nunca sonhamos serem possíveis. Junte-se a nós enquanto exploramos os limites da conectividade e da inovação. </p> 
             </div>
           </article>
           <article>

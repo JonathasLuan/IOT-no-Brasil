@@ -26,114 +26,141 @@ session_start();
       <i class="fa fa-search"></i>
     </div>
     <?php
-      include('menu-padrao.php');
+    include('menu-padrao.php');
     ?>
   </header>
   <main>
     <div class="artigo">
-<h1>Topologia de Rede para Internet das Coisas (IoT): Conectando o Universo dos Dispositivos Inteligentes</h1> 
-<br><br><br>
-<p>A Internet das Coisas (IoT) está redefinindo o cenário da tecnologia, conectando bilhões de dispositivos em todo o mundo e capacitando soluções inovadoras em várias indústrias. Para alcançar a eficiência e a confiabilidade necessárias nesse ecossistema diversificado de dispositivos, a escolha da topologia de rede desempenha um papel fundamental. Neste artigo, exploraremos as principais topologias de rede utilizadas na IoT e como elas moldam o funcionamento e o desempenho dessa revolucionária tecnologia.</p> 
+      <h1>Topologia de Rede para Internet das Coisas (IoT): Conectando o Universo dos Dispositivos Inteligentes</h1>
+      <br><br><br>
+      <p>A Internet das Coisas (IoT) está redefinindo o cenário da tecnologia, conectando bilhões de dispositivos em
+        todo o mundo e capacitando soluções inovadoras em várias indústrias. Para alcançar a eficiência e a
+        confiabilidade necessárias nesse ecossistema diversificado de dispositivos, a escolha da topologia de rede
+        desempenha um papel fundamental. Neste artigo, exploraremos as principais topologias de rede utilizadas na IoT e
+        como elas moldam o funcionamento e o desempenho dessa revolucionária tecnologia.</p>
 
-<br> 
+      <br>
 
-<h2>O Papel da Topologia de Rede na IoT</h2> 
+      <h2>O Papel da Topologia de Rede na IoT</h2>
 
-<p>A topologia de rede se refere à estrutura física ou lógica pela qual os dispositivos IoT se conectam e se comunicam. Essa escolha é crítica para a eficácia da rede, pois afeta a escalabilidade, a redundância, o consumo de energia e a latência da comunicação entre dispositivos. Aqui estão algumas das topologias de rede mais comuns usadas na IoT:</p> 
+      <p>A topologia de rede se refere à estrutura física ou lógica pela qual os dispositivos IoT se conectam e se
+        comunicam. Essa escolha é crítica para a eficácia da rede, pois afeta a escalabilidade, a redundância, o consumo
+        de energia e a latência da comunicação entre dispositivos. Aqui estão algumas das topologias de rede mais comuns
+        usadas na IoT:</p>
 
-<br> 
+      <br>
 
-<h3>1. Topologia Estrela: </h3> 
+      <h3>1. Topologia Estrela: </h3>
 
-<ul> 
+      <ul>
 
-<li>Descrição: Na topologia de rede em estrela, todos os dispositivos estão conectados a um ponto central, como um hub ou um switch.</li> 
+        <li>Descrição: Na topologia de rede em estrela, todos os dispositivos estão conectados a um ponto central, como
+          um hub ou um switch.</li>
 
-<li>Vantagens: É simples de configurar, oferece fácil gerenciamento e permite identificar e isolar problemas de forma eficiente.</li> 
+        <li>Vantagens: É simples de configurar, oferece fácil gerenciamento e permite identificar e isolar problemas de
+          forma eficiente.</li>
 
-<li>Desafios: Pode ser menos escalável para grandes redes e a falha do ponto central pode parar toda a comunicação.</li> 
+        <li>Desafios: Pode ser menos escalável para grandes redes e a falha do ponto central pode parar toda a
+          comunicação.</li>
 
-</ul> 
+      </ul>
 
-<br> 
+      <br>
 
-<h3>2. Topologia de Malha: </h3> 
+      <h3>2. Topologia de Malha: </h3>
 
-<ul> 
+      <ul>
 
-<li>Descrição: Em uma topologia de malha, todos os dispositivos estão interconectados, criando uma rede redundante.</li> 
+        <li>Descrição: Em uma topologia de malha, todos os dispositivos estão interconectados, criando uma rede
+          redundante.</li>
 
-<li>Vantagens: Alta redundância e confiabilidade, pois os dispositivos podem se comunicar diretamente entre si sem depender de um ponto central.</li> 
+        <li>Vantagens: Alta redundância e confiabilidade, pois os dispositivos podem se comunicar diretamente entre si
+          sem depender de um ponto central.</li>
 
-<li>Desafios: Pode ser complexa de configurar, requer mais recursos de hardware e, portanto, pode ser mais cara.</li> 
+        <li>Desafios: Pode ser complexa de configurar, requer mais recursos de hardware e, portanto, pode ser mais cara.
+        </li>
 
-</ul> 
+      </ul>
 
-<br> 
+      <br>
 
-<h3>3. Topologia em Barramento: </h3> 
+      <h3>3. Topologia em Barramento: </h3>
 
-<ul> 
+      <ul>
 
-<li>Descrição: Na topologia em barramento, todos os dispositivos estão conectados a um único cabo (ou barramento) de comunicação.</li> 
+        <li>Descrição: Na topologia em barramento, todos os dispositivos estão conectados a um único cabo (ou
+          barramento) de comunicação.</li>
 
-<li>Vantagens: Simplicidade de implementação e baixo custo.</li> 
+        <li>Vantagens: Simplicidade de implementação e baixo custo.</li>
 
-<li>Desafios: A adição de dispositivos pode afetar a qualidade da comunicação, e falhas no cabo podem desconectar toda a rede.</li> 
+        <li>Desafios: A adição de dispositivos pode afetar a qualidade da comunicação, e falhas no cabo podem
+          desconectar toda a rede.</li>
 
-</ul> 
+      </ul>
 
-<br> 
+      <br>
 
-<h3>4. Topologia em Anel: </h3> 
+      <h3>4. Topologia em Anel: </h3>
 
-<ul> 
+      <ul>
 
-<li>Descrição: Nessa topologia, os dispositivos são conectados em um anel fechado, onde cada dispositivo se comunica diretamente com os dispositivos adjacentes.</li> 
+        <li>Descrição: Nessa topologia, os dispositivos são conectados em um anel fechado, onde cada dispositivo se
+          comunica diretamente com os dispositivos adjacentes.</li>
 
-<li>Vantagens: Menor latência e uma estrutura lógica eficiente para aplicações que requerem comunicação sequencial.</li> 
+        <li>Vantagens: Menor latência e uma estrutura lógica eficiente para aplicações que requerem comunicação
+          sequencial.</li>
 
-<li>Desafios: A falha de um dispositivo pode interromper a comunicação em todo o anel.</li> 
+        <li>Desafios: A falha de um dispositivo pode interromper a comunicação em todo o anel.</li>
 
-</ul> 
+      </ul>
 
-<br> 
+      <br>
 
-<h3>5. Topologia Híbrida: </h3> 
+      <h3>5. Topologia Híbrida: </h3>
 
-<ul> 
+      <ul>
 
-<li>Descrição: A topologia híbrida é uma combinação de duas ou mais topologias mencionadas acima. </li> 
+        <li>Descrição: A topologia híbrida é uma combinação de duas ou mais topologias mencionadas acima. </li>
 
-<li>Vantagens: Pode ser adaptada para atender às necessidades específicas de uma aplicação, equilibrando os benefícios e desafios de várias topologias. </li> 
+        <li>Vantagens: Pode ser adaptada para atender às necessidades específicas de uma aplicação, equilibrando os
+          benefícios e desafios de várias topologias. </li>
 
-<li>Desafios: Pode ser complexa de configurar e gerenciar, dependendo da combinação escolhida. </li> 
+        <li>Desafios: Pode ser complexa de configurar e gerenciar, dependendo da combinação escolhida. </li>
 
-</ul> 
+      </ul>
 
-<br> 
+      <br>
 
-<h2>Considerações Importantes na Escolha da Topologia</h2> 
+      <h2>Considerações Importantes na Escolha da Topologia</h2>
 
-<p>Ao escolher uma topologia de rede para um projeto de IoT, é essencial considerar os seguintes fatores:</P> 
+      <p>Ao escolher uma topologia de rede para um projeto de IoT, é essencial considerar os seguintes fatores:</P>
 
-<ul> 
+      <ul>
 
-<li>Escalabilidade: A topologia deve ser capaz de acomodar um número crescente de dispositivos conforme o projeto se expande. </li> 
+        <li>Escalabilidade: A topologia deve ser capaz de acomodar um número crescente de dispositivos conforme o
+          projeto se expande. </li>
 
-<li>Latência: A latência é crítica em muitas aplicações IoT, especialmente aquelas que envolvem automação em tempo real. </li> 
+        <li>Latência: A latência é crítica em muitas aplicações IoT, especialmente aquelas que envolvem automação em
+          tempo real. </li>
 
-<li>Consumo de Energia: Para dispositivos IoT alimentados por bateria, a eficiência energética é crucial para maximizar a vida útil da bateria. </li> 
+        <li>Consumo de Energia: Para dispositivos IoT alimentados por bateria, a eficiência energética é crucial para
+          maximizar a vida útil da bateria. </li>
 
-<li>Confiabilidade: A capacidade de manter a comunicação mesmo em caso de falhas é fundamental para muitas aplicações críticas. </li> 
+        <li>Confiabilidade: A capacidade de manter a comunicação mesmo em caso de falhas é fundamental para muitas
+          aplicações críticas. </li>
 
-</ul> 
+      </ul>
 
-<br> 
+      <br>
 
-<h2>Conclusão</h2> 
+      <h2>Conclusão</h2>
 
-<p>A escolha da topologia de rede na IoT desempenha um papel crucial na determinação do desempenho, escalabilidade e confiabilidade de um sistema. Cada topologia tem suas vantagens e desafios, e a seleção deve ser baseada nas necessidades específicas de um projeto. À medida que a IoT continua a crescer e se expandir para novas áreas, a evolução das topologias de rede também é inevitável, adaptando-se para atender às demandas de um mundo cada vez mais conectado e inteligente. Portanto, ao projetar sua solução IoT, escolha sua topologia de rede com sabedoria, mantendo o foco nos objetivos e requisitos da sua aplicação.</p> 
+      <p>A escolha da topologia de rede na IoT desempenha um papel crucial na determinação do desempenho, escalabilidade
+        e confiabilidade de um sistema. Cada topologia tem suas vantagens e desafios, e a seleção deve ser baseada nas
+        necessidades específicas de um projeto. À medida que a IoT continua a crescer e se expandir para novas áreas, a
+        evolução das topologias de rede também é inevitável, adaptando-se para atender às demandas de um mundo cada vez
+        mais conectado e inteligente. Portanto, ao projetar sua solução IoT, escolha sua topologia de rede com
+        sabedoria, mantendo o foco nos objetivos e requisitos da sua aplicação.</p>
     </div>
     <?php
     include('footer.php');
@@ -147,6 +174,6 @@ session_start();
     switchBtn.addEventListener('change', () => {
       document.body.classList.toggle('dark-mode');
     });
-</body>
+</body >
 
-</html>
+</html >

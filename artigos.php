@@ -9,7 +9,7 @@ session_start();
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Serviços</title>
+  <title>Artigos</title>
   <link rel="stylesheet" href="./index.css">
   <link rel="stylesheet" href="./artigos.css">
   <link rel="stylesheet" href="dark-mode.css">
@@ -35,45 +35,53 @@ session_start();
         <a href="oque-é-iot.php">
           <h2>O que é IoT?</h2>
         </a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p></p>
       </article>
       <article>
         <a href="objetos-conectados.php"><img src="img/objconect.jpg" alt="Image 2" /></a>
         <a href="objetos-conectados.php">
           <h2>Objetos Conectados</h2>
         </a>
-        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p></p>
       </article>
       <article>
         <a href="arduino.php"><img src="img/arduino_quad.jpg" alt="Image 3" /></a>
         <a href="arduino.php">
           <h2>Arduino</h2>
         </a>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <p>
         </p>
       </article>
       <article>
-        <a href="conectores.php"><img src="img/ConectorRaspberry05.jpg" alt="Image 6" /></a>
+        <a href="conectores.php"><img src="img/ConectorRaspberry05.jpg" alt="Image 4" /></a>
         <a href="conectores.php">
           <h2>Conectores</h2>
         </a>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <p>
         </p>
       </article>
       <article>
-        <a href="topologia.php"><img src="img/redes-1-1024x1024.jpg" alt="Image 6" /></a>
+        <a href="topologia.php"><img src="img/redes-1-1024x1024.jpg" alt="Image 5" /></a>
         <a href="topologia.php">
           <h2>Topologia</h2>
         </a>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <p>
         </p>
       </article>
       <article>
-        <a href="artigos-referenciados.php"><img src="img/artigos-cientificos.png" alt="Image 6" /></a>
+        <a href="tinkercad.php"><img src="img/tinkercad.jpg" alt="Image 6" /></a>
+        <a href="tinkercad.php">
+          <h2>tinkercad</h2>
+        </a>
+        <p>
+        </p>
+      </article>
+      <article>
+        <a href="artigos-referenciados.php"><img src="img/artigos-cientificos.png" alt="Image 7" /></a>
         <a href="artigos-referenciados.php">
           <h2>Artigos Referenciados</h2>
         </a>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <p>
         </p>
       </article>
     </main>

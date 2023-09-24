@@ -158,7 +158,8 @@ body.dark-mode .modal-content,
 body.dark-mode #sobreprojeto,
 body.dark-mode article,
 body.dark-mode .container-central,
-body.dark-mode .accordion h3 {
+body.dark-mode .accordion h3,
+body.dark-mode #contactform {
     background-color: black;
     color: white;
     box-shadow: none;

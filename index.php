@@ -39,16 +39,13 @@
             <img src="img/1000_F_257540544_cBZqZIEnW1H9PHz3xFF5LV9B09MsWU7z.jpg" alt="">
           </div>
           <div class="slide">
-            <img src="img/capaiot.png" alt="">
+            <img src="img/1000_F_616004095_Tbkwgrpmz7vJBLUb3MvxY9IeOIkN1fIu.jpg" alt="">
           </div>
           <div class="slide">
-            <img src="img/manicure.jpg" alt="">
+            <img src="img/240_F_624291842_lNLmLMpsExgYiIC6sFzgFkWBMazGB2GJ.jpg" alt="">
           </div>
           <div class="slide">
-            <img src="img/pedicure.jpg" alt="">
-          </div>
-          <div class="slide">
-            <img src="img/coloracao.jpg" alt="">
+            <img src="img/1000_F_619172259_hjDQjkezPv5DDpUMAUac4HUXYLExsf8m.jpg" alt="">
           </div>
         </figure>
       </div>

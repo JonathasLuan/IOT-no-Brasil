@@ -20,10 +20,12 @@ body {
 
 h1{
     line-height: 45px;
+    text-align: justify;
 }
 
 p {
   line-height: 40px;
+  text-align: justify;
 }
 header {
   width: 100%;

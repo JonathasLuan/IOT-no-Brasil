@@ -14,11 +14,11 @@
                     <a style="border-top-left-radius: 0px;" href="oque-é-iot.php">O que é IoT?</a>
                     <a href="objetos-conectados.php">Objetos Conectados</a>
                     <a href="arduino.php" class="dropdown-toggle">Arduino</a>
-                    <div class="submenu">
+                    /*<div class="submenu">
                         <a href="submenu1.php">Submenu 1</a>
                         <a href="submenu2.php">Submenu 2</a>
                         <a href="submenu3.php">Submenu 3</a>
-                    </div>
+                    </div>*/
                     <a href="conectores.php">Conectores</a>
                     <a href="topologia.php">Topologia</a>
                     <a href="tinkercad.php">Tinkercad</a>

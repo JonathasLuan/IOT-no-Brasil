@@ -31,6 +31,7 @@ session_start();
   </header>
   <main>
     <div class="artigo">
+      <img src="img/i307397.jpeg" alt"">
       <h1>Objetos Conectados: Transformando o Cotidiano com a Internet das Coisas (IoT) </h1>
       <br><br><br>
       <p>No mundo cada vez mais digitalizado em que vivemos, a Internet das Coisas (IoT) está revolucionando a forma

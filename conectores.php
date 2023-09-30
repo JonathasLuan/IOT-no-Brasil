@@ -31,9 +31,9 @@ session_start();
   </header>
   <main>
     <div class="artigo">
-      <img style="width: 100%;" src="img/1000_F_644400907_BKoODIqk4teMCQgi5jPENb3uqrIYE12I.jpg" alt="">
       <h1>Tipos de Conectores, Conexões e Cabos para Internet das Coisas (IoT) e Arduino: Mantendo Tudo Conectado</h1>
-      <br><br><br>
+      <img style="width: 100%;" src="img/1000_F_644400907_BKoODIqk4teMCQgi5jPENb3uqrIYE12I.jpg" alt="">
+      <br><br>
       <p>A conectividade é um dos pilares fundamentais da Internet das Coisas (IoT) e do mundo da eletrônica, onde o
         Arduino desempenha um papel essencial. A escolha dos conectores, conexões e cabos certos desempenha um papel
         crucial na integridade do sinal, na confiabilidade do sistema e na eficiência energética. Neste artigo,

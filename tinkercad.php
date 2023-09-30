@@ -31,8 +31,8 @@ session_start();
   </header>
   <main>
     <div class="artigo">
-      <img src="img/Logo-tinkercad-wordmark.svg" alt="">
       <h1>Tinkercad: Uma Janela para o Mundo da Prototipagem Virtual e Aprendizado de Eletrônica</h1>
+      <img src="img/Logo-tinkercad-wordmark.svg" alt="">
       <p>No cenário em constante evolução da educação e prototipagem eletrônica, o Tinkercad emergiu como uma ferramenta
         poderosa e acessível que permite que estudantes, entusiastas e profissionais explorem o mundo da eletrônica,
         design 3D e programação de maneira intuitiva e eficaz. Neste artigo, mergulharemos no universo do Tinkercad,

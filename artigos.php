@@ -77,6 +77,22 @@ session_start();
         </p>
       </article>
       <article>
+        <a href="lgpd.php"><img src="img/73f5efc60a35447bbacfc0e032434111.jpg" alt="Image 6" /></a>
+        <a href="tinkercad.php">
+          <h2>LGPD</h2>
+        </a>
+        <p>
+        </p>
+      </article>
+      <article>
+        <a href="aplicacoescotidianas.php"><img src="img/internet-das-coisas-no-dia-a-dia-1024x538.jpg.webp" alt="Image 6" /></a>
+        <a href="tinkercad.php">
+          <h2>IoT no Cotidiano</h2>
+        </a>
+        <p>
+        </p>
+      </article>
+      <article>
         <a href="artigos-referenciados.php"><img src="img/artigos-cientificos.png" alt="Image 7" /></a>
         <a href="artigos-referenciados.php">
           <h2>Artigos Referenciados</h2>

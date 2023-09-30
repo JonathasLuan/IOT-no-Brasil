@@ -17,6 +17,8 @@
                     <a href="conectores.php">Conectores</a>
                     <a href="topologia.php">Topologia</a>
                     <a href="tinkercad.php">Tinkercad</a>
+                    <a href="LGPD.php">LGPD</a>
+                    <a href="aplicacoescotidianas.php">IoT no Cotidiano</a>
                     <a href="artigos-referenciados.php">Artigos Referenciados</a>
                 </div>
             </div>

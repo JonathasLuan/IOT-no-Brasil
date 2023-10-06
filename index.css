@@ -27,7 +27,8 @@ p {
   text-align: justify;
 }
 
-ul, ol {
+ul,
+ol {
   line-height: 35px;
   text-align: justify;
 }
@@ -218,7 +219,8 @@ header {
 footer {
   background-color: #333;
   color: #fff;
-  padding: 10px;
+  padding: 35px;
+  margin-top: 100px;
   text-align: center;
   top: 100%;
   position: sticky;

@@ -7,9 +7,9 @@ if (!isset($_GET['nome_pagina'])) {
 
 $nome = "%" . trim($_GET['nome_pagina']) . "%";
 
-$dbh = new PDO('mysql:host=127.0.0.1;dbname=projetosalao', 'root', '');
+$dbh = new PDO('mysql:host=127.0.0.1;dbname=iotnobrasil', 'root', '');
 
-$sth = $dbh->prepare("SELECT * FROM pagina WHERE titulo LIKE :nome");
+$sth = $dbh->prepare("SELECT * FROM paginas WHERE titulo LIKE :nome");
 $sth->bindParam(':nome', $nome, PDO::PARAM_STR);
 $sth->execute();
 
@@ -58,7 +58,7 @@ $resultados = $sth->fetchAll(PDO::FETCH_ASSOC);
     if (count($resultados)) {
         foreach ($resultados as $resultado) {
             echo $resultado['titulo'];
-            header("Location: http://localhost/ProjetoSalao/" . $resultado['url']);
+            header("Location: http://localhost/iot-no-brasil/" . $resultado['url']);
         }
     } else {
         echo "<h1>" . "Nenhum resultado correspondente." . "</h1>";

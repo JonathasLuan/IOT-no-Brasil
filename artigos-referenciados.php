@@ -114,7 +114,7 @@ session_start();
                     </div>
                     <div class="pdf-displayer">
                       <br>
-                      <iframe id="pdfViewer" width="100%" height="500px" src="1007-5725-1-PB.pdf"></iframe>
+                      <iframe id="pdfViewer" width="100%" height="500px" src="pdfs\1007-5725-1-PB.pdf"></iframe>
                     </div>
                   </div>
                 </div>
@@ -159,36 +159,16 @@ session_start();
                       class="fa fa-solid fa-eye"></i></button>
                   <div class="artigo-inf">
                     <div class="artigo-p">
-                      <p><b>Revista:</b> 2018 Conexões - Ciência e Tecnologia</p>
-                      <p><b>Autores:</b> Moisés Panegassi Fachini, Nathalia Pinheiro Mesquita, Rafael Padovani Oliveira,
-                        Patricia Gallo de França</p>
+                      <p><b>Revista:</b>  v. 8 n. 15 (2019): Human Factors in Design - Edição Especial - P&D Design 2018 </p>
+                      <p><b>Autores:</b> Patricia Carrion - PUC RJ; Manuela Quaresma - PUC RJ</p>
                       <p><b>Rusumo:</b>
                         <br>
-                        A tecnologia está em constante mudança e evolução, tendendo cada vez mais a se
-                        incorporar em diversos aspectos do nosso cotidiano, não se limitando apenas a computadores; ela
-                        vem agregando conectividade a objetos do nosso dia a dia. Este fenômeno é conhecido como
-                        “Internet
-                        das Coisas” e será objeto de estudo deste artigo. Porém, por se tratar de uma temática atual e
-                        que
-                        ainda é tendência para os próximos anos, não dispõe, ainda, de uma bibliografia mais consistente
-                        e
-                        aprofundada, especialmente na língua portuguesa. Essa constatação, motivou a escrita deste
-                        artigo
-                        que tem como objetivo reunir, sistematicamente, a bibliografia disponível para que, assim,
-                        possamos divulgar os conceitos e definições sobre esse tema, com maior facilidade, a quem se
-                        interesse pelo assunto, ou mesmo a curiosos que desejam entender um pouco mais desta tendência
-                        tecnológica. Metodologicamente, o estudo foi realizado através da coleta, leitura e análise de
-                        trabalhos científicos publicados, escolhidos por critérios pré-estabelecidos. Além disso, para
-                        compreendermos como esta tecnologia tem se desenvolvido, abordaremos sua história, seu
-                        surgimento
-                        e sua evolução, até chegarmos ao atual panorama. Desta forma, com a leitura desse artigo será
-                        possível definir o que é Internet das Coisas, identificar exemplos, conhecer seu contexto
-                        histórico, bem como as mudanças que essa tecnologia vem trazendo à realidade em que vivemos.
+A interconexão de dispositivos físicos com capacidades computacionais de detecção e comunicação de dados não é uma concepção nova, porém a compreensão da real aplicabilidade de uma Internet das Coisas (Internet of Things, ou IoT) ainda é incipiente. A Internet das Coisas descreve o que se observa hoje com o crescente número de dispositivos conectados habilitados à internet. Isto é, um estado onde “coisas”, de pequenos objetos a ambientes e cidades, veem-se capacitados a se comunicar uns com os outros, e consequentemente com os humanos presentes no ecossistema. Neste artigo, buscou-se discutir como a realidade de produtos cada vez mais conectados vem transformando o modo como usuários e organizações interagem com tecnologias em níveis novos e distintos. Para tanto, foram traçadas definições acerca da IoT, de suas aplicações voltadas ao usuário final, e de como os serviços IoT, centradas no cliente-usuário, dependem de fatores instituídos ainda no processo de design..
                       </p>
                     </div>
                     <div class="pdf-displayer">
                       <br>
-                      <iframe id="pdfViewer" width="100%" height="500px" src="1007-5725-1-PB.pdf"></iframe>
+                      <iframe id="pdfViewer" width="100%" height="500px" src="pdfs\Internet da Coisas (IoT) Definições e aplicabilidade aos usuários finais.pdf"></iframe>
                     </div>
                   </div>
                 </div>

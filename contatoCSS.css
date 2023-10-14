@@ -24,31 +24,6 @@ body {
     /* Adicionado */
 }
 
-#orange {
-    background-color: #607D8B;
-    width: 40%;
-    /* height: 100%; */
-    overflow: auto;
-}
-
-@media (max-width: 768px) {
-    #contactform {
-        width: 90%;
-        flex-direction: column;
-        /* Adicionado */
-        align-items: center;
-        /* Adicionado */
-    }
-
-    #formulario-container {
-        width: 100%;
-    }
-
-    #orange {
-        width: 100%;
-    }
-}
-
 form {
     width: 100%;
 }

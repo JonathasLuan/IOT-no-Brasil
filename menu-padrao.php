@@ -19,6 +19,8 @@
                     <a href="tinkercad.php">Tinkercad</a>
                     <a href="LGPD.php">LGPD</a>
                     <a href="aplicacoescotidianas.php">IoT no Cotidiano</a>
+                    <a href="iotnaindustria.php">IoT na Indústria</a>
+                    <a href="segurancanaiot.php">Segurança na IoT</a>
                     <a href="artigos-referenciados.php">Artigos Referenciados</a>
                 </div>
             </div>

@@ -77,7 +77,7 @@ session_start();
         </p>
       </article>
       <article>
-        <a href="lgpd.php"><img src="img/73f5efc60a35447bbacfc0e032434111.jpg" alt="Image 6" /></a>
+        <a href="lgpd.php"><img src="img/73f5efc60a35447bbacfc0e032434111.jpg" alt="Image 7" /></a>
         <a href="tinkercad.php">
           <h2>LGPD</h2>
         </a>
@@ -85,7 +85,7 @@ session_start();
         </p>
       </article>
       <article>
-        <a href="aplicacoescotidianas.php"><img src="img/internet-das-coisas-no-dia-a-dia-1024x538.jpg.webp" alt="Image 6" /></a>
+        <a href="aplicacoescotidianas.php"><img src="img/internet-das-coisas-no-dia-a-dia-1024x538.jpg.webp" alt="Image 8" /></a>
         <a href="tinkercad.php">
           <h2>IoT no Cotidiano</h2>
         </a>
@@ -93,7 +93,31 @@ session_start();
         </p>
       </article>
       <article>
-        <a href="artigos-referenciados.php"><img src="img/artigos-cientificos.png" alt="Image 7" /></a>
+        <a href="iotnaindustria.php"><img src="img/iot-na-industria.webp" alt="Image 9" /></a>
+        <a href="iotnaindustria.php">
+          <h2>IoT na Indústria: Transformando a Manufatura, Automação e Manutenção Preditiva</h2>
+        </a>
+        <p>
+        </p>
+      </article>
+      <article>
+        <a href="segurancanaiot.php"><img src="img/iStock-1150351738-769x414.webp" alt="Image 10" /></a>
+        <a href="segurancanaiot.php">
+          <h2>Segurança na IoT: Protegendo um Mundo Conectado</h2>
+        </a>
+        <p>
+        </p>
+      </article>
+      <article>
+        <a href="conectividadeiot.php"><img src="img/conectiv.webp" alt="Image 11" /></a>
+        <a href="conectividadeiot.php">
+          <h2>Conectividade na IoT: Unindo o Mundo da Internet das Coisas</h2>
+        </a>
+        <p>
+        </p>
+      </article>
+      <article>
+        <a href="artigos-referenciados.php"><img src="img/artigos-cientificos.png" alt="Image 13" /></a>
         <a href="artigos-referenciados.php">
           <h2>Artigos Referenciados</h2>
         </a>

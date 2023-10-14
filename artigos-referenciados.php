@@ -48,7 +48,7 @@ session_start();
       display: none;
     }
 
-    .fa {
+    #artigos .fa {
       font-size: 25px;
     }
 

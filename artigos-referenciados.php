@@ -79,7 +79,8 @@ session_start();
             <ul>
               <li>
                 <div id="artigo-info"><span>
-                    <a class="artigo-link" href=""><i class="fa fa-solid fa-file"></i>&nbsp&nbsp Internet das
+                    <a class="artigo-link" href="http://conexoes.ifce.edu.br/index.php/conexoes/article/view/1007"><i
+                        class="fa fa-solid fa-file"></i>&nbsp&nbsp Internet das
                       coisas:
                       uma breve revisão bibliográfica.</a></span><button class="eye"><i
                       class="fa fa-solid fa-eye"></i></button>
@@ -120,7 +121,8 @@ session_start();
                 </div>
               </li>
               <li>
-                <div class="artigo-info"><span><a class="artigo-link" href=""><i
+                <div class="artigo-info"><span><a class="artigo-link"
+                      href="https://lcv.fee.unicamp.br/images/BTSym-17/Papers/76926.pdf"><i
                         class="fa fa-solid fa-file"></i>&nbsp&nbsp A Internet das Coisas (IoT): Tecnologias e
                       Aplicações.</a></span><button class="eye"><i class="fa fa-solid fa-eye"></i></button>
                   <div class="artigo-inf">
@@ -153,57 +155,69 @@ session_start();
                 </div>
               </li>
               <li>
-                <div class="artigo-info"><span><a class="artigo-link" href=""><i
+                <div class="artigo-info"><span><a class="artigo-link"
+                      href="https://revistas.udesc.br/index.php/hfd/article/view/2316796308152019049"><i
                         class="fa fa-solid fa-file"></i>&nbsp&nbsp Internet da Coisas (IoT): Definições e
                       aplicabilidade aos usuários finais.</a></span><button class="eye"><i
                       class="fa fa-solid fa-eye"></i></button>
                   <div class="artigo-inf">
                     <div class="artigo-p">
-                      <p><b>Revista:</b>  v. 8 n. 15 (2019): Human Factors in Design - Edição Especial - P&D Design 2018 </p>
+                      <p><b>Revista:</b> v. 8 n. 15 (2019): Human Factors in Design - Edição Especial - P&D Design 2018
+                      </p>
                       <p><b>Autores:</b> Patricia Carrion - PUC RJ; Manuela Quaresma - PUC RJ</p>
                       <p><b>Rusumo:</b>
                         <br>
-A interconexão de dispositivos físicos com capacidades computacionais de detecção e comunicação de dados não é uma concepção nova, porém a compreensão da real aplicabilidade de uma Internet das Coisas (Internet of Things, ou IoT) ainda é incipiente. A Internet das Coisas descreve o que se observa hoje com o crescente número de dispositivos conectados habilitados à internet. Isto é, um estado onde “coisas”, de pequenos objetos a ambientes e cidades, veem-se capacitados a se comunicar uns com os outros, e consequentemente com os humanos presentes no ecossistema. Neste artigo, buscou-se discutir como a realidade de produtos cada vez mais conectados vem transformando o modo como usuários e organizações interagem com tecnologias em níveis novos e distintos. Para tanto, foram traçadas definições acerca da IoT, de suas aplicações voltadas ao usuário final, e de como os serviços IoT, centradas no cliente-usuário, dependem de fatores instituídos ainda no processo de design..
+                        A interconexão de dispositivos físicos com capacidades computacionais de detecção e comunicação
+                        de dados não é uma concepção nova, porém a compreensão da real aplicabilidade de uma Internet
+                        das Coisas (Internet of Things, ou IoT) ainda é incipiente. A Internet das Coisas descreve o que
+                        se observa hoje com o crescente número de dispositivos conectados habilitados à internet. Isto
+                        é, um estado onde “coisas”, de pequenos objetos a ambientes e cidades, veem-se capacitados a se
+                        comunicar uns com os outros, e consequentemente com os humanos presentes no ecossistema. Neste
+                        artigo, buscou-se discutir como a realidade de produtos cada vez mais conectados vem
+                        transformando o modo como usuários e organizações interagem com tecnologias em níveis novos e
+                        distintos. Para tanto, foram traçadas definições acerca da IoT, de suas aplicações voltadas ao
+                        usuário final, e de como os serviços IoT, centradas no cliente-usuário, dependem de fatores
+                        instituídos ainda no processo de design..
                       </p>
                     </div>
                     <div class="pdf-displayer">
                       <br>
-                      <iframe id="pdfViewer" width="100%" height="500px" src="pdfs\Internet da Coisas (IoT) Definições e aplicabilidade aos usuários finais.pdf"></iframe>
+                      <iframe id="pdfViewer" width="100%" height="500px"
+                        src="pdfs\Internet da Coisas (IoT) Definições e aplicabilidade aos usuários finais.pdf"></iframe>
                     </div>
                   </div>
                 </div>
               </li>
               <li>
-                <div class="artigo-info"><span><a class="artigo-link" href=""><i
+                <div class="artigo-info"><span><a class="artigo-link"
+                      href="https://www.bu.ufmg.br/bu_atual/wp-content/uploads/2017/08/internet-das-coisas.pdf"><i
                         class="fa fa-solid fa-file"></i>&nbsp&nbsp Internet das coisas: da teoria à
                       prática.</a></span><button class="eye"><i class="fa fa-solid fa-eye"></i></button>
                   <div class="artigo-inf">
                     <div class="artigo-p">
-                      <p><b>Revista:</b> 2018 Conexões - Ciência e Tecnologia</p>
-                      <p><b>Autores:</b> Moisés Panegassi Fachini, Nathalia Pinheiro Mesquita, Rafael Padovani Oliveira,
-                        Patricia Gallo de França</p>
+                      <p><b>Revista:</b> Departamento de Ciência da Computação
+                        Universidade Federal de Minas Gerais (UFMG)
+                        Belo Horizonte, MG, Brasil</p>
+                      <p><b>Autores:</b> Bruno P. Santos, Lucas A. M. Silva, Clayson S. F. S. Celes, João B. Borges
+                        Neto, Bruna S. Peres, Marcos Augusto M. Vieira, Luiz Filipe M. Vieira,
+                        Olga N. Goussevskaia e Antonio A. F. Loureiro</p>
                       <p><b>Rusumo:</b>
                         <br>
-                        A tecnologia está em constante mudança e evolução, tendendo cada vez mais a se
-                        incorporar em diversos aspectos do nosso cotidiano, não se limitando apenas a computadores; ela
-                        vem agregando conectividade a objetos do nosso dia a dia. Este fenômeno é conhecido como
-                        “Internet
-                        das Coisas” e será objeto de estudo deste artigo. Porém, por se tratar de uma temática atual e
-                        que
-                        ainda é tendência para os próximos anos, não dispõe, ainda, de uma bibliografia mais consistente
-                        e
-                        aprofundada, especialmente na língua portuguesa. Essa constatação, motivou a escrita deste
-                        artigo
-                        que tem como objetivo reunir, sistematicamente, a bibliografia disponível para que, assim,
-                        possamos divulgar os conceitos e definições sobre esse tema, com maior facilidade, a quem se
-                        interesse pelo assunto, ou mesmo a curiosos que desejam entender um pouco mais desta tendência
-                        tecnológica. Metodologicamente, o estudo foi realizado através da coleta, leitura e análise de
-                        trabalhos científicos publicados, escolhidos por critérios pré-estabelecidos. Além disso, para
-                        compreendermos como esta tecnologia tem se desenvolvido, abordaremos sua história, seu
-                        surgimento
-                        e sua evolução, até chegarmos ao atual panorama. Desta forma, com a leitura desse artigo será
-                        possível definir o que é Internet das Coisas, identificar exemplos, conhecer seu contexto
-                        histórico, bem como as mudanças que essa tecnologia vem trazendo à realidade em que vivemos.
+                        A proliferação de objetos inteligentes com capacidade de sensoriamento, processamento
+                        e comunicação tem aumentado nos últimos anos. Neste cenário, a Internet das
+                        Coisas (Internet of Things (IoT)) conecta estes objetos à Internet e promove a comunicação
+                        entre usuários e dispositivos. A IoT possibilita uma grande quantidade de novas
+                        aplicações, as quais tanto a academia quanto a industria podem se beneficiar, tais como
+                        cidades inteligentes, saúde e automação de ambientes. Por outro lado, existem diversos
+                        desafios que devemos enfrentar no âmbito social, teórico e prático. Para responder
+                        a essas questões, precisamos vencer alguns desafios como, por exemplo, restrições dos
+                        objetos inteligentes (processamento, memória e fonte de alimentação), largura de banda
+                        limitada e dimensão do hardware. Deste modo, devemos explorar novos paradigmas
+                        de comunicação, protocolos incluindo questões sobre o endereçamento IP e adaptações
+                        para interoperar com a Internet, arquitetura de hardware e projeto de software. Além
+                        disso, aplicações de IoT precisam tratar questões como coletar, armazenar, processar e
+                        extrair conhecimento de dados obtidos dos objetos inteligentes. O objetivo deste capítulo
+                        é descrever o estado-da-arte de IoT discutindo questões teóricas e práticas.
                       </p>
                     </div>
                     <div class="pdf-displayer">
@@ -223,31 +237,26 @@ A interconexão de dispositivos físicos com capacidades computacionais de detec
                       Brazil.</a></span><button class="eye"><i class="fa fa-solid fa-eye"></i></button>
                   <div class="artigo-inf">
                     <div class="artigo-p">
-                      <p><b>Revista:</b> 2018 Conexões - Ciência e Tecnologia</p>
-                      <p><b>Autores:</b> Moisés Panegassi Fachini, Nathalia Pinheiro Mesquita, Rafael Padovani Oliveira,
-                        Patricia Gallo de França</p>
+                      <p><b>Revista:</b> Gestão & Produção, 29, e122.</p>
+                      <p><b>Autores:</b> Antonio Arnaldo Baio Junior, Marcelo José Carrer</p>
                       <p><b>Rusumo:</b>
                         <br>
-                        A tecnologia está em constante mudança e evolução, tendendo cada vez mais a se
-                        incorporar em diversos aspectos do nosso cotidiano, não se limitando apenas a computadores; ela
-                        vem agregando conectividade a objetos do nosso dia a dia. Este fenômeno é conhecido como
-                        “Internet
-                        das Coisas” e será objeto de estudo deste artigo. Porém, por se tratar de uma temática atual e
-                        que
-                        ainda é tendência para os próximos anos, não dispõe, ainda, de uma bibliografia mais consistente
-                        e
-                        aprofundada, especialmente na língua portuguesa. Essa constatação, motivou a escrita deste
-                        artigo
-                        que tem como objetivo reunir, sistematicamente, a bibliografia disponível para que, assim,
-                        possamos divulgar os conceitos e definições sobre esse tema, com maior facilidade, a quem se
-                        interesse pelo assunto, ou mesmo a curiosos que desejam entender um pouco mais desta tendência
-                        tecnológica. Metodologicamente, o estudo foi realizado através da coleta, leitura e análise de
-                        trabalhos científicos publicados, escolhidos por critérios pré-estabelecidos. Além disso, para
-                        compreendermos como esta tecnologia tem se desenvolvido, abordaremos sua história, seu
-                        surgimento
-                        e sua evolução, até chegarmos ao atual panorama. Desta forma, com a leitura desse artigo será
-                        possível definir o que é Internet das Coisas, identificar exemplos, conhecer seu contexto
-                        histórico, bem como as mudanças que essa tecnologia vem trazendo à realidade em que vivemos.
+                        Este artigo teve os objetivos de analisar o nível de adoção e comparar características de
+                        adotantes e não adotantes de tecnologias da Indústria 4.0. Dados primários do ano de 2021 foram
+                        coletados por meio de um questionário estruturado com 30 pequenas e médias empresas do setor
+                        metalúrgico, que operam com processos de usinagem, no estado de São Paulo. Os dados foram
+                        analisados por meio de medidas de estatística descritiva e coeficientes de correlação. As
+                        tecnologias 4.0 adotadas pelas empresas da amostra foram: Computação em Nuvem (10 empresas),
+                        Sistemas de Integração Horizontal e Vertical (5 empresas), Big Data (4 empresas) e Internet das
+                        Coisas Industrial (4 empresas). A análise comparativa entre as características das empresas
+                        adotantes e não adotantes mostrou que: (I) as adotantes possuem, com frequência muito maior,
+                        funcionários com competências em TICs e também contratam mais frequentemente serviços de
+                        consultoria em TICs; (II) o uso de sistemas de ERP e MRP é muito maior entre as empresas
+                        adotantes de tecnologias da Indústria 4.0; (III) as empresas adotantes participam com mais
+                        frequência de programas de cooperação com Universidades, Institutos de Ciência e Tecnologia ou
+                        Agências de Fomento à Pesquisa e Desenvolvimento Tecnológico; (IV) as empresas que adotam
+                        tecnologias 4.0 possuem maior percepção de vantagem relativa e compatibilidade dessas
+                        tecnologias.
                       </p>
                     </div>
                     <div class="pdf-displayer">
@@ -268,36 +277,32 @@ A interconexão de dispositivos físicos com capacidades computacionais de detec
                       State, Brazil).</a></span><button class="eye"><i class="fa fa-solid fa-eye"></i></button>
                   <div class="artigo-inf">
                     <div class="artigo-p">
-                      <p><b>Revista:</b> 2018 Conexões - Ciência e Tecnologia</p>
-                      <p><b>Autores:</b> Moisés Panegassi Fachini, Nathalia Pinheiro Mesquita, Rafael Padovani Oliveira,
-                        Patricia Gallo de França</p>
+                      <p><b>Revista:</b> Gestão & Produção, 27(3), e5622.</p>
+                      <p><b>Autores:</b> Alessandro Silveira Firmino1, Guilherme Xavier Perles, Juliana Veiga
+                        Mendes,
+                        João Eduardo Azevedo Ramos da Silva, Diogo Aparecido Lopes Silva</p>
                       <p><b>Rusumo:</b>
                         <br>
-                        A tecnologia está em constante mudança e evolução, tendendo cada vez mais a se
-                        incorporar em diversos aspectos do nosso cotidiano, não se limitando apenas a computadores; ela
-                        vem agregando conectividade a objetos do nosso dia a dia. Este fenômeno é conhecido como
-                        “Internet
-                        das Coisas” e será objeto de estudo deste artigo. Porém, por se tratar de uma temática atual e
-                        que
-                        ainda é tendência para os próximos anos, não dispõe, ainda, de uma bibliografia mais consistente
-                        e
-                        aprofundada, especialmente na língua portuguesa. Essa constatação, motivou a escrita deste
-                        artigo
-                        que tem como objetivo reunir, sistematicamente, a bibliografia disponível para que, assim,
-                        possamos divulgar os conceitos e definições sobre esse tema, com maior facilidade, a quem se
-                        interesse pelo assunto, ou mesmo a curiosos que desejam entender um pouco mais desta tendência
-                        tecnológica. Metodologicamente, o estudo foi realizado através da coleta, leitura e análise de
-                        trabalhos científicos publicados, escolhidos por critérios pré-estabelecidos. Além disso, para
-                        compreendermos como esta tecnologia tem se desenvolvido, abordaremos sua história, seu
-                        surgimento
-                        e sua evolução, até chegarmos ao atual panorama. Desta forma, com a leitura desse artigo será
-                        possível definir o que é Internet das Coisas, identificar exemplos, conhecer seu contexto
-                        histórico, bem como as mudanças que essa tecnologia vem trazendo à realidade em que vivemos.
+                        O conceito de Indústria 4.0 foi introduzido pela primeira vez na Alemanha em 2011. Também
+                        chamado de 4ª revolução industrial, este conceito é baseado na digitalização e integração entre
+                        mídias físicas e digitais com foco na automação dos processos de produção e integração em toda a
+                        cadeia de valor. Devido ao recente e rápido desenvolvimento da Indústria 4.0 nos últimos anos,
+                        este estudo efetuou uma análise SWOT para avaliar pontos estratégicos para o desenvolvimento e
+                        aplicação de tecnologias digitais nas empresas situadas na RMS - Região Metropolitana de
+                        Sorocaba (SP, Brasil). Uma revisão de literatura foi desenvolvida na concepção da Indústria 4.0
+                        e de suas principais tecnologias: Sistemas Ciber-Físicos, Internet das Coisas, Fábricas
+                        Inteligentes e Big Data. Os resultados da revisão de literatura foram utilizados para
+                        desenvolver um questionário exploratório (survey), que foi aplicado com representantes de
+                        empresas da RMS. Em seguida, aplicou-se uma matriz SWOT, a fim de se gerar planos de ação
+                        visando facilitar a inserção da Indústria 4.0 nas empresas da RMS, com base na seleção de
+                        estratégias ofensivas, de confronto, reforço e defesa. As estratégias propostas neste trabalho
+                        devem ser utilizadas como motivadores envolvendo questões de políticas públicas na RMS, e também
+                        poderiam ser expandidas para outras regiões do Brasil como estratégias de curto e longo prazo.
                       </p>
                     </div>
                     <div class="pdf-displayer">
                       <br>
-                      <iframe id="pdfViewer" width="100%" height="500px" src="1007-5725-1-PB.pdf"></iframe>
+                      <iframe id="pdfViewer" width="100%" height="500px" src="pdfs\towards.pdf"></iframe>
                     </div>
                   </div>
                 </div>
@@ -312,36 +317,31 @@ A interconexão de dispositivos físicos com capacidades computacionais de detec
                     class="eye"><i class="fa fa-solid fa-eye"></i></button>
                   <div class="artigo-inf">
                     <div class="artigo-p">
-                      <p><b>Revista:</b> 2018 Conexões - Ciência e Tecnologia</p>
-                      <p><b>Autores:</b> Moisés Panegassi Fachini, Nathalia Pinheiro Mesquita, Rafael Padovani Oliveira,
-                        Patricia Gallo de França</p>
+                      <p><b>Revista:</b> Radar: Tecnologia, Produção e Comércio Exterior</p>
+                      <p><b>Autores:</b> Luis Claudio Kubota, Mauricio Benedeti Rosa</p>
                       <p><b>Rusumo:</b>
                         <br>
-                        A tecnologia está em constante mudança e evolução, tendendo cada vez mais a se
-                        incorporar em diversos aspectos do nosso cotidiano, não se limitando apenas a computadores; ela
-                        vem agregando conectividade a objetos do nosso dia a dia. Este fenômeno é conhecido como
-                        “Internet
-                        das Coisas” e será objeto de estudo deste artigo. Porém, por se tratar de uma temática atual e
-                        que
-                        ainda é tendência para os próximos anos, não dispõe, ainda, de uma bibliografia mais consistente
-                        e
-                        aprofundada, especialmente na língua portuguesa. Essa constatação, motivou a escrita deste
-                        artigo
-                        que tem como objetivo reunir, sistematicamente, a bibliografia disponível para que, assim,
-                        possamos divulgar os conceitos e definições sobre esse tema, com maior facilidade, a quem se
-                        interesse pelo assunto, ou mesmo a curiosos que desejam entender um pouco mais desta tendência
-                        tecnológica. Metodologicamente, o estudo foi realizado através da coleta, leitura e análise de
-                        trabalhos científicos publicados, escolhidos por critérios pré-estabelecidos. Além disso, para
-                        compreendermos como esta tecnologia tem se desenvolvido, abordaremos sua história, seu
-                        surgimento
-                        e sua evolução, até chegarmos ao atual panorama. Desta forma, com a leitura desse artigo será
-                        possível definir o que é Internet das Coisas, identificar exemplos, conhecer seu contexto
-                        histórico, bem como as mudanças que essa tecnologia vem trazendo à realidade em que vivemos.
+                        A internet das coisas (IoT) é composta por redes de comunicação entre dispositivos e a internet
+                        mais ampla. Entre
+                        potenciais ganhos de produtividade para a economia com a adoção da internet das coisas, pode-se
+                        citar a redução:
+                        de perdas por extravio de carga, do tempo de internação pós-operatória, de desperdício devido a
+                        vazamentos de
+                        água ou gases, de perdas no campo devido à infestação de pragas nas colheitas e criação de
+                        animais, entre inúmeras
+                        outras. O Brasil possui um sistema setorial de inovação desenvolvido, com capacidade para gerar
+                        e implementar as
+                        tecnologias necessárias. O país desenvolveu também um plano de IoT bem elaborado e com uma boa
+                        governança
+                        de acompanhamento. Finalmente, várias iniciativas mencionadas no texto anterior mostram o
+                        potencial de
+                        desenvolvimento da IoT no país.
                       </p>
                     </div>
                     <div class="pdf-displayer">
                       <br>
-                      <iframe id="pdfViewer" width="100%" height="500px" src="1007-5725-1-PB.pdf"></iframe>
+                      <iframe id="pdfViewer" width="100%" height="500px"
+                        src="pdfs\Radar_71_Art03_internet.pdf"></iframe>
                     </div>
                   </div>
                 </div>
@@ -349,7 +349,7 @@ A interconexão de dispositivos físicos com capacidades computacionais de detec
               <li>
                 <div class="artigo-info">
                   <span><a class="artigo-link"
-                      href="https://www.scielo.br/j/ccedes/a/BLbqJ3HLqnc8WsxtDypsVkB/?format=pdf&lang=pt"><i
+                      href="https://www.scielo.br/j/ccedes/a/BLbqJ3HLqnc8WsxtDypsVkB/?lang=pt"><i
                         class="fa fa-solid fa-file"></i>&nbsp&nbsp BIPES:
                       PROGRAMAÇÃO
                       DE
@@ -357,39 +357,38 @@ A interconexão de dispositivos físicos com capacidades computacionais de detec
                     class="eye"><i class="fa fa-solid fa-eye"></i></button>
                   <div class="artigo-inf">
                     <div class="artigo-p">
-                      <p><b>Revista:</b> 2018 Conexões - Ciência e Tecnologia</p>
-                      <p><b>Autores:</b> Moisés Panegassi Fachini, Nathalia Pinheiro Mesquita, Rafael Padovani Oliveira,
-                        Patricia Gallo de França</p>
+                      <p><b>Revista:</b> Cad. CEDES 43 (120) • May-Aug 2023</p>
+                      <p><b>Autores:</b> Jorge André Gastmaier Marques,
+                        Wesley Flávio Gueta,
+                        Tatiana de Figueiredo Pereira Alves Taveira Pazelli,
+                        Rafael Vidal Aroca.
+                      </p>
                       <p><b>Rusumo:</b>
                         <br>
-                        A tecnologia está em constante mudança e evolução, tendendo cada vez mais a se
-                        incorporar em diversos aspectos do nosso cotidiano, não se limitando apenas a computadores; ela
-                        vem agregando conectividade a objetos do nosso dia a dia. Este fenômeno é conhecido como
-                        “Internet
-                        das Coisas” e será objeto de estudo deste artigo. Porém, por se tratar de uma temática atual e
-                        que
-                        ainda é tendência para os próximos anos, não dispõe, ainda, de uma bibliografia mais consistente
-                        e
-                        aprofundada, especialmente na língua portuguesa. Essa constatação, motivou a escrita deste
-                        artigo
-                        que tem como objetivo reunir, sistematicamente, a bibliografia disponível para que, assim,
-                        possamos divulgar os conceitos e definições sobre esse tema, com maior facilidade, a quem se
-                        interesse pelo assunto, ou mesmo a curiosos que desejam entender um pouco mais desta tendência
-                        tecnológica. Metodologicamente, o estudo foi realizado através da coleta, leitura e análise de
-                        trabalhos científicos publicados, escolhidos por critérios pré-estabelecidos. Além disso, para
-                        compreendermos como esta tecnologia tem se desenvolvido, abordaremos sua história, seu
-                        surgimento
-                        e sua evolução, até chegarmos ao atual panorama. Desta forma, com a leitura desse artigo será
-                        possível definir o que é Internet das Coisas, identificar exemplos, conhecer seu contexto
-                        histórico, bem como as mudanças que essa tecnologia vem trazendo à realidade em que vivemos.
+                        O desenvolvimento de habilidades de programação de computadores é relevante em
+                        diversos contextos educacionais. As atividades práticas maker, de robótica e solução de
+                        problemas
+                        por projetos trazem resultados importantes para alunos que participam desses tipos de atividade.
+                        Entretanto, mesmo com tecnologias acessíveis, como o Arduino e o ESP8266, os custos e a
+                        dificuldade
+                        de instalação podem restringir o acesso a esses recursos educacionais. Nesse sentido, o Projeto
+                        Block
+                        Based Integrated Platform for Embedded Systems (BIPES) foi concebido no início do ano de 2020
+                        com o objetivo de facilitar essas atividades, oferecendo recursos como programação por blocos,
+                        suporte a vários dispositivos embarcados e a flexibilidade de dispensar a instalação e
+                        configuração
+                        de qualquer software adicional. Este artigo descreve os aspectos operacionais do Projeto BIPES e
+                        apresenta alguns resultados do seu uso em oficinas e outras atividades. Atualmente, o projeto
+                        conta
+                        com mais de 10 mil usuários.
                       </p>
                     </div>
                     <div class="pdf-displayer">
                       <br>
-                      <iframe id="pdfViewer" width="100%" height="500px" src="1007-5725-1-PB.pdf"></iframe>
+                      <iframe id="pdfViewer" width="100%" height="500px"
+                        src="pdfs\BIPES - PROGRAMAÇÃO DE DISPOSITIVOS ELETRÔNICOS.pdf"></iframe>
                     </div>
                   </div>
-                </div>
               </li>
               <li>
                 <div class="artigo-info">

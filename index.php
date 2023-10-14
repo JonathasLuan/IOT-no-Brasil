@@ -114,6 +114,7 @@
   </section>
   <section id="section-three">
     <div class="article-list" id="catalogo">
+      <img src="img\605e4ac20d5a2null.jpg" alt="">
     </div>
   </section>
   <img src="img/icons8-slide-up-64.png" id="scrollBtn" onclick="topFunction()" alt="Voltar ao topo">

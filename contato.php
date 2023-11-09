@@ -37,7 +37,7 @@ session_start();
   </header>
   <div class="conteudo">
     <div id="contactform">
-      <div style="padding: 40px;">
+      <div style="padding: 40px; margin: 0 auto;">
         <h2>Contate-nos</h2>
         <div id="formulario-container">
           <form action="email.php" method="POST">

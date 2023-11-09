@@ -184,7 +184,8 @@ header {
 }
 
 #section-three {
-  background-color: #eee;
+  background-color: #3F51B5;
+  height: 50vh;
 }
 
 #apresentacao article img {
@@ -220,18 +221,6 @@ article {
   justify-content: center;
 }
 
-#consulta-article {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  width: 100%;
-}
-
-#consulta-article img {
-  width: 150px;
-  height: 150px;
-}
-
 #cabeca {
   text-align: center;
   display: flex;
@@ -250,6 +239,11 @@ article {
 #section-three img {
   width: 100%;
   height: 100%;
+}
+
+#section-four {
+  background-color: #eee;
+  height: 50vh;
 }
 
 #scrollBtn {

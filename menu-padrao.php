@@ -26,6 +26,9 @@
             </div>
         </li>
         <li>
+            <a href="guiadelinks.php">guia de links</a>
+        </li>
+        <li>
             <a href="sobre.php">sobre</a>
         </li>
         <li>

@@ -15,6 +15,54 @@ session_start();
   <link rel="stylesheet" href="dark-mode.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
+    #cards {
+      display: flex;
+      margin: 0 auto;
+      width: 100%;
+      justify-content: space-around;
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 250px;
+      margin: auto;
+      text-align: center;
+      font-family: arial;
+    }
+
+    .capa-info {
+      padding: 20px;
+    }
+
+    .title {
+      color: grey;
+      font-size: 18px;
+    }
+
+    button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+
+    a {
+      text-decoration: none;
+      font-size: 22px;
+      color: black;
+    }
+
+    button:hover,
+    button:hover {
+      opacity: 0.7;
+    }
+
     #agrad {
       float: right;
     }
@@ -39,18 +87,8 @@ session_start();
   </header>
   <div id="conteudo">
     <div class="main" id="sobreprojeto">
-      <p><b>
-          <ul>
-            <li>JONATHAS LUAN (github_JonathasLuan)</li>
-            <li>PAMELA MARTINS</li>
-            <li>FERNANDO BATISTA</li>
-            <li>CRISTIANA FARIAS</li>
-          </ul>
-        </b>
-      </p>
-      <br>
       <h1>IoTudo</h1>
-      <p></p>
+
       <h2>Sobre Nós</h2>
 
       <p>Bem-vindo ao nosso site dedicado à Internet das Coisas (IoT) no Brasil! Aqui, nossa missão é clara e direta:
@@ -64,6 +102,51 @@ session_start();
         especialistas e educadores dedicados ao campo da IoT. Acreditamos que a IoT tem o potencial de revolucionar
         vidas,
         negócios e comunidades, e estamos empenhados em compartilhar esse conhecimento com você.</p>
+      <div id="equipe">
+        <h3 style="text-align:center">Nossa Equipe</h3>
+
+        <div id="cards" style="text-align:center">
+          <div class="card">
+            <img src="img/avatar1.png" alt="John" style="width:100%">
+            <div class="capa-info">
+              <h2>Jonathas Luan</h2>
+              <p class="title">CEO & Founder, Example</p>
+              <p>Harvard University</p>
+            </div>
+            <p><a href=""><button>GitHub</button></a></p>
+          </div>
+
+          <div class="card">
+            <img src="img/avatar2.png" alt="John" style="width:100%">
+            <div class="capa-info">
+              <h2>Cristina Farias</h2>
+              <p class="title">CEO & Founder, Example</p>
+              <p>Harvard University</p>
+            </div>
+            <p><a href=""><button>GitHub</button></a></p>
+          </div>
+
+          <div class="card">
+            <img src="img/avatar3.png" alt="John" style="width:100%">
+            <div class="capa-info">
+              <h2>Fernando Batista</h2>
+              <p class="title">CEO & Founder, Example</p>
+              <p>Harvard University</p>
+            </div>
+            <p><a href=""><button>GitHub</button></a></p>
+          </div>
+
+          <div class="card">
+            <img src="img/avatar4.png" alt="John" style="width:100%">
+            <div class="capa-info">
+              <h2>Pamela Martins</h2>
+              <p class="title">CEO & Founder, Example</p>
+              <p>Harvard University</p>
+            </div>
+            <p><a href=""><button>GitHub</button></a></p>
+          </div>
+        </div>
+      </div>
       <br>
       <h2>Nossa Missão:</h2>
 
@@ -80,19 +163,20 @@ session_start();
       <br>
       <h2>O Que Oferecemos:</h2>
 
-      - **Artigos Educativos:** Publicamos regularmente artigos informativos e tutoriais que explicam os conceitos
-      fundamentais da IoT de maneira clara e acessível.
+      <li><b>Artigos Educativos:</b> Publicamos regularmente artigos informativos e tutoriais que explicam os conceitos
+        fundamentais da IoT de maneira clara e acessível.</li>
 
-      - **Notícias e Tendências:** Mantemo-lo atualizado com as últimas notícias e tendências no mundo da IoT,
-      especialmente as que têm relevância para o Brasil.
+      <li><b>Notícias e Tendências:</b> Mantemo-lo atualizado com as últimas notícias e tendências no mundo da IoT,
+        especialmente as que têm relevância para o Brasil.</li>
 
-      - **Guias Práticos:** Fornecemos guias práticos passo a passo para ajudá-lo a iniciar seus próprios projetos de
-      IoT, desde construir um dispositivo simples até desenvolver soluções avançadas.
+      <li><b>Guias Práticos:</b> Fornecemos guias práticos passo a passo para ajudá-lo a iniciar seus próprios projetos
+        de
+        IoT, desde construir um dispositivo simples até desenvolver soluções avançadas.</li>
 
-      - **Recursos e Ferramentas:** Apresentamos recursos úteis, como plataformas de desenvolvimento, hardware
-      recomendado e muito mais, para facilitar sua jornada na IoT.
+      <li><b>Recursos e Ferramentas:</b> Apresentamos recursos úteis, como plataformas de desenvolvimento, hardware
+        recomendado e muito mais, para facilitar sua jornada na IoT.</li>
 
-      **Por que Estamos Aqui:**
+      <h2>Por que Estamos Aqui:</h2>
 
       <p>Estamos aqui porque acreditamos que a IoT é uma das tecnologias mais emocionantes e transformadoras de nossa
         era.

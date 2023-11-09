@@ -112,13 +112,22 @@
       </div>
   </div>
   </section>
+
   <section id="section-three">
-    <div class="article-list" id="catalogo">
+    <div class="">
     </div>
   </section>
+
+  <section id="section-four">
+    <div class="">
+    </div>
+  </section>
+
   <img src="img/icons8-slide-up-64.png" id="scrollBtn" onclick="topFunction()" alt="Voltar ao topo">
   </div>
+
   <script src="homeJS.js"></script>
+
   <script>
     // Mostra o botão de rolagem quando o usuário rola a página em 20px
     window.onscroll = function () { scrollFunction() };

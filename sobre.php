@@ -70,6 +70,21 @@ session_start();
     h2 {
       text-align: center;
     }
+
+    #gitlink {
+      background-color: blue;
+      color: white;
+      padding: 20px;
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    #gitlink a {
+      color: white;
+    }
+    #gitlink:hover {
+      background-color: #2196f3;
+    }
   </style>
 </head>
 
@@ -109,9 +124,9 @@ session_start();
           <div class="card">
             <img src="img/avatar1.png" alt="John" style="width:100%">
             <div class="capa-info">
-              <h2>Jonathas Luan</h2>
-              <p class="title">CEO & Founder, Example</p>
-              <p>Harvard University</p>
+              <h2 style="text-align:center">Jonathas Luan</h2>
+              <p class="title" style="text-align:center">3° B Informática</p>
+              <p style="text-align:center">ETEC JK</p>
             </div>
             <p><a href=""><button>GitHub</button></a></p>
           </div>
@@ -119,9 +134,9 @@ session_start();
           <div class="card">
             <img src="img/avatar2.png" alt="John" style="width:100%">
             <div class="capa-info">
-              <h2>Cristina Farias</h2>
-              <p class="title">CEO & Founder, Example</p>
-              <p>Harvard University</p>
+              <h2 style="text-align:center">Cristina Farias</h2>
+              <p class="title" style="text-align:center">3° B Informática</p>
+              <p style="text-align:center">ETEC JK</p>
             </div>
             <p><a href=""><button>GitHub</button></a></p>
           </div>
@@ -129,9 +144,9 @@ session_start();
           <div class="card">
             <img src="img/avatar3.png" alt="John" style="width:100%">
             <div class="capa-info">
-              <h2>Fernando Batista</h2>
-              <p class="title">CEO & Founder, Example</p>
-              <p>Harvard University</p>
+              <h2 style="text-align:center">Fernando Batista</h2>
+              <p class="title" style="text-align:center">3° B Informática</p>
+              <p style="text-align:center">ETEC JK</p>
             </div>
             <p><a href=""><button>GitHub</button></a></p>
           </div>
@@ -139,9 +154,9 @@ session_start();
           <div class="card">
             <img src="img/avatar4.png" alt="John" style="width:100%">
             <div class="capa-info">
-              <h2>Pamela Martins</h2>
-              <p class="title">CEO & Founder, Example</p>
-              <p>Harvard University</p>
+              <h2 style="text-align:center">Pamela Martins</h2>
+              <p class="title" style="text-align:center">3° B Informática</p>
+              <p style="text-align:center">ETEC JK</p>
             </div>
             <p><a href=""><button>GitHub</button></a></p>
           </div>
@@ -197,6 +212,10 @@ session_start();
         <br>
         A Equipe IoTudo.
       </p>
+      <br><br>
+      <div id="gitlink">
+        <a href="https://github.com/JonathasLuan/IOT-no-Brasil">Nosso Repositório</a>
+      </div>
     </div>
   </div>
 

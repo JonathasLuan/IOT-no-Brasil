@@ -122,6 +122,16 @@ session_start();
         de maneira positiva. À medida que avançamos na era da IoT, devemos abraçar seu potencial e promover a inovação
         responsável para criar um futuro mais inteligente e conectado.
       </p>
+      <br><br>
+      <div class="video-reco">
+        <div class="video">
+          <iframe src="" frameborder="0"></iframe>
+          <h2>Título do Vídeo</h2>
+          <a href=""><button>
+              <link rel="stylesheet" href="">
+            </button></a>
+        </div>
+      </div>
     </div>
     <?php
     include('footer.php');

@@ -124,6 +124,16 @@ session_start();
         aprender sobre eletrônica, programação ou simplesmente deseja dar vida às suas ideias, o Arduino é uma excelente
         escolha. Com recursos infinitos disponíveis online e uma comunidade dedicada, você está prestes a embarcar em
         uma emocionante jornada de descoberta e criação. Portanto, pegue sua placa Arduino e comece a criar!</p>
+      <br><br>
+      <div class="video-reco">
+        <div class="video">
+          <iframe src="" frameborder="0"></iframe>
+          <h2>Título do Vídeo</h2>
+          <a href=""><button>
+              <link rel="stylesheet" href="">
+            </button></a>
+        </div>
+      </div>
     </div>
     <?php
     include('footer.php');

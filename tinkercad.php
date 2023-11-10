@@ -93,7 +93,16 @@ session_start();
         tornam ainda mais essenciais na educação e no desenvolvimento de habilidades, o Tinkercad continuará a
         desempenhar um papel fundamental na formação do futuro. É uma ferramenta que transcende fronteiras e barreiras,
         capacitando pessoas de todas as idades a transformar suas ideias em realidade.</p>
-
+      <br><br>
+      <div class="video-reco">
+        <div class="video">
+          <iframe src="" frameborder="0"></iframe>
+          <h2>Título do Vídeo</h2>
+          <a href=""><button>
+              <link rel="stylesheet" href="">
+            </button></a>
+        </div>
+      </div>
     </div>
     <?php
     include('footer.php');

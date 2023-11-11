@@ -1,0 +1,37 @@
+article {
+    width: 40%;
+    margin-bottom: 20px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #ccc;
+    text-align: center;
+    overflow: hidden;
+}
+
+article img {
+    width: 100%;
+    max-height: 80% !important;
+    /* object-fit: cover; */
+}
+
+article h2 {
+    margin: 10px;
+}
+
+article p {
+    margin: 20px !important;
+}
+
+article a {
+    text-decoration: none;
+    color: black;
+}
+
+article:hover {
+    background-color: #ddd;
+}
+
+#art-reco {
+    display: flex;
+    justify-content: space-between;
+}

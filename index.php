@@ -114,7 +114,10 @@
   </section>
 
   <section id="section-three">
-    <div class="">
+    <div class="chamada" style="color: white; padding: 50px; width: 30%;">
+      <h1>Explore nossa plataforma!</h1>
+      <p>Aqui você encontrará inúmeros artigos relacionados à Internet das Coisas, além de excelentes recomendações de
+        leitura e estudo em sites, fóruns e canais do YouTube que abordam o universo da coinexão de dispositivos.</p>
     </div>
   </section>
 

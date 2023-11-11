@@ -103,7 +103,7 @@ session_start();
           as empresas devem notificar as autoridades e os titulares dos dados afetados.</li>
 
         <li><b>Garantir Segurança de Dados:</b> Implementar medidas de segurança para proteger os dados pessoais contra
-            vazamentos e acessos não autorizados.</li>
+          vazamentos e acessos não autorizados.</li>
 
         <li><b>Realizar Avaliações de Impacto à Privacidade:</b> Em determinadas circunstâncias, é necessário realizar
           Avaliações de Impacto à Privacidade (AIPs) para determinar o risco do tratamento de dados.</li>
@@ -130,6 +130,40 @@ session_start();
         evoluir e a coleta de dados se torna cada vez mais comum, a LGPD desempenha um papel vital na garantia de que as
         informações pessoais sejam tratadas de maneira ética e segura. É imperativo que as empresas e os indivíduos
         compreendam e cumpram as disposições da LGPD para garantir a proteção dos direitos de privacidade de todos.</p>
+
+      <br><br>
+      <hr>
+      <div id="art-recom">
+        <h1>Leituras recomendadas</h1>
+        <div id="art-reco">
+          <article>
+            <a href="oque-é-iot.php"><img src="img/oqueéiot.png" alt="Image 1" /></a>
+            <a href="oque-é-iot.php">
+              <h2>O que é IoT?</h2>
+            </a>
+            <p>A Internet das Coisas (IoT) emergiu como uma das tecnologias mais promissoras e transformadoras deste
+              século. Ela está mudando fundamentalmente ...</p>
+          </article>
+          <article>
+            <a href="objetos-conectados.php"><img src="img/objconect.jpg" alt="Image 2" /></a>
+            <a href="objetos-conectados.php">
+              <h2>Objetos Conectados</h2>
+            </a>
+            <p>A conectividade é um dos pilares fundamentais da Internet das Coisas (IoT) e do mundo da eletrônica, onde
+              o Arduino desempenha um papel essencial. A escolha ...</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="video-reco">
+        <div class="video">
+          <iframe src="" frameborder="0"></iframe>
+          <h2>Título do Vídeo</h2>
+          <a href=""><button>
+              <link rel="stylesheet" href="">
+            </button></a>
+        </div>
+      </div>
     </div>
     <?php
     include('footer.php');

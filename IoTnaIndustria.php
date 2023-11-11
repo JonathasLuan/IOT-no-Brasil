@@ -13,6 +13,7 @@ session_start();
   <link rel="stylesheet" href="./index.css">
   <link rel="stylesheet" href="serviços-list.css">
   <link rel="stylesheet" href="dark-mode.css">
+  <link rel="stylesheet" href="art.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -137,6 +138,39 @@ session_start();
         podemos
         esperar que a indústria se torne ainda mais adaptável e resiliente, impulsionando a inovação e a competitividade
         em escala global. A IoT está definida para ser um dos motores da próxima revolução industrial.</p>
+      <br><br>
+      <hr>
+      <div id="art-recom">
+        <h1>Leituras recomendadas</h1>
+        <div id="art-reco">
+          <article>
+            <a href="oque-é-iot.php"><img src="img/oqueéiot.png" alt="Image 1" /></a>
+            <a href="oque-é-iot.php">
+              <h2>O que é IoT?</h2>
+            </a>
+            <p>A Internet das Coisas (IoT) emergiu como uma das tecnologias mais promissoras e transformadoras deste
+              século. Ela está mudando fundamentalmente ...</p>
+          </article>
+          <article>
+            <a href="objetos-conectados.php"><img src="img/objconect.jpg" alt="Image 2" /></a>
+            <a href="objetos-conectados.php">
+              <h2>Objetos Conectados</h2>
+            </a>
+            <p>A conectividade é um dos pilares fundamentais da Internet das Coisas (IoT) e do mundo da eletrônica, onde
+              o Arduino desempenha um papel essencial. A escolha ...</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="video-reco">
+        <div class="video">
+          <iframe src="" frameborder="0"></iframe>
+          <h2>Título do Vídeo</h2>
+          <a href=""><button>
+              <link rel="stylesheet" href="">
+            </button></a>
+        </div>
+      </div>
     </div>
 
     <?php

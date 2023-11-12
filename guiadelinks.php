@@ -14,6 +14,10 @@ session_start();
   <link rel="stylesheet" href="serviços-list.css">
   <link rel="stylesheet" href="dark-mode.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
+    defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet"
+    crossorigin="anonymous">
   <style>
     section {
       height: 100%;
@@ -45,17 +49,19 @@ session_start();
 
     .canal-pic img {
       border-radius: 50%;
-      border: 1px solid;
+      border: 2px solid;
       height: 200px;
       width: 200px;
     }
 
-    .canal-btn {
+    .canal-btn,
+    .video-btn {
       width: 100px;
       background-color: red;
       color: white;
       padding: 10px 30px;
       text-align: center;
+      font-weight: bold;
     }
 
     .canal-title {
@@ -99,14 +105,6 @@ session_start();
       margin-left: 150px;
     }
 
-    .canal {
-      width: 30%;
-    }
-
-    .video {
-      width: 70%;
-    }
-
     .site-pic img,
     .forum-pic img {
       border: 1px solid;
@@ -143,11 +141,56 @@ session_start();
 
     .video {
       flex: 1;
-      margin-left: 20px;
+      margin: 20px;
+      width: 70%;
     }
 
-    .slideshow-container {
-      width: 50%;
+    .slider-container {}
+
+    .slider-container li {
+      margin: 0px !important;
+    }
+
+    .carousel-container {
+      position: relative;
+      width: 80%;
+      margin: 50px auto;
+      overflow: hidden;
+    }
+
+    .carousel {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .carousel-item {
+      min-width: 100%;
+      overflow: hidden;
+    }
+
+    .carousel-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .carousel-container #btn {
+      position: absolute;
+      top: 50%;
+      color: white;
+      transform: translateY(-50%);
+      font-size: 24px;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    .carousel-container .prev {
+      left: 10px;
+    }
+
+    .carousel-container .next {
+      right: 10px;
     }
   </style>
 </head>
@@ -172,52 +215,52 @@ session_start();
           <div class="canal">
             <div class="canal-info">
               <div class="canal-pic">
-                <img src="img/channels4_profile.jpg" alt="">
+                <img src="img/channels4_profile.jpg" alt="manual-do-mundo">
               </div>
               <div class="canal-title">
                 <h2>Manual do Mundo</h2>
                 <p class="canal-dados">@manualdomundo18,2 mi de inscritos2,5 mil vídeos</p>
-                <a href="https://www.youtube.com/channel/UCKHhA5hN2UohhFDfNXB_cvQ"><button class="canal-btn">Link</button></a>
+                <a href="https://www.youtube.com/@manualdomundo"><button class="canal-btn">Visitar</button></a>
+              </div>
+
+              <div class="curso-info">
+                <h1>#ManualMaker</h1>
+                <p>A playlist é uma série de vídeos focados em apresentar e ensinar diversas habilidades e conceitos
+                  relacionados ao mundo da automação, programação de dispositivos e noções de elétrica e conexões de
+                  placas, sendu uma ótima introdução ao DIY e IoT.</p>
               </div>
             </div>
-            <div class="video">
-              <div class="slideshow-container">
 
-                <div class="mySlides fade">
-                  <div class="numbertext">1 / 3</div>
-                  <div class="video-displayer">
-                    <iframe src="https://youtu.be/lTRFhj6QMNY?si=-x4-G6SaNGpykPN3"></iframe>
-                  </div>
-                  <div class="video-info">
-                    <div class="video-title">
-                      <h3>Título do Vídeo</h3>
+            <div class="video">
+              <div class="carousel-container">
+                <div class="carousel">
+                  <div class="carousel-item">
+                    <img src="img/o queéumarduino.jpg" alt="Video 1">
+                    <div>
+                      <h1>O que é Arduino, afinal de contas? #ManualMaker Aula 4, Vídeo 1</h1>
+                      <a href="https://youtu.be/sv9dDtYnE1g?si=uXkTmHHO1yIEPjYZ"><button
+                          class="video-btn">Assistir</button></a>
                     </div>
                   </div>
-                  <div class="texto">Caption Text</div>
+                  <div class="carousel-item">
+                    <img src="img/comousarferrodesolda.jpg" alt="Video 2">
+                    <div>
+                      <h1>Como usar um ferro de solda #ManualMaker Aula 4, Vídeo 2</h1>
+                      <a href="https://youtu.be/MGbgyuVXRcI?si=q64rWaNtzO_eBwmC"><button
+                          class="video-btn">Assistir</button></a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/usearduino.jpg" alt="Video 3">
+                    <div>
+                      <h1>Use um Arduino sem ter Arduino! #ManualMaker Aula 5, Vídeo 1</h1>
+                      <a href="https://youtu.be/CrHJj4OQ6Sw?si=h88wfy99osJN0kyW"><button
+                          class="video-btn">Assistir</button></a>
+                    </div>
+                  </div>
                 </div>
-
-                <div class="mySlides fade">
-                  <div class="numbertext">2 / 3</div>
-                  <img src="img/channels4_profile.jpg" style="width:100%">
-                  <div class="texto">Caption Two</div>
-                </div>
-
-                <div class="mySlides fade">
-                  <div class="numbertext">3 / 3</div>
-                  <img src="img/channels4_profile.jpg" style="width:100%">
-                  <div class="texto">Caption Three</div>
-                </div>
-
-                <a class="prev" onclick="plusSlides(-1)">❮</a>
-                <a class="next" onclick="plusSlides(1)">❯</a>
-
-              </div>
-              <br>
-
-              <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
+                <button id="btn" class="prev">&lt;</button>
+                <button id="btn" class="next">&gt;</button>
               </div>
             </div>
           </div>
@@ -244,8 +287,34 @@ session_start();
                   em todo o mundo.</p>
               </div>
               <div class="site-a">
-                <a href="https://www.tinkercad.com/"><button>Link</button></a>
+                <a href="https://www.tinkercad.com/"><button>Visitar</button></a>
               </div>
+            </div>
+          </div>
+
+          <div class="site">
+            <div class="site-info">
+              <div class="site-pic">
+                <img src="img/wokwi1.jpg" alt="">
+              </div>
+              <div class="site-title">
+                <h2>WOKWI</h2>
+              </div>
+
+              <div class="site-a">
+                <a href="https://wokwi.com/"><button>Visitar</button></a>
+              </div>
+            </div>
+            <div class="description">
+              <div class="site-p">
+                <p>O Wokwi é um simulador de eletrônica online. Você pode usá-lo para simular Arduino, Raspberry Pi
+                  Pico, ESP32 e muitas outras placas, componentes e sensores populares.
+                  Ele foi criado por Uri Shaked e hoje é mantido de forma open source por uma comunidade.
+                  Inicialmente o Wokwi só possuía placas Arduino baseadas em AVR, como UNO, Mega e Nano e também
+                  ATtiny85. Inclusive a Franzininho DIY está na lista de placas suportadas graças a contribuição do
+                  Anderson Costa, membro das comunidades Wokwi e Franzininho.</p>
+              </div>
+              <img src="img/wokwi.png" alt="" style="width: 900px;">
             </div>
           </div>
         </div>
@@ -257,52 +326,50 @@ session_start();
         <div class="canal">
           <div class="canal-info">
             <div class="canal-pic">
-              <img src="img/channels4_profile.jpg" alt="">
+              <img src="img/brincandocomideias.jpg" alt="manual-do-mundo">
             </div>
             <div class="canal-title">
-              <h2>Manual do Mundo</h2>
-              <p class="canal-dados">@manualdomundo18,2 mi de inscritos2,5 mil vídeos</p>
-              <button class="canal-btn">Link</button>
+              <h2>Brincando com Ideias</h2>
+              <p class="canal-dados">@BrincandocomIdeias‧488 mil inscritos‧1,2 mil vídeos</p>
+              <a href="https://www.youtube.com/@BrincandocomIdeias"><button class="canal-btn">Visitar</button></a>
+            </div>
+
+            <div class="curso-info">
+              <h1></h1>
+              <p></p>
             </div>
           </div>
-          <div class="video">
-            <div class="slideshow-container">
 
-              <div class="mySlides fade">
-                <div class="numbertext">1 / 3</div>
-                <div class="video-displayer">
-                  <iframe src="https://youtu.be/lTRFhj6QMNY?si=-x4-G6SaNGpykPN3"></iframe>
-                </div>
-                <div class="video-info">
-                  <div class="video-title">
-                    <h3>Título do Vídeo</h3>
+          <div class="video">
+            <div class="carousel-container">
+              <div class="carousel">
+                <div class="carousel-item">
+                  <img src="img/Curs deArduinopara Iniciantes1.jpg" alt="Video 1">
+                  <div>
+                    <h1>Curso de Arduino para Iniciantes - Aula 01 - Primeiros Passos (Exemplo de um Vumeter)</h1>
+                    <a href="https://youtu.be/oOWuq_Nazig?si=Uzx46XE2HRxA5DEI"><button
+                        class="video-btn">Assistir</button></a>
                   </div>
                 </div>
-                <div class="texto">Caption Text</div>
+                <div class="carousel-item">
+                  <img src="img/comousarferrodesolda.jpg" alt="Video 2">
+                  <div>
+                    <h1>Como usar um ferro de solda #ManualMaker Aula 4, Vídeo 2</h1>
+                    <a href="https://youtu.be/MGbgyuVXRcI?si=q64rWaNtzO_eBwmC"><button
+                        class="video-btn">Assistir</button></a>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/usearduino.jpg" alt="Video 3">
+                  <div>
+                    <h1>Use um Arduino sem ter Arduino! #ManualMaker Aula 5, Vídeo 1</h1>
+                    <a href="https://youtu.be/CrHJj4OQ6Sw?si=h88wfy99osJN0kyW"><button
+                        class="video-btn">Assistir</button></a>
+                  </div>
+                </div>
               </div>
-
-              <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="img/channels4_profile.jpg" style="width:100%">
-                <div class="texto">Caption Two</div>
-              </div>
-
-              <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="img/channels4_profile.jpg" style="width:100%">
-                <div class="texto">Caption Three</div>
-              </div>
-
-              <a class="prev" onclick="plusSlides(-1)">❮</a>
-              <a class="next" onclick="plusSlides(1)">❯</a>
-
-            </div>
-            <br>
-
-            <div style="text-align:center">
-              <span class="dot" onclick="currentSlide(1)"></span>
-              <span class="dot" onclick="currentSlide(2)"></span>
-              <span class="dot" onclick="currentSlide(3)"></span>
+              <button id="btn" class="prev">&lt;</button>
+              <button id="btn" class="next">&gt;</button>
             </div>
           </div>
         </div>
@@ -314,23 +381,47 @@ session_start();
         <div class="site">
           <div class="site-info">
             <div class="site-pic">
-              <img src="img/tinkercad.jpg" alt="">
+              <img src="img/FN3EKLMHWL2BOAS.webp" alt="fritzing" style="width: auto;">
             </div>
             <div class="site-title">
-              <h2>Nome do Site</h2>
+              <h2>Fritzing</h2>
             </div>
           </div>
           <div class="description">
             <div class="site-p">
-              <p>O Tinkercad é uma plataforma online de prototipagem e modelagem 3D que combina simplicidade e poder
-                para permitir que pessoas de todas as idades e níveis de habilidade criem projetos eletrônicos,
-                impressões 3D e simulações virtuais de maneira descomplicada. Fundado em 2011 e adquirido pela
-                Autodesk em 2013, o Tinkercad é amplamente utilizado em escolas, universidades e pela comunidade maker
-                em todo o mundo.</p>
+              <p>Fritzing é uma iniciativa de código aberto para desenvolver um software tipo CAD amador para design de
+                hardware eletrônico, para apoiar designers e artistas prontos para deixar de experimentar um protótipo e
+                construir um circuito mais permanente com uma Placa de Circuito Impresso.</p>
             </div>
             <div class="site-a">
-              <a href=""><button>Link</button></a>
+              <a href="https://fritzing.org/"><button>Visitar</button></a>
             </div>
+          </div>
+        </div>
+
+        <div class="site">
+          <div class="site-info">
+            <div class="site-pic">
+              <img src="img/embarcados.jpg" alt="embarcados" src="img/FN3EKLMHWL2BOAS.webp" alt="" style="width: auto;">
+            </div>
+            <div class="site-title">
+              <h2>EMBARCADOS</h2>
+            </div>
+            <div class="site-a">
+              <a href="https://embarcados.com.br/"><button>Visitar</button></a>
+            </div>
+          </div>
+          <div class="description">
+            <h1>FRANZINHO WIFI</h1>
+            <div class="site-p">
+              <p>A Franzininho WIFI é uma placa de desenvolvimento de hardware de código aberto, baseada no ESP32-S2 e
+                criada no Brasil. A sua finalidade principal é tornar o desenvolvimento de projetos eletrônicos mais
+                acessível a makers, entusiastas e desenvolvedores brasileiros.
+
+                A placa pode ser programada de várias maneiras, adequando-se tanto a iniciantes quanto a desenvolvedores
+                experientes.</p>
+            </div>
+            <img src="img/franzinho.jpeg" alt="" style="width: 900px;">
           </div>
         </div>
       </div>
@@ -346,7 +437,7 @@ session_start();
                 <div class="forum">
                   <div class="forum-info">
                     <div class="forum-pic">
-                      <img src="img/tinkercad.jpg" alt="">
+                      <img src="img/stackoverflow-1.png" alt="">
                     </div>
                     <div class="forum-title">
                       <h2>1. Stack Overflow</h2>
@@ -365,7 +456,7 @@ session_start();
                         traduzido em russo, português, japonês, espanhol, alemão e turco.</p>
                     </div>
                     <div class="forum-a">
-                      <a href=""><button>Link</button></a>
+                      <a href="https://stackoverflow.com/"><button>Visitar</button></a>
                     </div>
                   </div>
                 </div>
@@ -375,7 +466,7 @@ session_start();
                 <div class="forum">
                   <div class="forum-info">
                     <div class="forum-pic">
-                      <img src="img/tinkercad.jpg" alt="">
+                      <img src="img/4ba86580debb5f67a4f4a5ac3c1bf61a.WEBP" alt="">
                     </div>
                     <div class="forum-title">
                       <h2>2. Reddit</h2>
@@ -392,7 +483,7 @@ session_start();
                         AndroidDev. Já está registado no Reddit?</p>
                     </div>
                     <div class="forum-a">
-                      <a href=""><button>Link</button></a>
+                      <a href="https://www.reddit.com/?rdt=35859"><button>Visitar</button></a>
                     </div>
                   </div>
                 </div>
@@ -402,7 +493,7 @@ session_start();
                 <div class="forum">
                   <div class="forum-info">
                     <div class="forum-pic">
-                      <img src="img/tinkercad.jpg" alt="">
+                      <img src="img/product-hunt-image-720x480.WEBP" alt="">
                     </div>
                     <div class="forum-title">
                       <h2>3. Product Hunt</h2>
@@ -421,7 +512,7 @@ session_start();
                         Artificial, tópicos de discussão C/C+.</p>
                     </div>
                     <div class="forum-a">
-                      <a href=""><button>Link</button></a>
+                      <a href="https://www.producthunt.com/"><button>Visitar</button></a>
                     </div>
                   </div>
                 </div>
@@ -431,7 +522,7 @@ session_start();
                 <div class="forum">
                   <div class="forum-info">
                     <div class="forum-pic">
-                      <img src="img/tinkercad.jpg" alt="">
+                      <img src="img/Codementor_CIS.png" alt="">
                     </div>
                     <div class="forum-title">
                       <h2>4. Codementor</h2>
@@ -449,7 +540,7 @@ session_start();
                         e dados anteriormente desconhecidos.</p>
                     </div>
                     <div class="forum-a">
-                      <a href=""><button>Link</button></a>
+                      <a href="https://www.codementor.io/"><button>Visitar</button></a>
                     </div>
                   </div>
                 </div>
@@ -459,7 +550,7 @@ session_start();
                 <div class="forum">
                   <div class="forum-info">
                     <div class="forum-pic">
-                      <img src="img/tinkercad.jpg" alt="">
+                      <img src="img/codeguru.jpeg" alt="">
                     </div>
                     <div class="forum-title">
                       <h2>5. CodeGuru</h2>
@@ -476,7 +567,7 @@ session_start();
                         são VC ++ / MFC / C ++, .NET / C #, Visual Basic.</p>
                     </div>
                     <div class="forum-a">
-                      <a href=""><button>Link</button></a>
+                      <a href="https://www.codeguru.com/"><button>Visitar</button></a>
                     </div>
                   </div>
                 </div>
@@ -486,7 +577,7 @@ session_start();
                 <div class="forum">
                   <div class="forum-info">
                     <div class="forum-pic">
-                      <img src="img/tinkercad.jpg" alt="">
+                      <img src="img/digitalpoint.jpg" alt="">
                     </div>
                     <div class="forum-title">
                       <h2>6. Digital Point</h2>
@@ -502,7 +593,7 @@ session_start();
                         Domínios.</p>
                     </div>
                     <div class="forum-a">
-                      <a href=""><button>Link</button></a>
+                      <a href="https://www.digitalpoint.com/"><button>Visitar</button></a>
                     </div>
                   </div>
                 </div>
@@ -512,7 +603,7 @@ session_start();
                 <div class="forum">
                   <div class="forum-info">
                     <div class="forum-pic">
-                      <img src="img/tinkercad.jpg" alt="">
+                      <img src="img/codeproject.png" alt="">
                     </div>
                     <div class="forum-title">
                       <h2>7. Codeproject.com</h2>
@@ -527,7 +618,7 @@ session_start();
                         Visual Basic, Inteligência Artificial, C/C+. #8. Teamtreehouse</p>
                     </div>
                     <div class="forum-a">
-                      <a href=""><button>Link</button></a>
+                      <a href="https://www.codeproject.com/"><button>Visitar</button></a>
                     </div>
                   </div>
                 </div>
@@ -537,7 +628,7 @@ session_start();
                 <div class="forum">
                   <div class="forum-info">
                     <div class="forum-pic">
-                      <img src="img/tinkercad.jpg" alt="">
+                      <img src="img/1200px-Quora_icon.svg.png" alt="">
                     </div>
                     <div class="forum-title">
                       <h2>8. Quora</h2>
@@ -554,7 +645,7 @@ session_start();
                         específicas à sua pergunta.</p>
                     </div>
                     <div class="forum-a">
-                      <a href=""><button>Link</button></a>
+                      <a href="https://pt.quora.com/"><button>Visitar</button></a>
                     </div>
                   </div>
                 </div>
@@ -564,10 +655,10 @@ session_start();
                 <div class="forum">
                   <div class="forum-info">
                     <div class="forum-pic">
-                      <img src="img/tinkercad.jpg" alt="">
+                      <img src="img/hn-logo-dribbble-shot.png" alt="">
                     </div>
                     <div class="forum-title">
-                      <h2>9. Notícias Hacker</h2>
+                      <h2>9. Hacker News</h2>
                     </div>
                   </div>
                   <div class="description">
@@ -579,11 +670,10 @@ session_start();
                         e soluções prontos a utilizar, mas também abordagens não padronizadas a problemas típicos -
                         fácil! O
                         fórum dá uma ideia do que está a acontecer em termos de marketing, design, desenvolvimento e
-                        design.
-                        #10. DZONE</p>
+                        design.</p>
                     </div>
                     <div class="forum-a">
-                      <a href=""><button>Link</button></a>
+                      <a href="https://news.ycombinator.com/"><button>Visitar</button></a>
                     </div>
                   </div>
                 </div>
@@ -593,7 +683,7 @@ session_start();
                 <div class="forum">
                   <div class="forum-info">
                     <div class="forum-pic">
-                      <img src="img/tinkercad.jpg" alt="">
+                      <img src="img/1574351436345.jpeg" alt="">
                     </div>
                     <div class="forum-title">
                       <h2>10. DZONE</h2>
@@ -609,7 +699,7 @@ session_start();
                         número de questões debatidas no domínio das TI é bastante impressionante.</p>
                     </div>
                     <div class="forum-a">
-                      <a href=""><button>Link</button></a>
+                      <a href="https://dzone.com/"><button>Visitar</button></a>
                     </div>
                   </div>
                 </div>
@@ -625,6 +715,27 @@ session_start();
     include('set_theme_session.php');
     ?>
   </main>
+
+  <script>const carousel = document.querySelector('.carousel');
+    const prevButton = document.querySelector('.prev');
+    const nextButton = document.querySelector('.next');
+    let currentIndex = 0;
+
+    function showSlide(index) {
+      const offset = -index * 100 + '%';
+      carousel.style.transform = `translateX(${offset})`;
+    }
+
+    prevButton.addEventListener('click', () => {
+      currentIndex = (currentIndex - 1 + 3) % 3;
+      showSlide(currentIndex);
+    });
+
+    nextButton.addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % 3;
+      showSlide(currentIndex);
+    });
+  </script>
 
   <script>
     let slideIndex = 1;

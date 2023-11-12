@@ -107,14 +107,14 @@
             <p>Prepare-se para mergulhar no emocionante mundo da Internet das Coisas e descobrir como essa tecnologia
               está transformando nosso mundo de maneiras que nunca sonhamos serem possíveis. Junte-se a nós enquanto
               exploramos os limites da conectividade e da inovação. </p>
+          </article>
         </div>
-        </article>
       </div>
   </div>
   </section>
 
   <section id="section-three">
-    <div class="chamada" style="color: white; padding: 50px; width: 30%;">
+    <div class="chamada1" style="color: white; padding: 50px; width: 30%;">
       <h1>Explore nossa plataforma!</h1>
       <p>Aqui você encontrará inúmeros artigos relacionados à Internet das Coisas, além de excelentes recomendações de
         leitura e estudo em sites, fóruns e canais do YouTube que abordam o universo da coinexão de dispositivos.</p>
@@ -122,7 +122,8 @@
   </section>
 
   <section id="section-four">
-    <div class="">
+    <div class="chamada2">
+      <img src="img/logoiotudo.png" alt="IoTudo" style="width: 300px; height: auto; margin: 100px;">
     </div>
   </section>
 
@@ -151,6 +152,7 @@
       });
     }
   </script>
+
   <script>
     // Get the modal
     var modal = document.getElementById("myModal");

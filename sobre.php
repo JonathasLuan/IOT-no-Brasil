@@ -50,7 +50,7 @@ session_start();
 
         <div id="cards" style="text-align:center">
           <div class="card">
-            <img src="img/avatar1.png" alt="John" style="width:100%">
+            <img src="img/jonathas.jpg" alt="John" style="width:100%">
             <div class="capa-info">
               <h2 style="text-align:center">Jonathas Luan</h2>
               <p class="title" style="text-align:center">3° B Informática</p>

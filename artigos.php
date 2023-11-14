@@ -33,7 +33,7 @@ session_start();
       <article>
         <a href="oque-é-iot.php"><img src="img/oqueéiot.png" alt="Image 1" /></a>
         <a href="oque-é-iot.php">
-          <h2>O que é IoT?</h2>
+          <h3>O que é IoT?</h3>
         </a>
         <p></p>
       </article>
@@ -41,7 +41,7 @@ session_start();
       <article>
         <a href="objetos-conectados.php"><img src="img/objconect.jpg" alt="Image 2" /></a>
         <a href="objetos-conectados.php">
-          <h2>Objetos Conectados</h2>
+          <h3>Objetos Conectados</h3>
         </a>
         <p></p>
       </article>
@@ -49,7 +49,7 @@ session_start();
       <article>
         <a href="arduino.php"><img src="img/arduino_quad.jpg" alt="Image 3" /></a>
         <a href="arduino.php">
-          <h2>Arduino</h2>
+          <h3>Arduino</h3>
         </a>
         <p>
         </p>
@@ -58,7 +58,7 @@ session_start();
       <article>
         <a href="conectores.php"><img src="img/ConectorRaspberry05.jpg" alt="Image 4" /></a>
         <a href="conectores.php">
-          <h2>Conectores</h2>
+          <h3>Conectores</h3>
         </a>
         <p>
         </p>
@@ -67,7 +67,7 @@ session_start();
       <article>
         <a href="topologia.php"><img src="img/redes-1-1024x1024.jpg" alt="Image 5" /></a>
         <a href="topologia.php">
-          <h2>Topologia</h2>
+          <h3>Topologia</h3>
         </a>
         <p>
         </p>
@@ -76,7 +76,7 @@ session_start();
       <article>
         <a href="tinkercad.php"><img src="img/tinkercad.jpg" alt="Image 6" /></a>
         <a href="tinkercad.php">
-          <h2>tinkercad</h2>
+          <h3>tinkercad</h3>
         </a>
         <p>
         </p>
@@ -85,7 +85,7 @@ session_start();
       <article>
         <a href="lgpd.php"><img src="img/73f5efc60a35447bbacfc0e032434111.jpg" alt="Image 7" /></a>
         <a href="tinkercad.php">
-          <h2>LGPD</h2>
+          <h3>LGPD</h3>
         </a>
         <p>
         </p>
@@ -95,16 +95,16 @@ session_start();
         <a href="aplicacoescotidianas.php"><img src="img/internet-das-coisas-no-dia-a-dia-1024x538.jpg.webp"
             alt="Image 8" /></a>
         <a href="tinkercad.php">
-          <h2>IoT no Cotidiano</h2>
+          <h3>IoT no Cotidiano</h3>
         </a>
         <p>
         </p>
       </article>
-      
+
       <article>
         <a href="iotnaindustria.php"><img src="img/iot-na-industria.webp" alt="Image 9" /></a>
         <a href="iotnaindustria.php">
-          <h2>IoT na Indústria: Transformando a Manufatura, Automação e Manutenção Preditiva</h2>
+          <h3>IoT na Indústria: Transformando a Manufatura, Automação e Manutenção Preditiva</h3>
         </a>
         <p>
         </p>
@@ -113,7 +113,7 @@ session_start();
       <article>
         <a href="segurancanaiot.php"><img src="img/iStock-1150351738-769x414.webp" alt="Image 10" /></a>
         <a href="segurancanaiot.php">
-          <h2>Segurança na IoT: Protegendo um Mundo Conectado</h2>
+          <h3>Segurança na IoT: Protegendo um Mundo Conectado</h3>
         </a>
         <p>
         </p>
@@ -122,7 +122,7 @@ session_start();
       <article>
         <a href="conectividadeiot.php"><img src="img/conectiv.webp" alt="Image 11" /></a>
         <a href="conectividadeiot.php">
-          <h2>Conectividade na IoT: Unindo o Mundo da Internet das Coisas</h2>
+          <h3>Conectividade na IoT: Unindo o Mundo da Internet das Coisas</h3>
         </a>
         <p>
         </p>
@@ -130,8 +130,80 @@ session_start();
 
       <article>
         <a href="plataformas.php"><img src="img/plataformas.webp" alt="Image 13" /></a>
-        <a href="artigos-referenciados.php">
-          <h2>Plataformas de Desenvolvimento IoT: Facilitando a Inovação Conectada</h2>
+        <a href="plataformas.php">
+          <h3>Plataformas de Desenvolvimento IoT: Facilitando a Inovação Conectada</h3>
+        </a>
+        <p>
+        </p>
+      </article>
+
+      <article>
+        <a href="plataformas.php"><img src="img/plataformas.webp" alt="Image 13" /></a>
+        <a href="plataformas.php">
+          <h3>Sensores na IoT</h3>
+        </a>
+        <p>
+        </p>
+      </article>
+
+      <article>
+        <a href="plataformas.php"><img src="img/plataformas.webp" alt="Image 13" /></a>
+        <a href="plataformas.php">
+          <h3>Cidades Inteligentes</h3>
+        </a>
+        <p>
+        </p>
+      </article>
+
+      <article>
+        <a href="plataformas.php"><img src="img/plataformas.webp" alt="Image 13" /></a>
+        <a href="plataformas.php">
+          <h3>IoT na Agricultura</h3>
+        </a>
+        <p>
+        </p>
+      </article>
+
+      <article>
+        <a href="plataformas.php"><img src="img/plataformas.webp" alt="Image 13" /></a>
+        <a href="plataformas.php">
+          <h3>Ética na IoT</h3>
+        </a>
+        <p>
+        </p>
+      </article>
+
+      <article>
+        <a href="plataformas.php"><img src="img/plataformas.webp" alt="Image 13" /></a>
+        <a href="plataformas.php">
+          <h3>Empresas que Aplicam IoT</h3>
+        </a>
+        <p>
+        </p>
+      </article>
+
+      <article>
+        <a href="plataformas.php"><img src="img/plataformas.webp" alt="Image 13" /></a>
+        <a href="plataformas.php">
+          <h3>Tendências Furas na IoT</h3>
+        </a>
+        <p>
+        </p>
+      </article>
+
+      <article>
+        <a href="plataformas.php"><img src="img/plataformas.webp" alt="Image 13" /></a>
+        <a href="plataformas.php">
+          <h3>IA na Internet das Coisas</h3>
+        </a>
+        <p>
+        </p>
+      </article>
+
+      <article>
+        <a href="plataformas.php"><img src="img/plataformas.webp" alt="Image 13" /></a>
+        <a href="plataformas.php">
+          <h3>Desenvolvimento de Projetos IoT</h3>
         </a>
         <p>
         </p>
@@ -140,7 +212,7 @@ session_start();
       <article>
         <a href="artigos-referenciados.php"><img src="img/artigos-cientificos.png" alt="Image 13" /></a>
         <a href="artigos-referenciados.php">
-          <h2>Artigos Referenciados</h2>
+          <h3>Artigos Referenciados</h3>
         </a>
         <p>
         </p>

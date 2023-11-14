@@ -13,186 +13,12 @@ session_start();
   <link rel="stylesheet" href="./index.css">
   <link rel="stylesheet" href="serviços-list.css">
   <link rel="stylesheet" href="dark-mode.css">
+  <link rel="stylesheet" href="guiadelinks.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
     defer></script>
   <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet"
     crossorigin="anonymous">
-  <style>
-    section {
-      height: 100%;
-      display: flex;
-      padding: 20px;
-    }
-
-    #sec1 {
-      background-color: #3F51B5;
-      color: white;
-    }
-
-    #sec2 {
-      background-color: white;
-    }
-
-    #sec3 {
-      background-color: #3F51B5;
-      color: white;
-    }
-
-    #sec4 {
-      background-color: white;
-    }
-
-    #sec5 {
-      background-color: #ddd;
-    }
-
-    .canal-pic img {
-      border-radius: 50%;
-      border: 2px solid;
-      height: 200px;
-      width: 200px;
-    }
-
-    .canal-btn,
-    .video-btn {
-      width: 100px;
-      background-color: red;
-      color: white;
-      padding: 10px 30px;
-      text-align: center;
-      font-weight: bold;
-    }
-
-    .canal-title {
-      text-align: center;
-    }
-
-    .canal-title p {
-      text-align: center !important;
-    }
-
-    .canal-info {
-      text-align: center;
-      margin: 50px;
-    }
-
-    .foruns h1 {
-      margin: 150px;
-      font-size: 30px;
-    }
-
-    .forum {
-      display: flex;
-    }
-
-    .description {
-      margin-left: 50px;
-    }
-
-    .nav-foruns {
-      background-color: white;
-    }
-
-    .link-content {
-      width: 100%;
-    }
-
-    .link-content .site {
-      width: 100%;
-      padding: 50px;
-      display: flex;
-      margin-left: 150px;
-    }
-
-    .site-pic img,
-    .forum-pic img {
-      border: 1px solid;
-      height: 200px;
-      width: 200px;
-    }
-
-    .site-a button,
-    .forum-a button {
-      padding: 10px 30px;
-    }
-
-    .site-p {
-      width: 50%;
-    }
-
-    .forum-p {
-      width: 70%;
-    }
-
-    .link-content li {
-      margin: 150px;
-      list-style-type: none;
-    }
-
-    .canal {
-      display: flex;
-      width: 100%;
-    }
-
-    .canal-info {
-      flex: 1;
-    }
-
-    .video {
-      flex: 1;
-      margin: 20px;
-      width: 70%;
-    }
-
-    .slider-container {}
-
-    .slider-container li {
-      margin: 0px !important;
-    }
-
-    .carousel-container {
-      position: relative;
-      width: 80%;
-      margin: 50px auto;
-      overflow: hidden;
-    }
-
-    .carousel {
-      display: flex;
-      transition: transform 0.5s ease-in-out;
-    }
-
-    .carousel-item {
-      min-width: 100%;
-      overflow: hidden;
-    }
-
-    .carousel-container img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    .carousel-container #btn {
-      position: absolute;
-      top: 50%;
-      color: white;
-      transform: translateY(-50%);
-      font-size: 24px;
-      background: none;
-      border: none;
-      cursor: pointer;
-    }
-
-    .carousel-container .prev {
-      left: 10px;
-    }
-
-    .carousel-container .next {
-      right: 10px;
-    }
-  </style>
 </head>
 
 <body>
@@ -421,7 +247,7 @@ session_start();
                 A placa pode ser programada de várias maneiras, adequando-se tanto a iniciantes quanto a desenvolvedores
                 experientes.</p>
             </div>
-            <img src="img/franzinho.jpeg" alt="" style="width: 900px;">
+            <img src="img/franzinho.jpeg" alt="" style="width: 700px; border: 1px solid;">
           </div>
         </div>
       </div>

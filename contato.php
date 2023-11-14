@@ -11,7 +11,7 @@ session_start();
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contate-nos</title>
   <link rel="stylesheet" href="./index.css">
-  <link rel="stylesheet" href="./contatoCSS.css">
+  <link rel="stylesheet" href="./contato.css">
   <link rel="stylesheet" href="dark-mode.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -25,14 +25,7 @@ session_start();
     include('barra-pesquisa.php');
     ?>
     <?php
-    // Verifica se o usuário já fez login
-    if (isset($_SESSION['id']) && session_id() == $_SESSION['id']) {
-      // usuário já fez login, exibe o menu de sessão iniciada
-      include('menu-logado.php');
-    } else {
-      // usuário não fez login, exibe o menu padrão
-      include('menu-padrao.php');
-    }
+    include('menu-padrao.php');
     ?>
   </header>
   <div class="conteudo">

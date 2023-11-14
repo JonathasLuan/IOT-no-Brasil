@@ -19,9 +19,7 @@ body {
     font-family: Arial, Helvetca, sans-serif;
     line-height: 30px;
     display: flex;
-    /* Adicionado */
     justify-content: space-between;
-    /* Adicionado */
 }
 
 form {

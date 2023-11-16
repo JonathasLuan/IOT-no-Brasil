@@ -671,11 +671,33 @@ session_start();
         </div>
       </section>
     </div>
+    <img src="img/icons8-slide-up-64.png" id="scrollBtn" onclick="topFunction()" alt="Voltar ao topo">
     <?php
     include('footer.php');
     include('set_theme_session.php');
     ?>
   </main>
+
+  <script>
+    // Mostra o botão de rolagem quando o usuário rola a página em 20px
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("scrollBtn").style.display = "block";
+      } else {
+        document.getElementById("scrollBtn").style.display = "none";
+      }
+    }
+
+    // Quando o usuário clica no botão, volta para o topo da página de forma suave
+    function topFunction() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+  </script>
 
   <script>const carousel = document.querySelector('.carousel');
     const prevButton = document.querySelector('.prev');

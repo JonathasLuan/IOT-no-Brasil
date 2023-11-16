@@ -138,7 +138,7 @@ session_start();
       </article>
 
       <article>
-        <a href="plataformas.php"><img src="img/plataformas.webp" alt="Image 13" /></a>
+        <a href="sensoresiot.php"><img src="img/sensoriot.webp" alt="Image 13" /></a>
         <a href="plataformas.php">
           <h3>Sensores na IoT</h3>
         </a>
@@ -147,7 +147,7 @@ session_start();
       </article>
 
       <article>
-        <a href="plataformas.php"><img src="img/plataformas.webp" alt="Image 13" /></a>
+        <a href="cidadesinteligentes.php"><img src="img/cidades-inteligentes.jpg" alt="Image 13" /></a>
         <a href="plataformas.php">
           <h3>Cidades Inteligentes</h3>
         </a>
@@ -156,7 +156,7 @@ session_start();
       </article>
 
       <article>
-        <a href="plataformas.php"><img src="img/plataformas.webp" alt="Image 13" /></a>
+        <a href="iotnaagricultura.php"><img src="img/iotnaagricultura.jpg" alt="Image 13" /></a>
         <a href="plataformas.php">
           <h3>IoT na Agricultura</h3>
         </a>
@@ -165,7 +165,7 @@ session_start();
       </article>
 
       <article>
-        <a href="plataformas.php"><img src="img/plataformas.webp" alt="Image 13" /></a>
+        <a href="eticaiot.php"><img src="img/eticanaiot.jpg" alt="Image 13" /></a>
         <a href="plataformas.php">
           <h3>Ética na IoT</h3>
         </a>
@@ -174,7 +174,7 @@ session_start();
       </article>
 
       <article>
-        <a href="plataformas.php"><img src="img/plataformas.webp" alt="Image 13" /></a>
+        <a href="empresasiot.php"><img src="img/empresasiot.jpg" alt="Image 13" /></a>
         <a href="plataformas.php">
           <h3>Empresas que Aplicam IoT</h3>
         </a>
@@ -183,7 +183,7 @@ session_start();
       </article>
 
       <article>
-        <a href="plataformas.php"><img src="img/plataformas.webp" alt="Image 13" /></a>
+        <a href="tendenciasiot.php"><img src="img/plataformas.webp" alt="Image 13" /></a>
         <a href="plataformas.php">
           <h3>Tendências Furas na IoT</h3>
         </a>
@@ -192,7 +192,7 @@ session_start();
       </article>
 
       <article>
-        <a href="plataformas.php"><img src="img/plataformas.webp" alt="Image 13" /></a>
+        <a href="ianaiot.php"><img src="img/plataformas.webp" alt="Image 13" /></a>
         <a href="plataformas.php">
           <h3>IA na Internet das Coisas</h3>
         </a>
@@ -201,9 +201,18 @@ session_start();
       </article>
 
       <article>
-        <a href="plataformas.php"><img src="img/plataformas.webp" alt="Image 13" /></a>
+        <a href="desenvolvimentodeprojetos.php"><img src="img/plataformas.webp" alt="Image 13" /></a>
         <a href="plataformas.php">
           <h3>Desenvolvimento de Projetos IoT</h3>
+        </a>
+        <p>
+        </p>
+      </article>
+
+      <article>
+        <a href="comparacaodeplataformas.php"><img src="img/plataformas.webp" alt="Image 13" /></a>
+        <a href="plataformas.php">
+          <h3>Comparação de Plataformas IoT</h3>
         </a>
         <p>
         </p>

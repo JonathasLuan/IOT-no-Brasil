@@ -21,6 +21,17 @@
                     <a href="aplicacoescotidianas.php">IoT no Cotidiano</a>
                     <a href="iotnaindustria.php">IoT na Indústria</a>
                     <a href="segurancanaiot.php">Segurança na IoT</a>
+                    <a href="segurancanaiot.php">Conectividade na IoT</a>
+                    <a href="segurancanaiot.php">Plataformas de Desenvolvimento</a>
+                    <a href="segurancanaiot.php">Sensores</a>
+                    <a href="segurancanaiot.php">Cidades Inteligentes</a>
+                    <a href="segurancanaiot.php">IoT na Agricultura</a>
+                    <a href="segurancanaiot.php">Ética na IoT</a>
+                    <a href="segurancanaiot.php">Empresas que Aplica</a>
+                    <a href="segurancanaiot.php">Tendências Futuras</a>
+                    <a href="segurancanaiot.php">IA na IoT</a>
+                    <a href="segurancanaiot.php">Comparação e Plataformas</a>
+                    <a href="segurancanaiot.php">Desenvolvimento de Projetos</a>
                     <a href="artigos-referenciados.php">Artigos Referenciados</a>
                 </div>
             </div>

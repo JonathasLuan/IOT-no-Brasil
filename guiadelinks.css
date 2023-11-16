@@ -61,8 +61,10 @@ section {
     margin: 50px;
 }
 
-.foruns h1 {
-    margin: 150px;
+.foruns h1,
+.site-h1 {
+    margin-top: 150px;
+    margin-left: 150px;
     font-size: 30px;
 }
 
@@ -85,8 +87,8 @@ section {
 .link-content .site {
     width: 100%;
     display: flex;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-top: 150px;
 }
 
 .link-content li {
@@ -95,7 +97,8 @@ section {
 }
 
 .site-pic img,
-.forum-pic img {
+.forum-pic img,
+.plat-pic img {
     border: 1px solid;
     height: 200px;
     width: 200px;
@@ -106,11 +109,13 @@ section {
     padding: 10px 30px;
 }
 
-.site-info {
-    margin-left: 100px;
+.site-info,
+.plat-into {
+    margin-left: 150px;
 }
 
-.site-p {
+.site-p,
+.plat-p {
     width: 70%;
 }
 
@@ -177,4 +182,18 @@ section {
 
 .carousel-container .next {
     right: 10px;
+}
+
+.plataforma {
+    background-color: blue;
+    padding: 40px;
+    border-radius: 15px;
+    width: 1500px;
+    margin: 50px auto;
+    color: white;
+    display: flex;
+}
+
+.plat-img {
+    margin-left: 100px;
 }

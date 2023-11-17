@@ -20,7 +20,7 @@ session_start();
 
     #artigos ul li {
       margin-bottom: 10px;
-      background-color: #2196F3;
+      background-color: blue;
       color: white !important;
       padding: 40px;
       border-radius: 5px;

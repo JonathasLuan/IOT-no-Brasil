@@ -33,7 +33,7 @@ session_start();
   <main>
     <div class="artigo">
       <h1>Sensores na IoT: Capturando o Mundo em Dados Conectados</h1>
-      <img style="width: 100%;" src="img/.jpg" alt="">
+      <img style="width: 100%;" src="img/sensores.jpg" alt="">
       <br><br>
       <p>A Internet das Coisas (IoT) depende crucialmente de sensores para coletar dados do mundo físico e transformá-los
       em informações significativas. Estes dispositivos sensíveis são a espinha dorsal da IoT, permitindo desde a

@@ -259,7 +259,7 @@ session_start();
           <div class="plataforma">
             <div class="plat-info">
               <div class="plat-pic">
-                <img src="img/arduinoiotcloud.png" alt="embarcados" src="img/iot-na-industria.png" alt="" style="width: auto;">
+                <img src="img/arduinoiotcloud.png" alt="embarcados" src="img/iot-na-industria.png" alt="">
               </div>
               <div class="plat-title">
                 <h2>Arduino IoT Cloud</h2>
@@ -276,7 +276,7 @@ session_start();
           <div class="plataforma">
             <div class="plat-info">
               <div class="plat-pic">
-                <img src="img/aws.png" alt="embarcados" src="img/.png" alt="" style="width: auto;">
+                <img src="img/aws.png" alt="embarcados" src="img/.png" alt="">
               </div>
               <div class="plat-title">
                 <h2>AWS IoT Core</h2>
@@ -293,7 +293,7 @@ session_start();
           <div class="plataforma">
             <div class="plat-info">
               <div class="plat-pic">
-                <img src="img/cloud-iot-core.webp" alt="embarcados" src="img/(364).png" alt="" style="width: auto;">
+                <img src="img/cloud-iot-core.webp" alt="embarcados" src="img/(364).png" alt="">
               </div>
               <div class="plat-title">
                 <h2>Google Cloud IoT Core</h2>
@@ -310,7 +310,7 @@ session_start();
           <div class="plataforma">
             <div class="plat-info">
               <div class="plat-pic">
-                <img src="img/azure-Iot-platform-logo.png" alt="embarcados" src="img/.png" alt="" style="width: auto;">
+                <img src="img/azure-Iot-platform-logo.png" alt="embarcados" src="img/.png" alt="">
               </div>
               <div class="plat-title">
                 <h2>Microsoft Azure IoT Hub</h2>
@@ -327,7 +327,7 @@ session_start();
           <div class="plataforma">
             <div class="plat-info">
               <div class="plat-pic">
-                <img src="img/ibm.png" alt="embarcados" src="img/.png" alt="" style="width: auto;">
+                <img src="img/ibm.png" alt="embarcados" src="img/.png" alt="">
               </div>
               <div class="plat-title">
                 <h2>IBM Watson IoT Platform</h2>
@@ -344,7 +344,7 @@ session_start();
           <div class="plataforma">
             <div class="plat-info">
               <div class="plat-pic">
-                <img src="img/thingspeak.png" alt="embarcados" src="img/.png" alt="" style="width: auto;">
+                <img src="img/thingspeak.png" alt="embarcados" src="img/.png" alt="">
               </div>
               <div class="plat-title">
                 <h2>ThingSpeak</h2>
@@ -361,7 +361,7 @@ session_start();
           <div class="plataforma">
             <div class="plat-info">
               <div class="plat-pic">
-                <img src="img/ubidotss.webp" alt="embarcados" src="img/.png" alt="" style="width: auto;">
+                <img src="img/ubidotss.webp" alt="embarcados" src="img/.png" alt="">
               </div>
               <div class="plat-title">
                 <h2>Ubidots</h2>

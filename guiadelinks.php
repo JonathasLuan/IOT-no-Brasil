@@ -259,7 +259,7 @@ session_start();
           <div class="plataforma">
             <div class="plat-info">
               <div class="plat-pic">
-                <img src="img/.jpg" alt="embarcados" src="img/iot-na-industria.png" alt="" style="width: auto;">
+                <img src="img/arduinoiotcloud.png" alt="embarcados" src="img/iot-na-industria.png" alt="" style="width: auto;">
               </div>
               <div class="plat-title">
                 <h2>Arduino IoT Cloud</h2>

@@ -85,7 +85,19 @@
           </div>
         </article>
       </div>
+    </section>
+
+    <section id="section-three">
+      <div class="chamada1">
+        <h1>Explore nossa plataforma!</h1>
+        <p>Aqui você encontrará inúmeros artigos relacionados à Internet das Coisas, além de excelentes recomendações de
+          leitura e estudo em sites, fóruns e canais do YouTube que abordam o universo da coinexão de dispositivos.</p>
+      </div>
+    </section>
+
+    <section id="section-four" style="display: block;">
       <div class="article-list" id="apresentacao">
+
         <div id="div-article">
           <article>
             <div>
@@ -110,25 +122,14 @@
           </article>
         </div>
       </div>
+    </section>
+
+    <img src="img/icons8-slide-up-64.png" id="scrollBtn" onclick="topFunction()" alt="Voltar ao topo">
   </div>
-  </section>
 
-  <section id="section-three">
-    <div class="chamada1" style="color: white; padding: 50px; width: 30%;">
-      <h1>Explore nossa plataforma!</h1>
-      <p>Aqui você encontrará inúmeros artigos relacionados à Internet das Coisas, além de excelentes recomendações de
-        leitura e estudo em sites, fóruns e canais do YouTube que abordam o universo da coinexão de dispositivos.</p>
-    </div>
-  </section>
-
-  <section id="section-four">
-    <div class="chamada2">
-      <img src="img/logoiotudo.png" alt="IoTudo" style="width: 300px; height: auto; margin: 100px;">
-    </div>
-  </section>
-
-  <img src="img/icons8-slide-up-64.png" id="scrollBtn" onclick="topFunction()" alt="Voltar ao topo">
-  </div>
+  <?php
+  include('footer.php');
+  ?>
 
   <script src="homeJS.js"></script>
 
@@ -190,9 +191,6 @@
     });
 
   </script>
-  <?php
-  include('footer.php');
-  ?>
 </body>
 
 </html>

@@ -35,97 +35,135 @@ session_start();
       <h1>Comparação de Plataformas IoT: Navegando nas Opções para Conectividade Inteligente</h1>
       <img style="width: 100%;" src="img/.png" alt="">
       <br><br>
-      À medida que a Internet das Coisas (IoT) continua a moldar nosso mundo, a escolha da plataforma certa torna-se
-      crucial para o sucesso de projetos conectados. Este guia fornece uma análise detalhada de várias plataformas IoT,
-      destacando suas características distintas e os casos de uso ideais.
+      <p>À medida que a Internet das Coisas (IoT) continua a moldar nosso mundo, a escolha da plataforma certa torna-se
+        crucial para o sucesso de projetos conectados. Este guia fornece uma análise detalhada de várias plataformas
+        IoT,
+        destacando suas características distintas e os casos de uso ideais.</p>
+      <br>
+      <ol>
+        <li><h2>Arduino IoT Cloud (https://www.arduino.cc/iot/cloud)</h2></li>
 
-      **1. **[**Arduino IoT Cloud**](https://www.arduino.cc/iot/cloud):**
+        <h3>Características Principais</h3>
+        <ul>
+          <li><b>Facilidade de Uso:</b> Projetado para desenvolvedores de todos os níveis, oferece uma experiência
+            amigável.</li>
+          <li><b>Integração com Hardware Arduino:</b> Perfeitamente integrado com placas Arduino para desenvolvimento
+            simplificado.</li>
+          <li><b>Suporte a Dispositivos Conectados e Sensores:</b> Amplamente compatível com uma variedade de
+            dispositivos
+            IoT.</li>
+        </ul>
+        <h3>Usos Ideais</h3>
+        <ul>
+          <li>Projetos de IoT para entusiastas e iniciantes.</li>
+          <li>Aplicações educacionais de IoT.</li>
+        </ul>
+        <br>
+        <li><h2>AWS IoT Core (https://aws.amazon.com/iot-core/):</h2></li>
 
-      *Características Principais:*
-      - **Facilidade de Uso:** Projetado para desenvolvedores de todos os níveis, oferece uma experiência amigável.
-      - **Integração com Hardware Arduino:** Perfeitamente integrado com placas Arduino para desenvolvimento
-      simplificado.
-      - **Suporte a Dispositivos Conectados e Sensores:** Amplamente compatível com uma variedade de dispositivos IoT.
+        <h3>Características Principais</h3>
+        <ul>
+          <li><b>Escala e Desempenho:</b> Projetado para dimensionar desde projetos pequenos até soluções empresariais
+            em
+            grande
+            escala.
+          <li><b>Segurança Avançada:</b> Oferece recursos robustos de segurança, incluindo gerenciamento de identidade e
+            criptografia.</li>
+          <li><b>Integração com Serviços AWS:</b> Facilita a integração com outros serviços da Amazon Web Services.</li>
+        </ul>
+        <h3>Usos Ideais</h3>
+        <ul>
+          <li>Soluções empresariais de IoT.</li>
+          <li>Projetos que necessitam de escalabilidade.</li>
+        </ul>
+        <br>
+        <li><h2>Google Cloud IoT Core (https://cloud.google.com/iot-core):</h2></li>
 
-      *Usos Ideais:*
-      - Projetos de IoT para entusiastas e iniciantes.
-      - Aplicações educacionais de IoT.
+        <h3>Características Principais:</h3>
+        <ul>
+          <li><b>Integração com Google Cloud Platform:</b> Conecta-se perfeitamente com outros serviços do Google Cloud.
+          </li>
+          <li><b>Suporte a Protocolos Padrão:</b> Oferece suporte a MQTT e HTTP para comunicação flexível.</li>
+          <li><b>Análise de Dados em Tempo Real:</b> Facilita a análise de dados em tempo real para insights imediatos.
+          </li>
+        </ul>
+        <h3>Usos Ideais</h3>
+        <ul>
+          <li>Projetos que exigem análise avançada de dados em tempo real.</li>
+          <li>Integração com serviços do Google Cloud.</li>
+        </ul>
+        <br>
+        <li><h2>Microsoft Azure IoT Hub (https://azure.microsoft.com/en-us/services/iot-hub/):</h2></li>
 
-      **2. [**AWS IoT Core**](https://aws.amazon.com/iot-core/):**
+        <h3>Características Principais</h3>
+        <ul>
+          <li><b>Suporte a Diversos Protocolos:</b> Inclui suporte para MQTT, AMQP e HTTP.</li>
+          <li><b>Ferramentas de Desenvolvimento Integradas:</b> Oferece integração com o ambiente de desenvolvimento
+            Microsoft
+            Visual Studio.</li>
+          <li><b>Gerenciamento de Dispositivos Eficiente:</b> Facilita o gerenciamento de dispositivos em larga escala.
+          </li>
+        </ul>
+        <h3>Usos Ideais:</h3>
+        <ul>
+          <li>Projetos que utilizam ferramentas de desenvolvimento Microsoft.</li>
+          <li>Soluções escaláveis para gerenciamento de dispositivos.</li>
+        </ul>
+        <br>
+        <li><h2>IBM Watson IoT Platform (https://www.ibm.com/cloud/watson-iot-platform):</h2></li>
 
-      *Características Principais:*
-      - **Escala e Desempenho:** Projetado para dimensionar desde projetos pequenos até soluções empresariais em grande
-      escala.
-      - **Segurança Avançada:** Oferece recursos robustos de segurança, incluindo gerenciamento de identidade e
-      criptografia.
-      - **Integração com Serviços AWS:** Facilita a integração com outros serviços da Amazon Web Services.
+        <h3>Características Principais:</h3>
+        <ul>
+          <li><b>Análise Avançada:</b> Oferece recursos avançados de análise de dados e machine learning.</li>
+          <li><b>Integração com IBM Cloud:</b> Facilita a integração com outros serviços na nuvem da IBM.</li>
+          <li><b>Suporte a Protocolos Padrão:</b> Compatível com MQTT e HTTP.
+          </li>
+        </ul>
+        <h3>Usos Ideais:</h3>
+        <ul>
+          <li>Projetos que envolvem análise de dados avançada.</li>
+          <li>Integração com serviços específicos da IBM Cloud.</li>
+        </ul>
+        <br>
+        <li><h2>ThingSpeak https://thingspeak.com</h2></li>
 
-      *Usos Ideais:*
-      - Soluções empresariais de IoT.
-      - Projetos que necessitam de escalabilidade.
+        <h3>Características Principais</h3>
+        <ul>
+          <li><b>Gratuito para Uso Básico:</b> Oferece um plano gratuito para projetos de menor escala.</li>
+          <li><b>Integração com MATLAB:</b> Possui integração com a linguagem de programação MATLAB.</li>
+          <li><b>Gráficos e Visualizações Personalizáveis:</b> Permite a criação de dashboards personalizados.</li>
+        </ul>
+        <h3>Usos Ideais:</h3>
+        <ul>
+          <li>Projetos de IoT de pequena escala.</li>
+          <li>Aplicações que requerem integração com MATLAB.</li>
+        </ul>
+        <br>
+        <li><h2>Ubidots(https://ubidots.com/):</h2></li>
 
-      **3. [**Google Cloud IoT Core**](https://cloud.google.com/iot-core):**
+        <h3>Características Principais:</h3>
+        <ul>
+          <li><b>Interface de Arrastar e Soltar:</b> Facilita a criação de painéis e visualizações.</li>
+          <li><b>APIs Restful:</b> Permite integração fácil com outras plataformas e serviços.</li>
+          <li><b>Flexibilidade em Planos de Preços:</b> Oferece uma variedade de planos para atender diferentes
+            necessidades.</li>
+        </ul>
+        <h3>Usos Ideais:</h3>
+        <ul>
+          <li>Projetos que valorizam uma interface amigável.</li>
+          <li>Necessidades de integração flexíveis com outras plataformas.</li>
+        </ul>
+      </ol>
+      <br>
+      <h2>Conclusão: Escolhendo a Plataforma Certa para o Seu Projeto IoT</h2>
 
-      *Características Principais:*
-      - **Integração com Google Cloud Platform:** Conecta-se perfeitamente com outros serviços do Google Cloud.
-      - **Suporte a Protocolos Padrão:** Oferece suporte a MQTT e HTTP para comunicação flexível.
-      - **Análise de Dados em Tempo Real:** Facilita a análise de dados em tempo real para insights imediatos.
-
-      *Usos Ideais:*
-      - Projetos que exigem análise avançada de dados em tempo real.
-      - Integração com serviços do Google Cloud.
-
-      **4. [**Microsoft Azure IoT Hub**](https://azure.microsoft.com/en-us/services/iot-hub/):**
-
-      *Características Principais:*
-      - **Suporte a Diversos Protocolos:** Inclui suporte para MQTT, AMQP e HTTP.
-      - **Ferramentas de Desenvolvimento Integradas:** Oferece integração com o ambiente de desenvolvimento Microsoft
-      Visual Studio.
-      - **Gerenciamento de Dispositivos Eficiente:** Facilita o gerenciamento de dispositivos em larga escala.
-
-      *Usos Ideais:*
-      - Projetos que utilizam ferramentas de desenvolvimento Microsoft.
-      - Soluções escaláveis para gerenciamento de dispositivos.
-
-      **5. [**IBM Watson IoT Platform**](https://www.ibm.com/cloud/watson-iot-platform):**
-
-      *Características Principais:*
-      - **Análise Avançada:** Oferece recursos avançados de análise de dados e machine learning.
-      - **Integração com IBM Cloud:** Facilita a integração com outros serviços na nuvem da IBM.
-      - **Suporte a Protocolos Padrão:** Compatível com MQTT e HTTP.
-
-      *Usos Ideais:*
-      - Projetos que envolvem análise de dados avançada.
-      - Integração com serviços específicos da IBM Cloud.
-
-      **6. [**ThingSpeak**](https://thingspeak.com/):**
-
-      *Características Principais:*
-      - **Gratuito para Uso Básico:** Oferece um plano gratuito para projetos de menor escala.
-      - **Integração com MATLAB:** Possui integração com a linguagem de programação MATLAB.
-      - **Gráficos e Visualizações Personalizáveis:** Permite a criação de dashboards personalizados.
-
-      *Usos Ideais:*
-      - Projetos de IoT de pequena escala.
-      - Aplicações que requerem integração com MATLAB.
-
-      **7. [**Ubidots**](https://ubidots.com/):**
-
-      *Características Principais:*
-      - **Interface de Arrastar e Soltar:** Facilita a criação de painéis e visualizações.
-      - **APIs Restful:** Permite integração fácil com outras plataformas e serviços.
-      - **Flexibilidade em Planos de Preços:** Oferece uma variedade de planos para atender diferentes necessidades.
-
-      *Usos Ideais:*
-      - Projetos que valorizam uma interface amigável.
-      - Necessidades de integração flexíveis com outras plataformas.
-
-      **Conclusão: Escolhendo a Plataforma Certa para o Seu Projeto IoT**
-
-      A escolha da plataforma IoT certa depende das necessidades específicas do seu projeto, do escopo e dos recursos
-      disponíveis. Considere fatores como facilidade de uso, escalabilidade, segurança e integração com outros serviços
-      na nuvem ao tomar uma decisão. Avaliar cuidadosamente esses aspectos garantirá que sua plataforma escolhida atenda
-      efetivamente aos requisitos do seu projeto, permitindo uma implementação bem-sucedida da Internet das Coisas.
+      <p>A escolha da plataforma IoT certa depende das necessidades específicas do seu projeto, do escopo e dos recursos
+        disponíveis. Considere fatores como facilidade de uso, escalabilidade, segurança e integração com outros
+        serviços
+        na nuvem ao tomar uma decisão. Avaliar cuidadosamente esses aspectos garantirá que sua plataforma escolhida
+        atenda
+        efetivamente aos requisitos do seu projeto, permitindo uma implementação bem-sucedida da Internet das Coisas.
+      </p>
 
       <br><br>
       <hr>

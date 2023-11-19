@@ -33,7 +33,7 @@ session_start();
   <main>
     <div class="artigo">
       <h1>Plataformas de Desenvolvimento IoT: Facilitando a Inovação Conectada</h1>
-      <img style="width: 100%;" src="img/1000_F_644400907_BKoODIqk4teMCQgi5jPENb3uqrIYE12I.jpg" alt="">
+      <img style="width: 100%;" src="img/teste.jpg" alt="">
       <br><br>
       <p>A Internet das Coisas (IoT) é alimentada por uma miríade de dispositivos e sistemas interconectados. Por trás
         dessa revolução tecnológica, estão as plataformas de desenvolvimento IoT, desempenhando um papel crucial na

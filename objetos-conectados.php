@@ -11,7 +11,6 @@ session_start();
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Objetos Conectados</title>
   <link rel="stylesheet" href="./index.css">
-  <link rel="stylesheet" href="serviços-list.css">
   <link rel="stylesheet" href="dark-mode.css">
   <link rel="stylesheet" href="art.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -140,16 +139,6 @@ session_start();
             <p>A conectividade é um dos pilares fundamentais da Internet das Coisas (IoT) e do mundo da eletrônica, onde
               o Arduino desempenha um papel essencial. A escolha ...</p>
           </article>
-        </div>
-      </div>
-
-      <div class="video-reco">
-        <div class="video">
-          <iframe src="" frameborder="0"></iframe>
-          <h2>Título do Vídeo</h2>
-          <a href=""><button>
-              <link rel="stylesheet" href="">
-            </button></a>
         </div>
       </div>
     </div>

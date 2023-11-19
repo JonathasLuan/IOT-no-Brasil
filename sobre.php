@@ -45,12 +45,13 @@ session_start();
         especialistas e educadores dedicados ao campo da IoT. Acreditamos que a IoT tem o potencial de revolucionar
         vidas,
         negócios e comunidades, e estamos empenhados em compartilhar esse conhecimento com você.</p>
+      <br>
       <div id="equipe">
         <h3 style="text-align:center">Nossa Equipe</h3>
 
         <div id="cards" style="text-align:center">
           <div class="card">
-            <img src="img/jonathas.jpg" alt="John" style="width:100%">
+            <img src="img/.jpg" alt="John" style="width:100%">
             <div class="capa-info">
               <h2 style="text-align:center">Jonathas Luan</h2>
               <p class="title" style="text-align:center">3° B Informática</p>
@@ -60,7 +61,7 @@ session_start();
           </div>
 
           <div class="card">
-            <img src="img/avatar2.png" alt="John" style="width:100%">
+            <img src="img/.png" alt="John" style="width:100%">
             <div class="capa-info">
               <h2 style="text-align:center">Cristina Farias</h2>
               <p class="title" style="text-align:center">3° B Informática</p>
@@ -70,7 +71,7 @@ session_start();
           </div>
 
           <div class="card">
-            <img src="img/avatar3.png" alt="John" style="width:100%">
+            <img src="img/.png" alt="John" style="width:100%">
             <div class="capa-info">
               <h2 style="text-align:center">Fernando Batista</h2>
               <p class="title" style="text-align:center">3° B Informática</p>
@@ -80,7 +81,7 @@ session_start();
           </div>
 
           <div class="card">
-            <img src="img/avatar4.png" alt="John" style="width:100%">
+            <img src="img/.png" alt="John" style="width:100%">
             <div class="capa-info">
               <h2 style="text-align:center">Pamela Martins</h2>
               <p class="title" style="text-align:center">3° B Informática</p>
@@ -105,20 +106,22 @@ session_start();
       </p>
       <br>
       <h2>O Que Oferecemos:</h2>
+      <ul>
+        <li><b>Artigos Educativos:</b> Publicamos regularmente artigos informativos e tutoriais que explicam os
+          conceitos
+          fundamentais da IoT de maneira clara e acessível.</li>
 
-      <li><b>Artigos Educativos:</b> Publicamos regularmente artigos informativos e tutoriais que explicam os conceitos
-        fundamentais da IoT de maneira clara e acessível.</li>
+        <li><b>Notícias e Tendências:</b> Mantemo-lo atualizado com as últimas notícias e tendências no mundo da IoT,
+          especialmente as que têm relevância para o Brasil.</li>
 
-      <li><b>Notícias e Tendências:</b> Mantemo-lo atualizado com as últimas notícias e tendências no mundo da IoT,
-        especialmente as que têm relevância para o Brasil.</li>
+        <li><b>Guias Práticos:</b> Fornecemos guias práticos passo a passo para ajudá-lo a iniciar seus próprios
+          projetos
+          de
+          IoT, desde construir um dispositivo simples até desenvolver soluções avançadas.</li>
 
-      <li><b>Guias Práticos:</b> Fornecemos guias práticos passo a passo para ajudá-lo a iniciar seus próprios projetos
-        de
-        IoT, desde construir um dispositivo simples até desenvolver soluções avançadas.</li>
-
-      <li><b>Recursos e Ferramentas:</b> Apresentamos recursos úteis, como plataformas de desenvolvimento, hardware
-        recomendado e muito mais, para facilitar sua jornada na IoT.</li>
-
+        <li><b>Recursos e Ferramentas:</b> Apresentamos recursos úteis, como plataformas de desenvolvimento, hardware
+          recomendado e muito mais, para facilitar sua jornada na IoT.</li>
+      </ul>
       <h2>Por que Estamos Aqui:</h2>
 
       <p>Estamos aqui porque acreditamos que a IoT é uma das tecnologias mais emocionantes e transformadoras de nossa

@@ -22,7 +22,7 @@
                     <a href="iotnaindustria.php">IoT na Indústria</a>
                     <a href="segurancanaiot.php">Segurança na IoT</a>
                     <a href="conectividadeiot.php">Conectividade na IoT</a>
-                    <a href="segurancanaiot.php">Plataformas de Desenvolvimento</a>
+                    <a href="plataformas.php">Plataformas de Desenvolvimento</a>
                     <a href="sensoresiot.php">Sensores</a>
                     <a href="cidadesinteligentes.php">Cidades Inteligentes</a>
                     <a href="iotnaagricultura.php">IoT na Agricultura</a>

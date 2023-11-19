@@ -161,16 +161,6 @@ session_start();
           </article>
         </div>
       </div>
-
-      <div class="video-reco">
-        <div class="video">
-          <iframe src="" frameborder="0"></iframe>
-          <h2>Título do Vídeo</h2>
-          <a href=""><button>
-              <link rel="stylesheet" href="">
-            </button></a>
-        </div>
-      </div>
     </div>
 
     <?php

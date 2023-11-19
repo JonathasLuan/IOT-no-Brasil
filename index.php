@@ -49,6 +49,9 @@
             <img src="img/1000_F_619172259_hjDQjkezPv5DDpUMAUac4HUXYLExsf8m.jpg" alt="">
           </div>
         </figure>
+        <div class="vignette">
+
+        </div>
       </div>
     </section>
     <section id="section-two">

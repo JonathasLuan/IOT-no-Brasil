@@ -31,7 +31,7 @@ session_start();
   </header>
   <main>
     <div class="artigo">
-      
+
     </div>
     <?php
     include('footer.php');
@@ -45,6 +45,7 @@ session_start();
     switchBtn.addEventListener('change', () => {
       document.body.classList.toggle('dark-mode');
     });
-</body >
+  </script>
+</body>
 
-</html >
+</html>

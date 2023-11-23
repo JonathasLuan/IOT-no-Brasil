@@ -21,10 +21,9 @@ session_start();
     <?php
     include('header1.php');
     ?>
-    <div class="pesquisa">
-      <input type="text" placeholder="buscar...">
-      <i class="fa fa-search"></i>
-    </div>
+    <?php
+    include('barra-pesquisa.php');
+    ?>
     <?php
     include('menu-padrao.php');
     ?>
@@ -124,20 +123,20 @@ session_start();
         <h1>Leituras recomendadas</h1>
         <div id="art-reco">
           <article>
-            <a href="oque-é-iot.php"><img src="img/oqueéiot.png" alt="Image 1" /></a>
-            <a href="oque-é-iot.php">
-              <h2>O que é IoT?</h2>
+            <a href="arduino.php"><img src="img/arduino_quad.jpg" alt="Image 3" /></a>
+            <a href="arduino.php">
+              <h3>Arduino</h3>
             </a>
-            <p>A Internet das Coisas (IoT) emergiu como uma das tecnologias mais promissoras e transformadoras deste
-              século. Ela está mudando fundamentalmente ...</p>
+            <p>O Arduino é uma plataforma de hardware e software que permite a qualquer pessoa, desde iniciantes até especialistas em eletrônica...
+            </p>
           </article>
           <article>
-            <a href="objetos-conectados.php"><img src="img/objconect.jpg" alt="Image 2" /></a>
-            <a href="objetos-conectados.php">
-              <h2>Objetos Conectados</h2>
+            <a href="conectores.php"><img src="img/ConectorRaspberry05.jpg" alt="Image 4" /></a>
+            <a href="conectores.php">
+              <h3>Conectores</h3>
             </a>
-            <p>A conectividade é um dos pilares fundamentais da Internet das Coisas (IoT) e do mundo da eletrônica, onde
-              o Arduino desempenha um papel essencial. A escolha ...</p>
+            <p>A conectividade é um dos pilares fundamentais da Internet das Coisas (IoT) e do mundo da eletrônica, onde o Arduino desempenha um papel essencial. A escolha dos conectores...
+            </p>
           </article>
         </div>
       </div>
@@ -154,6 +153,7 @@ session_start();
     switchBtn.addEventListener('change', () => {
       document.body.classList.toggle('dark-mode');
     });
-</body >
+  </script>
+</body>
 
-</html >
+</html>

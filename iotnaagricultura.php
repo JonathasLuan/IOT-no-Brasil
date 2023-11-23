@@ -22,10 +22,9 @@ session_start();
     <?php
     include('header1.php');
     ?>
-    <div class="pesquisa">
-      <input type="text" placeholder="buscar...">
-      <i class="fa fa-search"></i>
-    </div>
+    <?php
+    include('barra-pesquisa.php');
+    ?>
     <?php
     include('menu-padrao.php');
     ?>
@@ -33,109 +32,130 @@ session_start();
   <main>
     <div class="artigo">
       <h1>IoT na Agricultura: Cultivando Inovação e Eficiência na Agricultura de Precisão</h1>
-      <img style="width: 100%;"
-        src="img/agricultura-digital-o-que-e-e-quais-sao-as-vantagens-e-as-ferramentas-1024x328.jpg" alt="">
+      <img style="width: 100%;" src="img/agricultura-digital-o-que-e-e-quais-sao-as-vantagens-e-as-ferramentas-1024x328.jpg" alt="">
       <br><br>
-      A agricultura sempre foi uma atividade vital para a humanidade, fornecendo alimentos essenciais para a
-      sobrevivência. No entanto, a pressão crescente sobre os recursos agrícolas e a necessidade de aumentar a
-      produtividade levaram à adoção de tecnologias inovadoras. A Internet das Coisas (IoT) emergiu como uma ferramenta
-      poderosa na agricultura, impulsionando a era da agricultura de precisão. Nesta primeira parte do artigo,
-      exploraremos como a IoT está transformando a agricultura, concentrando-se no monitoramento de culturas e na gestão
-      de fazendas.
+      <p>A agricultura sempre foi uma atividade vital para a humanidade, fornecendo alimentos essenciais para a
+        sobrevivência. No entanto, a pressão crescente sobre os recursos agrícolas e a necessidade de aumentar a
+        produtividade levaram à adoção de tecnologias inovadoras. A Internet das Coisas (IoT) emergiu como uma ferramenta
+        poderosa na agricultura, impulsionando a era da agricultura de precisão. Nesta primeira parte do artigo,
+        exploraremos como a IoT está transformando a agricultura, concentrando-se no monitoramento de culturas e na gestão
+        de fazendas.</p>
+      <ol>
+        <li>
+          <h2>Monitoramento de Culturas</h2>
+        </li>
 
-      **1. Monitoramento de Culturas:**
+        <p>A IoT trouxe uma revolução no monitoramento de culturas, fornecendo aos agricultores dados detalhados em tempo
+          real sobre as condições do solo, clima e saúde das plantas. Sensores estrategicamente posicionados nas plantações
+          coletam informações cruciais que capacitam os agricultores a tomar decisões informadas e otimizar os processos
+          agrícolas.</p>
 
-      A IoT trouxe uma revolução no monitoramento de culturas, fornecendo aos agricultores dados detalhados em tempo
-      real sobre as condições do solo, clima e saúde das plantas. Sensores estrategicamente posicionados nas plantações
-      coletam informações cruciais que capacitam os agricultores a tomar decisões informadas e otimizar os processos
-      agrícolas.
+        <h3>Aplicações Práticas:</h3>
+        <ul>
+          <li><b>Sensores de Umidade do Solo:</b> Monitoram os níveis de umidade, permitindo uma irrigação precisa e evitando o
+            desperdício de água.</li>
+          <li><b>Sensores de Nutrientes:</b> Avaliam a composição do solo, auxiliando na aplicação personalizada de fertilizantes
+            para otimizar a saúde das plantas.</li>
+          <li><b>Estações Meteorológicas IoT:</b> Coletam dados sobre temperatura, umidade e padrões climáticos, permitindo
+            previsões mais precisas e planejamento agrícola estratégico.</li>
+        </ul>
+        <li>
+          <h2>Gestão Eficiente de Irrigação:</h2>
+        </li>
 
-      *Aplicações Práticas:*
-      - **Sensores de Umidade do Solo:** Monitoram os níveis de umidade, permitindo uma irrigação precisa e evitando o
-      desperdício de água.
-      - **Sensores de Nutrientes:** Avaliam a composição do solo, auxiliando na aplicação personalizada de fertilizantes
-      para otimizar a saúde das plantas.
-      - **Estações Meteorológicas IoT:** Coletam dados sobre temperatura, umidade e padrões climáticos, permitindo
-      previsões mais precisas e planejamento agrícola estratégico.
+        <p>A escassez de água é um desafio significativo na agricultura, e a IoT oferece soluções inovadoras para melhorar a
+          eficiência no uso desse recurso vital. Sistemas de irrigação inteligente, alimentados por dados de sensores IoT,
+          adaptam-se dinamicamente às necessidades hídricas das plantações.</p>
 
-      **2. Gestão Eficiente de Irrigação:**
+        <h3>Aplicações Práticas:</h3>
+        <ul>
+          <li><b>Sistemas de Irrigação Automática:</b> Ativam-se com base nas leituras dos sensores de umidade do solo,
+            garantindo que as plantas recebam a quantidade ideal de água.</li>
+          <li><b>Monitoramento de Consumo de Água:</b> Fornece insights sobre o consumo de água em diferentes áreas da fazenda,
+            permitindo ajustes para maximizar a eficiência.</li>
+        </ul>
+        <li>
+          <h2>Controle de Pragas e Doenças:</h2>
+        </li>
 
-      A escassez de água é um desafio significativo na agricultura, e a IoT oferece soluções inovadoras para melhorar a
-      eficiência no uso desse recurso vital. Sistemas de irrigação inteligente, alimentados por dados de sensores IoT,
-      adaptam-se dinamicamente às necessidades hídricas das plantações.
+        <p>A saúde das plantas é vital para o sucesso agrícola, e a IoT desempenha um papel crucial na detecção precoce e no
+          controle de pragas e doenças. Sensores e dispositivos conectados monitoram sinais de infestação, permitindo
+          respostas rápidas e medidas preventivas.</p>
 
-      *Aplicações Práticas:*
-      - **Sistemas de Irrigação Automática:** Ativam-se com base nas leituras dos sensores de umidade do solo,
-      garantindo que as plantas recebam a quantidade ideal de água.
-      - **Monitoramento de Consumo de Água:** Fornece insights sobre o consumo de água em diferentes áreas da fazenda,
-      permitindo ajustes para maximizar a eficiência.
+        <h3>Aplicações Práticas:</h3>
+        <ul>
+          <li><b>Armadilhas IoT para Insetos:</b> Monitoram a presença de pragas, alertando os agricultores para a necessidade de
+            intervenção.</li>
+          <li><b>Drones Agrícolas:</b> Equipados com câmeras e sensores para identificar áreas afetadas, facilitando o tratamento
+            localizado.</li>
+        </ul>
+        <li>
+          <h2>Maquinário Agrícola Inteligente:</h2>
+        </li>
 
-      **3. Controle de Pragas e Doenças:**
+        <p>A IoT não se limita apenas ao monitoramento das plantações, mas também se estende ao controle inteligente de
+          maquinário agrícola. Tratores e colheitadeiras conectados são capazes de operar de maneira autônoma, otimizando o
+          uso de recursos e aumentando a eficiência operacional.</p>
 
-      A saúde das plantas é vital para o sucesso agrícola, e a IoT desempenha um papel crucial na detecção precoce e no
-      controle de pragas e doenças. Sensores e dispositivos conectados monitoram sinais de infestação, permitindo
-      respostas rápidas e medidas preventivas.
+        <h3>Aplicações Práticas:</h3>
+        <ul>
+          <li><b>Tratores Autônomos:</b> Utilizam dados de sensores para navegação autônoma, otimizando padrões de plantio e
+            colheita.</li>
+          <li><b>Manutenção Preditiva:</b> Sensores monitoram o desempenho das máquinas, prevendo falhas e permitindo manutenção
+            proativa.</li>
+        </ul>
+        <li>
+          <h2>Rastreamento de Ativos Agrícolas:</h2>
+        </li>
 
-      *Aplicações Práticas:*
-      - **Armadilhas IoT para Insetos:** Monitoram a presença de pragas, alertando os agricultores para a necessidade de
-      intervenção.
-      - **Drones Agrícolas:** Equipados com câmeras e sensores para identificar áreas afetadas, facilitando o tratamento
-      localizado.
+        <p>A rastreabilidade é crucial na gestão eficiente de fazendas, desde a movimentação de equipamentos até o
+          monitoramento do crescimento das colheitas. A IoT fornece soluções de rastreamento em tempo real, permitindo uma
+          visão abrangente das operações agrícolas.</p>
 
-      **4. Maquinário Agrícola Inteligente:**
+        <h3>Aplicações Práticas:</h3>
+        <ul>
+          <li><b>Tags RFID e GPS:</b> Anexadas a equipamentos agrícolas e produtos, facilitando o rastreamento preciso.</li>
+          <li><b>Sistemas de Gestão de Frotas:</b> Monitoram a localização e o desempenho de veículos agrícolas, otimizando rotas
+            e reduzindo custos operacionais.</li>
+        </ul>
+        <li>
+          <h2>Tomada de Decisões Baseada em Dados:</h2>
+        </li>
 
-      A IoT não se limita apenas ao monitoramento das plantações, mas também se estende ao controle inteligente de
-      maquinário agrícola. Tratores e colheitadeiras conectados são capazes de operar de maneira autônoma, otimizando o
-      uso de recursos e aumentando a eficiência operacional.
+        <p>Com a quantidade abundante de dados gerados pela IoT na agricultura, os agricultores agora têm acesso a
+          informações valiosas para embasar suas decisões. Análises avançadas e algoritmos preditivos transformam dados
+          brutos em insights acionáveis, impulsionando a eficiência e a produtividade.</p>
 
-      *Aplicações Práticas:*
-      - **Tratores Autônomos:** Utilizam dados de sensores para navegação autônoma, otimizando padrões de plantio e
-      colheita.
-      - **Manutenção Preditiva:** Sensores monitoram o desempenho das máquinas, prevendo falhas e permitindo manutenção
-      proativa.
+        <h3>Aplicações Práticas:</h3>
+        <ul>
+          <li><b>Plataformas de Análise Agrícola:</b> Integram dados de múltiplos sensores para oferecer uma visão holística da
+            fazenda.</li>
+          <li><b>Sistemas de Recomendação:</b> Proporcionam sugestões personalizadas, desde programações de plantio até
+            estratégias de controle de pragas.</li>
+        </ul>
+        <li>
+          <h2>Agricultura de Precisão e Sustentabilidade:</h2>
+        </li>
 
-      **5. Rastreamento de Ativos Agrícolas:**
+        <p>A IoT na agricultura não apenas aprimora a eficiência, mas também contribui para práticas agrícolas mais
+          sustentáveis. A capacidade de monitorar de perto as condições e responder proativamente reduz o desperdício e
+          minimiza os impactos ambientais.</p>
 
-      A rastreabilidade é crucial na gestão eficiente de fazendas, desde a movimentação de equipamentos até o
-      monitoramento do crescimento das colheitas. A IoT fornece soluções de rastreamento em tempo real, permitindo uma
-      visão abrangente das operações agrícolas.
+        <h3>Aplicações Práticas:</h3>
+        <ul>
+          <li><b>Uso Eficiente de Insumos:</b> Reduz a aplicação excessiva de fertilizantes e pesticidas, minimizando a
+            contaminação ambiental.</li>
+          <li><b>Rotação de Culturas Inteligente:</b> Guiada por dados, otimiza a utilização do solo, promovendo a saúde do
+            ecossistema agrícola.</li>
+        </ul>
+      </ol>
+      <h2>Considerações Finais</h2>
 
-      *Aplicações Práticas:*
-      - **Tags RFID e GPS:** Anexadas a equipamentos agrícolas e produtos, facilitando o rastreamento preciso.
-      - **Sistemas de Gestão de Frotas:** Monitoram a localização e o desempenho de veículos agrícolas, otimizando rotas
-      e reduzindo custos operacionais.
-
-      **6. Tomada de Decisões Baseada em Dados:**
-
-      Com a quantidade abundante de dados gerados pela IoT na agricultura, os agricultores agora têm acesso a
-      informações valiosas para embasar suas decisões. Análises avançadas e algoritmos preditivos transformam dados
-      brutos em insights acionáveis, impulsionando a eficiência e a produtividade.
-
-      *Aplicações Práticas:*
-      - **Plataformas de Análise Agrícola:** Integram dados de múltiplos sensores para oferecer uma visão holística da
-      fazenda.
-      - **Sistemas de Recomendação:** Proporcionam sugestões personalizadas, desde programações de plantio até
-      estratégias de controle de pragas.
-
-      **7. Agricultura de Precisão e Sustentabilidade:**
-
-      A IoT na agricultura não apenas aprimora a eficiência, mas também contribui para práticas agrícolas mais
-      sustentáveis. A capacidade de monitorar de perto as condições e responder proativamente reduz o desperdício e
-      minimiza os impactos ambientais.
-
-      *Aplicações Práticas:*
-      - **Uso Eficiente de Insumos:** Reduz a aplicação excessiva de fertilizantes e pesticidas, minimizando a
-      contaminação ambiental.
-      - **Rotação de Culturas Inteligente:** Guiada por dados, otimiza a utilização do solo, promovendo a saúde do
-      ecossistema agrícola.
-
-      **Considerações Finais:**
-
-      A IoT na agricultura não é apenas uma evolução, mas uma revolução que está transformando a maneira como cultivamos
-      nosso alimento. Ao alavancar tecnologias inteligentes, os agricultores estão capacitados a tomar decisões mais
-      informadas, otimizar recursos e enfrentar os desafios complexos da agricultura moderna. À medida que a agricultura
-      de precisão continua a se expandir, a promessa de colheitas mais abundantes, eficiência operacional e práticas
-      agrícolas sustentáveis está se tornando uma realidade tangível.
+      <p>A IoT na agricultura não é apenas uma evolução, mas uma revolução que está transformando a maneira como cultivamos
+        nosso alimento. Ao alavancar tecnologias inteligentes, os agricultores estão capacitados a tomar decisões mais
+        informadas, otimizar recursos e enfrentar os desafios complexos da agricultura moderna. À medida que a agricultura
+        de precisão continua a se expandir, a promessa de colheitas mais abundantes, eficiência operacional e práticas
+        agrícolas sustentáveis está se tornando uma realidade tangível.</p>
 
       <br><br>
       <hr>
@@ -173,6 +193,8 @@ session_start();
     switchBtn.addEventListener('change', () => {
       document.body.classList.toggle('dark-mode');
     });
-</body >
+  </script>
 
-</html >
+</body>
+
+</html>

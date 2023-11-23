@@ -22,10 +22,9 @@ session_start();
     <?php
     include('header1.php');
     ?>
-    <div class="pesquisa">
-      <input type="text" placeholder="buscar...">
-      <i class="fa fa-search"></i>
-    </div>
+    <?php
+    include('barra-pesquisa.php');
+    ?>
     <?php
     include('menu-padrao.php');
     ?>
@@ -126,26 +125,26 @@ session_start();
         escolha. Com recursos infinitos disponíveis online e uma comunidade dedicada, você está prestes a embarcar em
         uma emocionante jornada de descoberta e criação. Portanto, pegue sua placa Arduino e comece a criar!</p>
       <br><br>
-      
+
       <hr>
       <div id="art-recom">
         <h1>Leituras recomendadas</h1>
         <div id="art-reco">
           <article>
-            <a href="oque-é-iot.php"><img src="img/oqueéiot.png" alt="Image 1" /></a>
-            <a href="oque-é-iot.php">
-              <h2>O que é IoT?</h2>
+            <a href="conectores.php"><img src="img/ConectorRaspberry05.jpg" alt="Image 4" /></a>
+            <a href="conectores.php">
+              <h3>Conectores</h3>
             </a>
-            <p>A Internet das Coisas (IoT) emergiu como uma das tecnologias mais promissoras e transformadoras deste
-              século. Ela está mudando fundamentalmente ...</p>
+            <p>A conectividade é um dos pilares fundamentais da Internet das Coisas (IoT) e do mundo da eletrônica, onde o Arduino desempenha um papel essencial. A escolha dos conectores...
+            </p>
           </article>
           <article>
-            <a href="objetos-conectados.php"><img src="img/objconect.jpg" alt="Image 2" /></a>
-            <a href="objetos-conectados.php">
-              <h2>Objetos Conectados</h2>
+            <a href="topologia.php"><img src="img/redes-1-1024x1024.jpg" alt="Image 5" /></a>
+            <a href="topologia.php">
+              <h3>Topologia</h3>
             </a>
-            <p>A conectividade é um dos pilares fundamentais da Internet das Coisas (IoT) e do mundo da eletrônica, onde
-              o Arduino desempenha um papel essencial. A escolha ...</p>
+            <p>A Internet das Coisas (IoT) está redefinindo o cenário da tecnologia, conectando bilhões de dispositivos em todo o mundo e capacitando soluções inovadoras em várias indústrias.
+            </p>
           </article>
         </div>
       </div>
@@ -157,13 +156,11 @@ session_start();
   </main>
 
   <script>
-
     // Código do botão switch de cor de fundo
     const switchBtn = document.querySelector('#dark-mode-switch');
     switchBtn.addEventListener('change', () => {
       document.body.classList.toggle('dark-mode');
     });
-
   </script>
 </body>
 

@@ -22,10 +22,9 @@ session_start();
     <?php
     include('header1.php');
     ?>
-    <div class="pesquisa">
-      <input type="text" placeholder="buscar...">
-      <i class="fa fa-search"></i>
-    </div>
+    <?php
+    include('barra-pesquisa.php');
+    ?>
     <?php
     include('menu-padrao.php');
     ?>
@@ -237,6 +236,7 @@ session_start();
     switchBtn.addEventListener('change', () => {
       document.body.classList.toggle('dark-mode');
     });
-</body >
+  </script>
+</body>
 
-</html >
+</html>

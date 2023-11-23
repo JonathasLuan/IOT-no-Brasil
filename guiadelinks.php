@@ -15,10 +15,8 @@ session_start();
   <link rel="stylesheet" href="dark-mode.css">
   <link rel="stylesheet" href="guiadelinks.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
-    defer></script>
-  <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet"
-    crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
 </head>
 
 <body>
@@ -26,10 +24,9 @@ session_start();
     <?php
     include('header1.php');
     ?>
-    <div class="pesquisa">
-      <input type="text" placeholder="buscar...">
-      <i class="fa fa-search"></i>
-    </div>
+    <?php
+    include('barra-pesquisa.php');
+    ?>
     <?php
     include('menu-padrao.php');
     ?>
@@ -64,24 +61,21 @@ session_start();
                     <img src="img/o queéumarduino.jpg" alt="Video 1">
                     <div>
                       <h1>O que é Arduino, afinal de contas? #ManualMaker Aula 4, Vídeo 1</h1>
-                      <a href="https://youtu.be/sv9dDtYnE1g?si=uXkTmHHO1yIEPjYZ"><button
-                          class="video-btn">Assistir</button></a>
+                      <a href="https://youtu.be/sv9dDtYnE1g?si=uXkTmHHO1yIEPjYZ"><button class="video-btn">Assistir</button></a>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <img src="img/comousarferrodesolda.jpg" alt="Video 2">
                     <div>
                       <h1>Como usar um ferro de solda #ManualMaker Aula 4, Vídeo 2</h1>
-                      <a href="https://youtu.be/MGbgyuVXRcI?si=q64rWaNtzO_eBwmC"><button
-                          class="video-btn">Assistir</button></a>
+                      <a href="https://youtu.be/MGbgyuVXRcI?si=q64rWaNtzO_eBwmC"><button class="video-btn">Assistir</button></a>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <img src="img/usearduino.jpg" alt="Video 3">
                     <div>
                       <h1>Use um Arduino sem ter Arduino! #ManualMaker Aula 5, Vídeo 1</h1>
-                      <a href="https://youtu.be/CrHJj4OQ6Sw?si=h88wfy99osJN0kyW"><button
-                          class="video-btn">Assistir</button></a>
+                      <a href="https://youtu.be/CrHJj4OQ6Sw?si=h88wfy99osJN0kyW"><button class="video-btn">Assistir</button></a>
                     </div>
                   </div>
                 </div>
@@ -171,8 +165,7 @@ session_start();
           <div class="site">
             <div class="site-info">
               <div class="site-pic">
-                <img src="img/embarcados.jpg" alt="embarcados" src="img/FN3EKLMHWL2BOAS.webp" alt=""
-                  style="width: auto;">
+                <img src="img/embarcados.jpg" alt="embarcados" src="img/FN3EKLMHWL2BOAS.webp" alt="" style="width: auto;">
               </div>
               <div class="site-title">
                 <h2>EMBARCADOS</h2>
@@ -224,24 +217,21 @@ session_start();
                     <img src="img/Curs deArduinopara Iniciantes1.jpg" alt="Video 1">
                     <div>
                       <h1>Curso de Arduino para Iniciantes - Aula 01 - Primeiros Passos (Exemplo de um Vumeter)</h1>
-                      <a href="https://youtu.be/oOWuq_Nazig?si=Uzx46XE2HRxA5DEI"><button
-                          class="video-btn">Assistir</button></a>
+                      <a href="https://youtu.be/oOWuq_Nazig?si=Uzx46XE2HRxA5DEI"><button class="video-btn">Assistir</button></a>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <img src="img/comousarferrodesolda.jpg" alt="Video 2">
                     <div>
                       <h1>Como usar um ferro de solda #ManualMaker Aula 4, Vídeo 2</h1>
-                      <a href="https://youtu.be/MGbgyuVXRcI?si=q64rWaNtzO_eBwmC"><button
-                          class="video-btn">Assistir</button></a>
+                      <a href="https://youtu.be/MGbgyuVXRcI?si=q64rWaNtzO_eBwmC"><button class="video-btn">Assistir</button></a>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <img src="img/usearduino.jpg" alt="Video 3">
                     <div>
                       <h1>Use um Arduino sem ter Arduino! #ManualMaker Aula 5, Vídeo 1</h1>
-                      <a href="https://youtu.be/CrHJj4OQ6Sw?si=h88wfy99osJN0kyW"><button
-                          class="video-btn">Assistir</button></a>
+                      <a href="https://youtu.be/CrHJj4OQ6Sw?si=h88wfy99osJN0kyW"><button class="video-btn">Assistir</button></a>
                     </div>
                   </div>
                 </div>
@@ -680,7 +670,9 @@ session_start();
 
   <script>
     // Mostra o botão de rolagem quando o usuário rola a página em 20px
-    window.onscroll = function () { scrollFunction() };
+    window.onscroll = function() {
+      scrollFunction()
+    };
 
     function scrollFunction() {
       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -699,7 +691,8 @@ session_start();
     }
   </script>
 
-  <script>const carousel = document.querySelector('.carousel');
+  <script>
+    const carousel = document.querySelector('.carousel');
     const prevButton = document.querySelector('.prev');
     const nextButton = document.querySelector('.next');
     let currentIndex = 0;
@@ -736,8 +729,12 @@ session_start();
       let i;
       let slides = document.getElementsByClassName("mySlides");
       let dots = document.getElementsByClassName("dot");
-      if (n > slides.length) { slideIndex = 1 }
-      if (n < 1) { slideIndex = slides.length }
+      if (n > slides.length) {
+        slideIndex = 1
+      }
+      if (n < 1) {
+        slideIndex = slides.length
+      }
       for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
       }
@@ -755,6 +752,7 @@ session_start();
     switchBtn.addEventListener('change', () => {
       document.body.classList.toggle('dark-mode');
     });
-</body >
+  </script>
+</body>
 
-</html >
+</html>

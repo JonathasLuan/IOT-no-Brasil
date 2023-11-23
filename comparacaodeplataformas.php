@@ -22,10 +22,9 @@ session_start();
     <?php
     include('header1.php');
     ?>
-    <div class="pesquisa">
-      <input type="text" placeholder="buscar...">
-      <i class="fa fa-search"></i>
-    </div>
+    <?php
+    include('barra-pesquisa.php');
+    ?>
     <?php
     include('menu-padrao.php');
     ?>
@@ -41,7 +40,9 @@ session_start();
         destacando suas características distintas e os casos de uso ideais.</p>
       <br>
       <ol>
-        <li><h2>Arduino IoT Cloud (https://www.arduino.cc/iot/cloud)</h2></li>
+        <li>
+          <h2>Arduino IoT Cloud (https://www.arduino.cc/iot/cloud)</h2>
+        </li>
 
         <h3>Características Principais</h3>
         <ul>
@@ -59,7 +60,9 @@ session_start();
           <li>Aplicações educacionais de IoT.</li>
         </ul>
         <br>
-        <li><h2>AWS IoT Core (https://aws.amazon.com/iot-core/):</h2></li>
+        <li>
+          <h2>AWS IoT Core (https://aws.amazon.com/iot-core/):</h2>
+        </li>
 
         <h3>Características Principais</h3>
         <ul>
@@ -77,7 +80,9 @@ session_start();
           <li>Projetos que necessitam de escalabilidade.</li>
         </ul>
         <br>
-        <li><h2>Google Cloud IoT Core (https://cloud.google.com/iot-core):</h2></li>
+        <li>
+          <h2>Google Cloud IoT Core (https://cloud.google.com/iot-core):</h2>
+        </li>
 
         <h3>Características Principais:</h3>
         <ul>
@@ -93,7 +98,9 @@ session_start();
           <li>Integração com serviços do Google Cloud.</li>
         </ul>
         <br>
-        <li><h2>Microsoft Azure IoT Hub (https://azure.microsoft.com/en-us/services/iot-hub/):</h2></li>
+        <li>
+          <h2>Microsoft Azure IoT Hub (https://azure.microsoft.com/en-us/services/iot-hub/):</h2>
+        </li>
 
         <h3>Características Principais</h3>
         <ul>
@@ -110,7 +117,9 @@ session_start();
           <li>Soluções escaláveis para gerenciamento de dispositivos.</li>
         </ul>
         <br>
-        <li><h2>IBM Watson IoT Platform (https://www.ibm.com/cloud/watson-iot-platform):</h2></li>
+        <li>
+          <h2>IBM Watson IoT Platform (https://www.ibm.com/cloud/watson-iot-platform):</h2>
+        </li>
 
         <h3>Características Principais:</h3>
         <ul>
@@ -125,7 +134,9 @@ session_start();
           <li>Integração com serviços específicos da IBM Cloud.</li>
         </ul>
         <br>
-        <li><h2>ThingSpeak https://thingspeak.com</h2></li>
+        <li>
+          <h2>ThingSpeak https://thingspeak.com</h2>
+        </li>
 
         <h3>Características Principais</h3>
         <ul>
@@ -139,7 +150,9 @@ session_start();
           <li>Aplicações que requerem integração com MATLAB.</li>
         </ul>
         <br>
-        <li><h2>Ubidots(https://ubidots.com/):</h2></li>
+        <li>
+          <h2>Ubidots(https://ubidots.com/):</h2>
+        </li>
 
         <h3>Características Principais:</h3>
         <ul>
@@ -201,6 +214,7 @@ session_start();
     switchBtn.addEventListener('change', () => {
       document.body.classList.toggle('dark-mode');
     });
-</body >
+  </script>
+</body>
 
-</html >
+</html>

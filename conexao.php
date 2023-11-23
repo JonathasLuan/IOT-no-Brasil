@@ -1,7 +1,7 @@
 <?php
 $servidor = "localhost";
-$usuario = "iotnobrasil";
-$senha = "iotnobrasil";
+$usuario = "";
+$senha = "";
 $dbname = "iotnobrasil";
 
 $conn = mysqli_connect($servidor, $usuario, $senha, $dbname);
@@ -11,8 +11,8 @@ $conn = mysqli_connect($servidor, $usuario, $senha, $dbname);
 <?php
 
 $usuario = 'iotnobrasil';
-$senha = 'iotnobrasil';
-$database = 'iotnobrasil';
+$senha = '';
+$database = '';
 $host = 'localhost';
 
 $mysqli = new mysqli($host, $usuario, $senha, $database);

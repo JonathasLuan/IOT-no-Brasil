@@ -22,10 +22,9 @@ session_start();
     <?php
     include('header1.php');
     ?>
-    <div class="pesquisa">
-      <input type="text" placeholder="buscar...">
-      <i class="fa fa-search"></i>
-    </div>
+    <?php
+    include('barra-pesquisa.php');
+    ?>
     <?php
     include('menu-padrao.php');
     ?>
@@ -35,86 +34,103 @@ session_start();
       <h1>Cidades Inteligentes: Transformando Urbanização com a Internet das Coisas</h1>
       <img style="width: 100%;" src="img/cidadesiot.png" alt="">
       <br><br>
-      As cidades modernas enfrentam desafios complexos relacionados à urbanização, sustentabilidade e eficiência. Para
-      abordar essas questões, muitas cidades estão recorrendo à Internet das Coisas (IoT) como uma ferramenta
-      transformadora. Neste artigo, exploraremos como as Cidades Inteligentes estão adotando a IoT para aprimorar
-      infraestruturas, sistemas de transporte e, em última instância, a qualidade de vida dos cidadãos.
+      <p>As cidades modernas enfrentam desafios complexos relacionados à urbanização, sustentabilidade e eficiência. Para
+        abordar essas questões, muitas cidades estão recorrendo à Internet das Coisas (IoT) como uma ferramenta
+        transformadora. Neste artigo, exploraremos como as Cidades Inteligentes estão adotando a IoT para aprimorar
+        infraestruturas, sistemas de transporte e, em última instância, a qualidade de vida dos cidadãos.</p>
+      <ol>
+        <li>
+          <h2>Infraestrutura Conectada</h2>
+        </li>
 
-      **1. Infraestrutura Conectada:**
+        <p>A base de uma Cidade Inteligente é uma infraestrutura conectada que utiliza sensores, dispositivos e redes para
+          coletar dados em tempo real. Sensores instalados em ruas, edifícios e sistemas de utilidade pública fornecem
+          informações valiosas sobre tráfego, consumo de energia, qualidade do ar e muito mais.</p>
 
-      A base de uma Cidade Inteligente é uma infraestrutura conectada que utiliza sensores, dispositivos e redes para
-      coletar dados em tempo real. Sensores instalados em ruas, edifícios e sistemas de utilidade pública fornecem
-      informações valiosas sobre tráfego, consumo de energia, qualidade do ar e muito mais.
+        <h3>Aplicações:</h3>
+        <ul>
+          <li>Monitoramento de Tráfego:** Otimização de fluxos de tráfego, reduzindo congestionamentos e melhorando a
+            mobilidade.</li>
+          <li>Gestão de Resíduos:** Coleta eficiente com sensores que indicam quando os contentores estão cheios.</li>
+        </ul>
+        <li>
+          <h2>Transporte Inteligente:</h2>
+        </li>
 
-      *Aplicações:*
-      - **Monitoramento de Tráfego:** Otimização de fluxos de tráfego, reduzindo congestionamentos e melhorando a
-      mobilidade.
-      - **Gestão de Resíduos:** Coleta eficiente com sensores que indicam quando os contentores estão cheios.
+        <p>A IoT desempenha um papel fundamental na transformação do transporte urbano, tornando-o mais eficiente, acessível
+          e sustentável. Desde o monitoramento de veículos até a otimização de rotas, as soluções de transporte inteligente
+          visam melhorar a experiência do usuário e reduzir impactos ambientais.</p>
 
-      **2. Transporte Inteligente:**
+        <h3>Aplicações:</h3>
+        <ul>
+          <li>Sistemas de Estacionamento Inteligente:** Orientação para estacionamento disponível, reduzindo o tempo gasto
+            procurando vagas.</li>
+          <li>Compartilhamento de Veículos:** Plataformas que oferecem opções de compartilhamento de carros, bicicletas e
+            scooters para promover a mobilidade sustentável.</li>
+        </ul>
+        <li>
+          <h2>Eficiência Energética:</h2>
+        </li>
 
-      A IoT desempenha um papel fundamental na transformação do transporte urbano, tornando-o mais eficiente, acessível
-      e sustentável. Desde o monitoramento de veículos até a otimização de rotas, as soluções de transporte inteligente
-      visam melhorar a experiência do usuário e reduzir impactos ambientais.
+        <p>A gestão eficiente de energia é uma prioridade nas Cidades Inteligentes. A IoT permite monitorar e controlar o
+          consumo de energia em edifícios, iluminação pública e sistemas de utilidade, contribuindo para uma abordagem mais
+          sustentável.</p>
 
-      *Aplicações:*
-      - **Sistemas de Estacionamento Inteligente:** Orientação para estacionamento disponível, reduzindo o tempo gasto
-      procurando vagas.
-      - **Compartilhamento de Veículos:** Plataformas que oferecem opções de compartilhamento de carros, bicicletas e
-      scooters para promover a mobilidade sustentável.
+        <h3>Aplicações</h3>
+        <ul>
+          <li>Iluminação Pública Inteligente:** Controle remoto da intensidade da luz com base na demanda e condições
+            ambientais.</li>
+          <li>Edifícios Inteligentes:** Sensores que ajustam automaticamente temperatura, iluminação e sistemas de
+            ventilação para otimizar o consumo de energia.</li>
+        </ul>
+        <li>
+          <h2>Segurança Urbana:</h2>
+        </li>
 
-      **3. Eficiência Energética:**
+        <p>A IoT fortalece os sistemas de segurança nas Cidades Inteligentes, proporcionando monitoramento em tempo real e
+          resposta rápida a incidentes. Câmeras, sensores acústicos e análise de dados contribuem para ambientes urbanos
+          mais seguros.</p>
 
-      A gestão eficiente de energia é uma prioridade nas Cidades Inteligentes. A IoT permite monitorar e controlar o
-      consumo de energia em edifícios, iluminação pública e sistemas de utilidade, contribuindo para uma abordagem mais
-      sustentável.
+        <h3>Aplicações</h3>
+        <ul>
+          <li>Vigilância por Vídeo Inteligente:** Análise de vídeo em tempo real para detectar atividades suspeitas ou
+            emergências.</li>
+          <li>Sensores de Som:** Identificação de padrões sonoros que possam indicar eventos de segurança.</li>
+        </ul>
+        <li>
+          <h2>Participação Cidadã:</h2>
+        </li>
 
-      *Aplicações:*
-      - **Iluminação Pública Inteligente:** Controle remoto da intensidade da luz com base na demanda e condições
-      ambientais.
-      - **Edifícios Inteligentes:** Sensores que ajustam automaticamente temperatura, iluminação e sistemas de
-      ventilação para otimizar o consumo de energia.
+        <p>A IoT promove a participação ativa dos cidadãos nas decisões urbanas. Aplicativos móveis, plataformas online e
+          feedback em tempo real possibilitam aos moradores contribuir para a gestão da cidade, reportar problemas e sugerir
+          melhorias.</p>
 
-      **4. Segurança Urbana:**
+        <h3>Aplicações</h3>
+        <ul>
+          <li>Aplicativos de Mobilidade:** Informações em tempo real sobre transporte público, trânsito e rotas pedestres.</li>
+          <li>Plataformas de Feedback:** Mecanismos que permitem aos cidadãos reportar problemas urbanos, como buracos nas
+            ruas ou falta de iluminação.</li>
+        </ul>
+        <li>
+          <h2>6. Resiliência e Gestão de Emergências:</h2>
 
-      A IoT fortalece os sistemas de segurança nas Cidades Inteligentes, proporcionando monitoramento em tempo real e
-      resposta rápida a incidentes. Câmeras, sensores acústicos e análise de dados contribuem para ambientes urbanos
-      mais seguros.
+          <p>Cidades Inteligentes estão utilizando a IoT para fortalecer a resiliência diante de desastres naturais e
+            emergências. Sensores de monitoramento ambiental e sistemas de alerta precoce contribuem para uma resposta mais
+            eficaz.</p>
 
-      *Aplicações:*
-      - **Vigilância por Vídeo Inteligente:** Análise de vídeo em tempo real para detectar atividades suspeitas ou
-      emergências.
-      - **Sensores de Som:** Identificação de padrões sonoros que possam indicar eventos de segurança.
+          <h3>Aplicações</h3>
+          <ul>
+            <li>Sensores Sísmicos e de Inundação:** Monitoramento contínuo para alertar sobre eventos naturais iminentes.</li>
+            <li>Sistemas de Notificação de Emergência:** Comunicação instantânea para orientar evacuações e fornecer
+              informações críticas durante emergências.</li>
+          </ul>
+      </ol>
+      <h2>Considerações Finais:</h2>
 
-      **5. Participação Cidadã:**
-
-      A IoT promove a participação ativa dos cidadãos nas decisões urbanas. Aplicativos móveis, plataformas online e
-      feedback em tempo real possibilitam aos moradores contribuir para a gestão da cidade, reportar problemas e sugerir
-      melhorias.
-
-      *Aplicações:*
-      - **Aplicativos de Mobilidade:** Informações em tempo real sobre transporte público, trânsito e rotas pedestres.
-      - **Plataformas de Feedback:** Mecanismos que permitem aos cidadãos reportar problemas urbanos, como buracos nas
-      ruas ou falta de iluminação.
-
-      **6. Resiliência e Gestão de Emergências:**
-
-      Cidades Inteligentes estão utilizando a IoT para fortalecer a resiliência diante de desastres naturais e
-      emergências. Sensores de monitoramento ambiental e sistemas de alerta precoce contribuem para uma resposta mais
-      eficaz.
-
-      *Aplicações:*
-      - **Sensores Sísmicos e de Inundação:** Monitoramento contínuo para alertar sobre eventos naturais iminentes.
-      - **Sistemas de Notificação de Emergência:** Comunicação instantânea para orientar evacuações e fornecer
-      informações críticas durante emergências.
-
-      **Considerações Finais:**
-
-      À medida que as Cidades Inteligentes continuam a evoluir, a integração da IoT oferece oportunidades significativas
-      para melhorar a eficiência operacional, a qualidade de vida e a sustentabilidade urbana. Ao conectar
-      infraestruturas, sistemas de transporte e serviços públicos, as Cidades Inteligentes estão transformando a
-      experiência urbana e pavimentando o caminho para um futuro mais conectado e sustentável.
-
+      <p>À medida que as Cidades Inteligentes continuam a evoluir, a integração da IoT oferece oportunidades significativas
+        para melhorar a eficiência operacional, a qualidade de vida e a sustentabilidade urbana. Ao conectar
+        infraestruturas, sistemas de transporte e serviços públicos, as Cidades Inteligentes estão transformando a
+        experiência urbana e pavimentando o caminho para um futuro mais conectado e sustentável.</p>
       <br><br>
       <hr>
       <div id="art-recom">
@@ -151,6 +167,7 @@ session_start();
     switchBtn.addEventListener('change', () => {
       document.body.classList.toggle('dark-mode');
     });
-</body >
+  </script>
+</body>
 
-</html >
+</html>

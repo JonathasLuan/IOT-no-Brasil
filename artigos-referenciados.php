@@ -63,10 +63,9 @@ session_start();
     <?php
     include('header1.php');
     ?>
-    <div class="pesquisa">
-      <input type="text" placeholder="buscar...">
-      <i class="fa fa-search"></i>
-    </div>
+    <?php
+    include('barra-pesquisa.php');
+    ?>
     <?php
     include('menu-padrao.php');
     ?>
@@ -79,11 +78,9 @@ session_start();
             <ul>
               <li>
                 <div id="artigo-info"><span>
-                    <a class="artigo-link" href="http://conexoes.ifce.edu.br/index.php/conexoes/article/view/1007"><i
-                        class="fa fa-solid fa-file"></i>&nbsp&nbsp Internet das
+                    <a class="artigo-link" href="http://conexoes.ifce.edu.br/index.php/conexoes/article/view/1007"><i class="fa fa-solid fa-file"></i>&nbsp&nbsp Internet das
                       coisas:
-                      uma breve revisão bibliográfica.</a></span><button class="eye"><i
-                      class="fa fa-solid fa-eye"></i></button>
+                      uma breve revisão bibliográfica.</a></span><button class="eye"><i class="fa fa-solid fa-eye"></i></button>
                   <div class="artigo-inf">
                     <div class="artigo-p">
                       <p><b>Revista:</b> 2018 Conexões - Ciência e Tecnologia</p>
@@ -121,9 +118,7 @@ session_start();
                 </div>
               </li>
               <li>
-                <div class="artigo-info"><span><a class="artigo-link"
-                      href="https://lcv.fee.unicamp.br/images/BTSym-17/Papers/76926.pdf"><i
-                        class="fa fa-solid fa-file"></i>&nbsp&nbsp A Internet das Coisas (IoT): Tecnologias e
+                <div class="artigo-info"><span><a class="artigo-link" href="https://lcv.fee.unicamp.br/images/BTSym-17/Papers/76926.pdf"><i class="fa fa-solid fa-file"></i>&nbsp&nbsp A Internet das Coisas (IoT): Tecnologias e
                       Aplicações.</a></span><button class="eye"><i class="fa fa-solid fa-eye"></i></button>
                   <div class="artigo-inf">
                     <div class="artigo-p">
@@ -148,18 +143,14 @@ session_start();
                     </div>
                     <div class="pdf-displayer">
                       <br>
-                      <iframe id="pdfViewer" width="100%" height="500px"
-                        src="pdfs\A INTERNET das COISAS (IoT) Tecnologias e.pdf"></iframe>
+                      <iframe id="pdfViewer" width="100%" height="500px" src="pdfs\A INTERNET das COISAS (IoT) Tecnologias e.pdf"></iframe>
                     </div>
                   </div>
                 </div>
               </li>
               <li>
-                <div class="artigo-info"><span><a class="artigo-link"
-                      href="https://revistas.udesc.br/index.php/hfd/article/view/2316796308152019049"><i
-                        class="fa fa-solid fa-file"></i>&nbsp&nbsp Internet da Coisas (IoT): Definições e
-                      aplicabilidade aos usuários finais.</a></span><button class="eye"><i
-                      class="fa fa-solid fa-eye"></i></button>
+                <div class="artigo-info"><span><a class="artigo-link" href="https://revistas.udesc.br/index.php/hfd/article/view/2316796308152019049"><i class="fa fa-solid fa-file"></i>&nbsp&nbsp Internet da Coisas (IoT): Definições e
+                      aplicabilidade aos usuários finais.</a></span><button class="eye"><i class="fa fa-solid fa-eye"></i></button>
                   <div class="artigo-inf">
                     <div class="artigo-p">
                       <p><b>Revista:</b> v. 8 n. 15 (2019): Human Factors in Design - Edição Especial - P&D Design 2018
@@ -182,16 +173,13 @@ session_start();
                     </div>
                     <div class="pdf-displayer">
                       <br>
-                      <iframe id="pdfViewer" width="100%" height="500px"
-                        src="pdfs\Internet da Coisas (IoT) Definições e aplicabilidade aos usuários finais.pdf"></iframe>
+                      <iframe id="pdfViewer" width="100%" height="500px" src="pdfs\Internet da Coisas (IoT) Definições e aplicabilidade aos usuários finais.pdf"></iframe>
                     </div>
                   </div>
                 </div>
               </li>
               <li>
-                <div class="artigo-info"><span><a class="artigo-link"
-                      href="https://www.bu.ufmg.br/bu_atual/wp-content/uploads/2017/08/internet-das-coisas.pdf"><i
-                        class="fa fa-solid fa-file"></i>&nbsp&nbsp Internet das coisas: da teoria à
+                <div class="artigo-info"><span><a class="artigo-link" href="https://www.bu.ufmg.br/bu_atual/wp-content/uploads/2017/08/internet-das-coisas.pdf"><i class="fa fa-solid fa-file"></i>&nbsp&nbsp Internet das coisas: da teoria à
                       prática.</a></span><button class="eye"><i class="fa fa-solid fa-eye"></i></button>
                   <div class="artigo-inf">
                     <div class="artigo-p">
@@ -222,16 +210,13 @@ session_start();
                     </div>
                     <div class="pdf-displayer">
                       <br>
-                      <iframe id="pdfViewer" width="100%" height="500px"
-                        src="pdfs\Internet das Coisas - da Teoria à Prática.pdf"></iframe>
+                      <iframe id="pdfViewer" width="100%" height="500px" src="pdfs\Internet das Coisas - da Teoria à Prática.pdf"></iframe>
                     </div>
                   </div>
                 </div>
               </li>
               <li>
-                <div class="artigo-info"><span><a class="artigo-link"
-                      href="https://www.scielo.br/j/gp/a/GwQ7Hd7k6WhVwzDkZ75wFwc/?lang=en"><i
-                        class="fa fa-solid fa-file"></i>&nbsp&nbsp Adoption of Industry 4.0
+                <div class="artigo-info"><span><a class="artigo-link" href="https://www.scielo.br/j/gp/a/GwQ7Hd7k6WhVwzDkZ75wFwc/?lang=en"><i class="fa fa-solid fa-file"></i>&nbsp&nbsp Adoption of Industry 4.0
                       technologies:
                       an analysis of small and medium-sized companies in the state of São Paulo,
                       Brazil.</a></span><button class="eye"><i class="fa fa-solid fa-eye"></i></button>
@@ -261,16 +246,14 @@ session_start();
                     </div>
                     <div class="pdf-displayer">
                       <br>
-                      <iframe id="pdfViewer" width="100%" height="500px"
-                        src="pdfs\Adoption of Industry 4.0 technologies an analysis of small and medium-sized companies in the state of São Paulo, Brazil.pdf"></iframe>
+                      <iframe id="pdfViewer" width="100%" height="500px" src="pdfs\Adoption of Industry 4.0 technologies an analysis of small and medium-sized companies in the state of São Paulo, Brazil.pdf"></iframe>
                     </div>
                   </div>
                 </div>
               </li>
               <li>
                 <div class="artigo-info">
-                  <span><a class="artigo-link" href="https://www.scielo.br/j/gp/a/tdqBhbj5TDcztX5y9xzWGNg/?lang=en"><i
-                        class="fa fa-solid fa-file"></i>&nbsp&nbsp Towards Industry 4.0: a
+                  <span><a class="artigo-link" href="https://www.scielo.br/j/gp/a/tdqBhbj5TDcztX5y9xzWGNg/?lang=en"><i class="fa fa-solid fa-file"></i>&nbsp&nbsp Towards Industry 4.0: a
                       SWOT-based
                       analysis for companies located in the Sorocaba Metropolitan Region (São
                       Paulo
@@ -309,12 +292,9 @@ session_start();
               </li>
               <li>
                 <div class="artigo-info">
-                  <span><a class="artigo-link"
-                      href="https://repositorio.ipea.gov.br/bitstream/11058/11628/5/Radar_71_Art03_internet.pdf"><i
-                        class="fa fa-solid fa-file"></i>&nbsp&nbsp INTERNET
+                  <span><a class="artigo-link" href="https://repositorio.ipea.gov.br/bitstream/11058/11628/5/Radar_71_Art03_internet.pdf"><i class="fa fa-solid fa-file"></i>&nbsp&nbsp INTERNET
                       DAS
-                      COISAS NO BRASIL: BREVE DESCRIÇÃO DE POLÍTICAS E CASOS DE SUCESSO.</a></span><button
-                    class="eye"><i class="fa fa-solid fa-eye"></i></button>
+                      COISAS NO BRASIL: BREVE DESCRIÇÃO DE POLÍTICAS E CASOS DE SUCESSO.</a></span><button class="eye"><i class="fa fa-solid fa-eye"></i></button>
                   <div class="artigo-inf">
                     <div class="artigo-p">
                       <p><b>Revista:</b> Radar: Tecnologia, Produção e Comércio Exterior</p>
@@ -340,21 +320,17 @@ session_start();
                     </div>
                     <div class="pdf-displayer">
                       <br>
-                      <iframe id="pdfViewer" width="100%" height="500px"
-                        src="pdfs\Radar_71_Art03_internet.pdf"></iframe>
+                      <iframe id="pdfViewer" width="100%" height="500px" src="pdfs\Radar_71_Art03_internet.pdf"></iframe>
                     </div>
                   </div>
                 </div>
               </li>
               <li>
                 <div class="artigo-info">
-                  <span><a class="artigo-link"
-                      href="https://www.scielo.br/j/ccedes/a/BLbqJ3HLqnc8WsxtDypsVkB/?lang=pt"><i
-                        class="fa fa-solid fa-file"></i>&nbsp&nbsp BIPES:
+                  <span><a class="artigo-link" href="https://www.scielo.br/j/ccedes/a/BLbqJ3HLqnc8WsxtDypsVkB/?lang=pt"><i class="fa fa-solid fa-file"></i>&nbsp&nbsp BIPES:
                       PROGRAMAÇÃO
                       DE
-                      DISPOSITIVOS ELETRÔNICOS EM BLOCOS PARA ATIVIDADES EDUCACIONAIS MÃO NA MASSA.</a></span><button
-                    class="eye"><i class="fa fa-solid fa-eye"></i></button>
+                      DISPOSITIVOS ELETRÔNICOS EM BLOCOS PARA ATIVIDADES EDUCACIONAIS MÃO NA MASSA.</a></span><button class="eye"><i class="fa fa-solid fa-eye"></i></button>
                   <div class="artigo-inf">
                     <div class="artigo-p">
                       <p><b>Revista:</b> Cad. CEDES 43 (120) • May-Aug 2023</p>
@@ -385,8 +361,7 @@ session_start();
                     </div>
                     <div class="pdf-displayer">
                       <br>
-                      <iframe id="pdfViewer" width="100%" height="500px"
-                        src="pdfs\BIPES - PROGRAMAÇÃO DE DISPOSITIVOS ELETRÔNICOS.pdf"></iframe>
+                      <iframe id="pdfViewer" width="100%" height="500px" src="pdfs\BIPES - PROGRAMAÇÃO DE DISPOSITIVOS ELETRÔNICOS.pdf"></iframe>
                     </div>
                   </div>
               </li>
@@ -398,8 +373,7 @@ session_start();
                       Internet das
                       coisas
                       (IoT):
-                      inovação para o agronegócio.</a></span><button class="eye"><i
-                      class="fa fa-solid fa-eye"></i></button>
+                      inovação para o agronegócio.</a></span><button class="eye"><i class="fa fa-solid fa-eye"></i></button>
                   <div class="artigo-inf">
                     <div class="artigo-p">
                       <p><b>Revista:</b> 2018 Conexões - Ciência e Tecnologia</p>
@@ -431,8 +405,7 @@ session_start();
                     </div>
                     <div class="pdf-displayer">
                       <br>
-                      <iframe id="pdfViewer" width="100%" height="500px"
-                        src="pdfs\INTERNET DAS COISAS (IoT) E INDÚSTRIA 4.0: revolucionando o mundo dos negócios.pdf"></iframe>
+                      <iframe id="pdfViewer" width="100%" height="500px" src="pdfs\INTERNET DAS COISAS (IoT) E INDÚSTRIA 4.0: revolucionando o mundo dos negócios.pdf"></iframe>
                     </div>
                   </div>
                 </div>
@@ -442,8 +415,7 @@ session_start();
                   <span><a class="artigo-link" href=""><i class="fa fa-solid fa-file"></i>&nbsp&nbsp Internet das coisas
                       (IOT): um estudo exploratório em agronegócios
                       Internet of
-                      Things (IOT): na exploratory study in agribusiness.</a></span><button class="eye"><i
-                      class="fa fa-solid fa-eye"></i></button>
+                      Things (IOT): na exploratory study in agribusiness.</a></span><button class="eye"><i class="fa fa-solid fa-eye"></i></button>
                   <div class="artigo-inf">
                     <div class="artigo-p">
                       <p><b>Revista:</b> 2018 Conexões - Ciência e Tecnologia</p>
@@ -482,8 +454,7 @@ session_start();
               </li>
               <li>
                 <div class="artigo-info">
-                  <span><a class="artigo-link" href="A internet das coisas (IOT) com enfoque na saúde;"><i
-                        class="fa fa-solid fa-file"></i>&nbsp&nbsp A internet das
+                  <span><a class="artigo-link" href="A internet das coisas (IOT) com enfoque na saúde;"><i class="fa fa-solid fa-file"></i>&nbsp&nbsp A internet das
                       coisas (IOT) com
                       enfoque na
                       saúde.</a></span><button class="eye"><i class="fa fa-solid fa-eye"></i></button>
@@ -507,16 +478,14 @@ session_start();
                     </div>
                     <div class="pdf-displayer">
                       <br>
-                      <iframe id="pdfViewer" width="100%" height="500px"
-                        src="pdfs\A internet das coisas (IOT) com enfoque na saúde.pdf"></iframe>
+                      <iframe id="pdfViewer" width="100%" height="500px" src="pdfs\A internet das coisas (IOT) com enfoque na saúde.pdf"></iframe>
                     </div>
                   </div>
                 </div>
               </li>
               <li>
                 <div class="artigo-info">
-                  <span><a class="artigo-link" href="https://www.scielo.br/j/rca/a/DVtW6Gqn88LZ7KSrMG8TnJh/?lang=en"><i
-                        class="fa fa-solid fa-file"></i>&nbsp&nbsp Internet
+                  <span><a class="artigo-link" href="https://www.scielo.br/j/rca/a/DVtW6Gqn88LZ7KSrMG8TnJh/?lang=en"><i class="fa fa-solid fa-file"></i>&nbsp&nbsp Internet
                       das Coisas aplicada a negócios - um estudo bibliométrico, Agro 4.0: Enabling agriculture digital
                       transformation
                       through IoT.</a></span><button class="eye"><i class="fa fa-solid fa-eye"></i></button>
@@ -551,8 +520,7 @@ session_start();
                     </div>
                     <div class="pdf-displayer">
                       <br>
-                      <iframe id="pdfViewer" width="100%" height="500px"
-                        src="pdfs\INTERNET DAS COISAS APLICADA A NEGÓCIOS - UM ESTUDO BIBLIOMÉTRICO.pdf"></iframe>
+                      <iframe id="pdfViewer" width="100%" height="500px" src="pdfs\INTERNET DAS COISAS APLICADA A NEGÓCIOS - UM ESTUDO BIBLIOMÉTRICO.pdf"></iframe>
                     </div>
                   </div>
                 </div>
@@ -595,8 +563,7 @@ session_start();
                     </div>
                     <div class="pdf-displayer">
                       <br>
-                      <iframe id="pdfViewer" width="100%" height="500px"
-                        src="pdfs\Uma Revisão Sistemática da Literatura Sobre.pdf"></iframe>
+                      <iframe id="pdfViewer" width="100%" height="500px" src="pdfs\Uma Revisão Sistemática da Literatura Sobre.pdf"></iframe>
                     </div>
                   </div>
                 </div>
@@ -604,8 +571,7 @@ session_start();
               <li>
                 <div class="artigo-info">
                   <span><a class="artigo-link" href=""><i class="fa fa-solid fa-file"></i>&nbsp&nbsp Infraestruturas de
-                      Autenticação e de Autorização para Internet das Coisas.</a></span><button class="eye"><i
-                      class="fa fa-solid fa-eye"></i></button>
+                      Autenticação e de Autorização para Internet das Coisas.</a></span><button class="eye"><i class="fa fa-solid fa-eye"></i></button>
                   <div class="artigo-inf">
                     <div class="artigo-p">
                       <p><b>Revista:</b> 2018 Conexões - Ciência e Tecnologia</p>
@@ -646,8 +612,7 @@ session_start();
                 <div class="artigo-info">
                   <span><a class="artigo-link" href=""><i class="fa fa-solid fa-file"></i>&nbsp&nbsp Segurança da
                       informaçao para internet das coisas
-                      (iot): uma abordagem sobre a lei geral de proteçao de dados (lgpd).</a></span><button
-                    class="eye"><i class="fa fa-solid fa-eye"></i></button>
+                      (iot): uma abordagem sobre a lei geral de proteçao de dados (lgpd).</a></span><button class="eye"><i class="fa fa-solid fa-eye"></i></button>
                   <div class="artigo-inf">
                     <div class="artigo-p">
                       <p><b>Revista:</b> 2018 Conexões - Ciência e Tecnologia</p>
@@ -726,11 +691,9 @@ session_start();
               </li>
               <li>
                 <div class="artigo-info">
-                  <span><a class="artigo-link" href="https://dialnet.unirioja.es/servlet/articulo?codigo=7653186"><i
-                        class="fa fa-solid fa-file"></i>&nbsp&nbsp Segurança da Informação para
+                  <span><a class="artigo-link" href="https://dialnet.unirioja.es/servlet/articulo?codigo=7653186"><i class="fa fa-solid fa-file"></i>&nbsp&nbsp Segurança da Informação para
                       Internet das Coisas (IoT): uma Abordagem sobre a Lei Geral de Proteção de Dados
-                      (LGPD), O desafio da privacidade na internet das coisas</a></span><button class="eye"><i
-                      class="fa fa-solid fa-eye"></i></button>
+                      (LGPD), O desafio da privacidade na internet das coisas</a></span><button class="eye"><i class="fa fa-solid fa-eye"></i></button>
                   <div class="artigo-inf">
                     <div class="artigo-p">
                       <p><b>Revista:</b> 2018 Conexões - Ciência e Tecnologia</p>
@@ -779,13 +742,11 @@ session_start();
   </main>
 
   <script>
-
     // Código do botão switch de cor de fundo
     const switchBtn = document.querySelector('#dark-mode-switch');
     switchBtn.addEventListener('change', () => {
       document.body.classList.toggle('dark-mode');
     });
-
   </script>
 
   <script>

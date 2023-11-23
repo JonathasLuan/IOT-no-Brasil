@@ -22,10 +22,9 @@ session_start();
     <?php
     include('header1.php');
     ?>
-    <div class="pesquisa">
-      <input type="text" placeholder="buscar...">
-      <i class="fa fa-search"></i>
-    </div>
+    <?php
+    include('barra-pesquisa.php');
+    ?>
     <?php
     include('menu-padrao.php');
     ?>
@@ -35,16 +34,16 @@ session_start();
       <h1>Tendências Futuras na IoT: Rumo a uma Conectividade Avançada e Inteligente</h1>
       <img style="width: 100%;" src="img/.jpg" alt="">
       <br><br>
-      A Internet das Coisas (IoT) continua a evoluir a passos largos, impulsionando inovações em diversas áreas. À
-      medida que entramos em uma nova era da conectividade inteligente, várias tendências emergentes moldarão o futuro
-      da IoT. Neste artigo, exploraremos algumas dessas tendências, incluindo computação de borda, inteligência
-      artificial (IA) na IoT e as promissoras possibilidades da IoT quântica.
+      <p>A Internet das Coisas (IoT) continua a evoluir a passos largos, impulsionando inovações em diversas áreas. À
+        medida que entramos em uma nova era da conectividade inteligente, várias tendências emergentes moldarão o futuro
+        da IoT. Neste artigo, exploraremos algumas dessas tendências, incluindo computação de borda, inteligência
+        artificial (IA) na IoT e as promissoras possibilidades da IoT quântica.</p>
 
       **1. Computação de Borda: Expandindo Horizontes da Conectividade**
 
-      A computação de borda, ou edge computing, representa uma mudança significativa na abordagem tradicional da IoT,
-      onde o processamento de dados ocorre centralmente na nuvem. Com a computação de borda, o processamento ocorre mais
-      próximo dos dispositivos IoT, reduzindo a latência e aumentando a eficiência operacional.
+      <p>A computação de borda, ou edge computing, representa uma mudança significativa na abordagem tradicional da IoT,
+        onde o processamento de dados ocorre centralmente na nuvem. Com a computação de borda, o processamento ocorre mais
+        próximo dos dispositivos IoT, reduzindo a latência e aumentando a eficiência operacional.</p>
 
       *Aplicações Promissoras:*
       - **Processamento em Tempo Real:** Capacidade de processar dados instantaneamente, crucial para aplicações como
@@ -54,9 +53,9 @@ session_start();
 
       **2. Inteligência Artificial na IoT: Sinergia Transformadora**
 
-      A incorporação de inteligência artificial na IoT impulsiona a capacidade de tomar decisões mais avançadas e
-      adaptativas. Algoritmos de aprendizado de máquina e redes neurais estão sendo integrados aos dispositivos IoT,
-      possibilitando uma resposta mais rápida e personalizada às condições em constante mudança.
+      <p>A incorporação de inteligência artificial na IoT impulsiona a capacidade de tomar decisões mais avançadas e
+        adaptativas. Algoritmos de aprendizado de máquina e redes neurais estão sendo integrados aos dispositivos IoT,
+        possibilitando uma resposta mais rápida e personalizada às condições em constante mudança.</p>
 
       *Aplicações Promissoras:*
       - **Previsão e Análise Preditiva:** Algoritmos de IA podem antecipar padrões e tendências, otimizando a gestão de
@@ -66,9 +65,9 @@ session_start();
 
       **3. IoT Quântica: Desbravando Novas Fronteiras**
 
-      Embora ainda em estágios iniciais de desenvolvimento, a IoT quântica promete uma revolução ao incorporar os
-      princípios da mecânica quântica na conectividade. Essa abordagem utiliza qubits, unidades quânticas de informação,
-      para processar dados de maneiras que transcendem as limitações da computação clássica.
+      <p>Embora ainda em estágios iniciais de desenvolvimento, a IoT quântica promete uma revolução ao incorporar os
+        princípios da mecânica quântica na conectividade. Essa abordagem utiliza qubits, unidades quânticas de informação,
+        para processar dados de maneiras que transcendem as limitações da computação clássica.</p>
 
       *Perspectivas Promissoras:*
       - **Segurança Aprimorada:** Algoritmos quânticos têm o potencial de oferecer segurança inquebrável, fortalecendo a
@@ -78,9 +77,9 @@ session_start();
 
       **4. Expansão da IoT Industrial: Indústria 4.0 em Ascensão**
 
-      A IoT está desempenhando um papel central na transformação da indústria, impulsionando a chamada Quarta Revolução
-      Industrial, ou Indústria 4.0. Com a integração de sensores avançados, análise de dados em tempo real e automação,
-      a IoT industrial está otimizando a produção e melhorando a eficiência operacional.
+      <p>A IoT está desempenhando um papel central na transformação da indústria, impulsionando a chamada Quarta Revolução
+        Industrial, ou Indústria 4.0. Com a integração de sensores avançados, análise de dados em tempo real e automação,
+        a IoT industrial está otimizando a produção e melhorando a eficiência operacional.</p>
 
       *Aplicações Promissoras:*
       - **Manufatura Inteligente:** Monitoramento em tempo real de máquinas e processos, permitindo ajustes automáticos
@@ -89,9 +88,9 @@ session_start();
 
       **5. Expansão da IoT na Saúde: Saúde Conectada**
 
-      A IoT está revolucionando o setor de saúde, promovendo a transição para modelos de cuidados mais personalizados e
-      eficientes. Dispositivos médicos conectados, registros eletrônicos de saúde e sensores vestíveis estão
-      transformando a maneira como monitoramos e abordamos a saúde.
+      <p>A IoT está revolucionando o setor de saúde, promovendo a transição para modelos de cuidados mais personalizados e
+        eficientes. Dispositivos médicos conectados, registros eletrônicos de saúde e sensores vestíveis estão
+        transformando a maneira como monitoramos e abordamos a saúde.</p>
 
       *Aplicações Promissoras:*
       - **Monitoramento Remoto:** Dispositivos conectados possibilitam o monitoramento contínuo de pacientes, permitindo
@@ -101,11 +100,11 @@ session_start();
 
       **Conclusão: Navegando Rumo a um Futuro Conectado e Inteligente**
 
-      À medida que avançamos para um futuro cada vez mais conectado, a IoT continuará a desempenhar um papel central na
-      transformação de diversas indústrias. A combinação de computação de borda, inteligência artificial e,
-      potencialmente, a chegada da IoT quântica, moldará um cenário onde dispositivos e sistemas estão mais
-      interconectados, inteligentes e adaptáveis do que nunca. A antecipação dessas tendências e a compreensão de seu
-      impacto permitirão uma transição mais suave para esse futuro tecnicamente avançado e interligado.
+      <p>À medida que avançamos para um futuro cada vez mais conectado, a IoT continuará a desempenhar um papel central na
+        transformação de diversas indústrias. A combinação de computação de borda, inteligência artificial e,
+        potencialmente, a chegada da IoT quântica, moldará um cenário onde dispositivos e sistemas estão mais
+        interconectados, inteligentes e adaptáveis do que nunca. A antecipação dessas tendências e a compreensão de seu
+        impacto permitirão uma transição mais suave para esse futuro tecnicamente avançado e interligado.</p>
 
       <br><br>
       <hr>
@@ -143,6 +142,7 @@ session_start();
     switchBtn.addEventListener('change', () => {
       document.body.classList.toggle('dark-mode');
     });
-</body >
+  </script>
+</body>
 
-</html >
+</html>

@@ -32,61 +32,61 @@ session_start();
   <main>
     <div class="artigo">
       <h1>Tendências Futuras na IoT: Rumo a uma Conectividade Avançada e Inteligente</h1>
-      <img style="width: 100%;" src="img/.jpg" alt="">
+      <img style="width: 100%;" src="img/futuroiot.jpg" alt="">
       <br><br>
       <p>A Internet das Coisas (IoT) continua a evoluir a passos largos, impulsionando inovações em diversas áreas. À
         medida que entramos em uma nova era da conectividade inteligente, várias tendências emergentes moldarão o futuro
         da IoT. Neste artigo, exploraremos algumas dessas tendências, incluindo computação de borda, inteligência
         artificial (IA) na IoT e as promissoras possibilidades da IoT quântica.</p>
 
-      **1. Computação de Borda: Expandindo Horizontes da Conectividade**
+      <li></li>Computação de Borda: Expandindo Horizontes da Conectividade**
 
       <p>A computação de borda, ou edge computing, representa uma mudança significativa na abordagem tradicional da IoT,
         onde o processamento de dados ocorre centralmente na nuvem. Com a computação de borda, o processamento ocorre mais
         próximo dos dispositivos IoT, reduzindo a latência e aumentando a eficiência operacional.</p>
 
-      *Aplicações Promissoras:*
+      <h3></h3>Aplicações Promissoras:*
       - **Processamento em Tempo Real:** Capacidade de processar dados instantaneamente, crucial para aplicações como
       carros autônomos e saúde conectada.
       - **Redução da Sobrecarga na Nuvem:** Alivia a carga nos servidores de nuvem, otimizando o tráfego de dados e
       melhorando a eficiência global do sistema.
-
-      **2. Inteligência Artificial na IoT: Sinergia Transformadora**
+      <ol></ol>
+      <li></li>Inteligência Artificial na IoT: Sinergia Transformadora**
 
       <p>A incorporação de inteligência artificial na IoT impulsiona a capacidade de tomar decisões mais avançadas e
         adaptativas. Algoritmos de aprendizado de máquina e redes neurais estão sendo integrados aos dispositivos IoT,
         possibilitando uma resposta mais rápida e personalizada às condições em constante mudança.</p>
 
-      *Aplicações Promissoras:*
+      <h3></h3>Aplicações Promissoras:*
       - **Previsão e Análise Preditiva:** Algoritmos de IA podem antecipar padrões e tendências, otimizando a gestão de
       recursos e a manutenção preventiva.
       - **Interconexão de Dispositivos Inteligentes:** Facilita a comunicação entre dispositivos, criando ambientes mais
       colaborativos e eficientes.
 
-      **3. IoT Quântica: Desbravando Novas Fronteiras**
+      <li></li>IoT Quântica: Desbravando Novas Fronteiras**
 
       <p>Embora ainda em estágios iniciais de desenvolvimento, a IoT quântica promete uma revolução ao incorporar os
         princípios da mecânica quântica na conectividade. Essa abordagem utiliza qubits, unidades quânticas de informação,
         para processar dados de maneiras que transcendem as limitações da computação clássica.</p>
 
-      *Perspectivas Promissoras:*
+      <h3></h3>Perspectivas Promissoras:*
       - **Segurança Aprimorada:** Algoritmos quânticos têm o potencial de oferecer segurança inquebrável, fortalecendo a
       proteção de dados na IoT.
       - **Processamento Exponencialmente Mais Rápido:** A computação quântica pode lidar com grandes volumes de dados de
       forma mais eficiente do que os sistemas tradicionais.
 
-      **4. Expansão da IoT Industrial: Indústria 4.0 em Ascensão**
+      <li></li>Expansão da IoT Industrial: Indústria 4.0 em Ascensão**
 
       <p>A IoT está desempenhando um papel central na transformação da indústria, impulsionando a chamada Quarta Revolução
         Industrial, ou Indústria 4.0. Com a integração de sensores avançados, análise de dados em tempo real e automação,
         a IoT industrial está otimizando a produção e melhorando a eficiência operacional.</p>
 
-      *Aplicações Promissoras:*
+      <h3></h3>Aplicações Promissoras:*
       - **Manufatura Inteligente:** Monitoramento em tempo real de máquinas e processos, permitindo ajustes automáticos
       para maximizar a eficiência.
       - **Cadeias de Suprimentos Conectadas:** Rastreamento preciso de mercadorias e otimização logística.
 
-      **5. Expansão da IoT na Saúde: Saúde Conectada**
+      <li></li>Expansão da IoT na Saúde: Saúde Conectada**
 
       <p>A IoT está revolucionando o setor de saúde, promovendo a transição para modelos de cuidados mais personalizados e
         eficientes. Dispositivos médicos conectados, registros eletrônicos de saúde e sensores vestíveis estão
@@ -98,7 +98,7 @@ session_start();
       - **Medicina Personalizada:** Dados coletados pela IoT facilitam a personalização de tratamentos e abordagens
       terapêuticas.
 
-      **Conclusão: Navegando Rumo a um Futuro Conectado e Inteligente**
+      <h2></h2>Conclusão: Navegando Rumo a um Futuro Conectado e Inteligente**
 
       <p>À medida que avançamos para um futuro cada vez mais conectado, a IoT continuará a desempenhar um papel central na
         transformação de diversas indústrias. A combinação de computação de borda, inteligência artificial e,

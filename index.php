@@ -57,9 +57,7 @@
     <section id="section-two">
       <div id="cabeca">
         <article id="bemvindo">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-            class="feather feather-chevron-down">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down">
             <polyline points="6 9 12 15 18 9"></polyline>
           </svg>
           <br><br>
@@ -92,9 +90,12 @@
 
     <section id="section-three">
       <div class="chamada1">
-        <h1>Explore nossa plataforma!</h1>
-        <p>Aqui você encontrará inúmeros artigos relacionados à Internet das Coisas, além de excelentes recomendações de
-          leitura e estudo em sites, fóruns e canais do YouTube que abordam o universo da coinexão de dispositivos.</p>
+        <div id="text-chamada" style="width: 30%;">
+          <h1>Explore nossa plataforma!</h1>
+          <p>Aqui você encontrará inúmeros artigos relacionados à Internet das Coisas, além de excelentes recomendações de
+            leitura e estudo em sites, fóruns e canais do YouTube que abordam o universo da coinexão de dispositivos.</p>
+        </div>
+        <img src="img/logoiotudo-removebg-preview.png" alt="fundotrans">
       </div>
     </section>
 
@@ -138,7 +139,9 @@
 
   <script>
     // Mostra o botão de rolagem quando o usuário rola a página em 20px
-    window.onscroll = function () { scrollFunction() };
+    window.onscroll = function() {
+      scrollFunction()
+    };
 
     function scrollFunction() {
       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -168,17 +171,17 @@
     var span = document.getElementsByClassName("close")[0];
 
     // When the user clicks the button, open the modal 
-    btn.onclick = function () {
+    btn.onclick = function() {
       modal.style.display = "block";
     }
 
     // When the user clicks on <span> (x), close the modal
-    span.onclick = function () {
+    span.onclick = function() {
       modal.style.display = "none";
     }
 
     // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function (event) {
+    window.onclick = function(event) {
       if (event.target == modal) {
         modal.style.display = "none";
       }
@@ -186,13 +189,11 @@
   </script>
 
   <script>
-
     // Código do botão switch de cor de fundo
     const switchBtn = document.querySelector('#dark-mode-switch');
     switchBtn.addEventListener('change', () => {
       document.body.classList.toggle('dark-mode');
     });
-
   </script>
 </body>
 

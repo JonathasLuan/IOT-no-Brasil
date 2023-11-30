@@ -199,6 +199,7 @@ header {
 #section-three {
   background-color: #3F51B5;
   height: 50vh;
+  display: flex;
 }
 
 #apresentacao article img {
@@ -281,6 +282,8 @@ article {
 .chamada1 {
   color: white;
   padding: 50px;
-  width: 30%;
+  width: 100%;
   margin-left: 150px;
+  justify-content: space-around;
+  display: flex;
 }

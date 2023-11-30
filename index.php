@@ -72,6 +72,7 @@
         </article>
       </div>
       <div id="cabeca">
+        <img id="cabeca-fundo" src="img/fundotrans-removebg-preview.png" alt="">
         <article id="explore-article">
           <div>
             <h2>O que é a Internet das Coisas?</h2>

@@ -158,7 +158,8 @@ header {
 
 #text-slider {
   position: absolute;
-  padding: 200px;
+  padding: 6%;
+  padding-left: 15%;
   margin: 0 auto;
   background: rgba(0, 0, 0, 0.3);
   color: white;
@@ -169,6 +170,7 @@ header {
 
 #text-slider h1 {
   font-size: 60px;
+  margin-top: 5%;
 }
 
 #text-slider p {
@@ -224,6 +226,12 @@ header {
   justify-content: center;
 }
 
+#div-article article {
+  background: #2743b00d;
+  padding: 30px;
+  width: 30%;
+}
+
 .separator {
   border-top: 1px solid #000000;
   margin: 20px 0;
@@ -231,7 +239,7 @@ header {
 
 article {
   width: 40%;
-  margin: 30px;
+  margin: 4%;
   justify-content: center;
 }
 
@@ -252,7 +260,7 @@ article {
 }
 
 #bemvindo {
-  width: 70%;
+  width: 60%;
   font-size: 16px;
 }
 
@@ -290,6 +298,7 @@ article {
   padding: 50px;
   width: 100%;
   margin-left: 150px;
+  align-items: center;
   justify-content: space-around;
   display: flex;
 }

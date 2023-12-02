@@ -175,6 +175,12 @@ header {
 .dropdown-child a {
   text-decoration: none;
   display: block;
+  white-space: nowrap;
+  border-radius: 0px !important;
+}
+
+.dropdown-child a svg {
+  float: right;
 }
 
 .dropdown:hover .dropdown-child {
@@ -192,10 +198,18 @@ header {
   color: white;
 }
 
-.dropdown-toggle+.submenu {
-  display: none;
-  position: absolute;
-  top: 35%;
+#sub1 {
+  top: 14%;
+  left: 100%;
+}
+
+#sub2 {
+  top: 36%;
+  left: 100%;
+}
+
+#sub3 {
+  top: 57%;
   left: 100%;
 }
 
@@ -207,7 +221,6 @@ header {
   display: none;
   min-width: 150px;
   position: absolute;
-  top: 30%;
   z-index: 1;
   box-shadow: 0px 0px 5px #ccc;
 }
@@ -220,7 +233,7 @@ footer {
   background-color: #333;
   color: #fff;
   padding: 35px;
-  margin-top: 100px;
+  margin-top: 200px;
   text-align: center;
   top: 100%;
   position: sticky;

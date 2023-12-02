@@ -1,10 +1,5 @@
 <footer id="footer">
     <span>&copy; 2023 IoTudo</span>
-    <?php
-    if (isset($_SESSION['id']) && session_id() == $_SESSION['id']) {
-        echo "session_id: " . session_id() . "<br>";
-    }
-    ?>
     <br>
     <div id="switch">
         <span>light</span>

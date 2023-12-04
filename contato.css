@@ -4,13 +4,13 @@ body {
 
 .conteudo {
     margin: 0px 0px;
-    margin-top: 30px;
 }
 
 .conteudo {
     font-family: Arial, sans-serif;
     /* background-color: #f4f4f4; */
     padding: 20px;
+    margin-top: 30px;
 }
 
 #contactform {
